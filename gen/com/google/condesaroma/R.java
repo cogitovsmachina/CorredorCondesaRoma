@@ -969,14 +969,17 @@ containing a value of this type.
         public static final int abs__title=0x7f04001b;
         public static final int abs__titleDivider=0x7f04001c;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040035;
+        public static final int action_settings=0x7f040039;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040027;
+        public static final int event_button=0x7f040036;
         public static final int homeAsUp=0x7f040006;
-        public static final int imageView1=0x7f040034;
-        public static final int information_contact=0x7f040036;
+        public static final int imageView1=0x7f040038;
+        public static final int information_contact=0x7f04003a;
         public static final int listMode=0x7f040002;
         public static final int normal=0x7f040001;
+        public static final int publication_button=0x7f040035;
+        public static final int route_button=0x7f040034;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
@@ -984,6 +987,7 @@ containing a value of this type.
         public static final int useLogo=0x7f040004;
         public static final int webview=0x7f040033;
         public static final int wrap_content=0x7f040000;
+        public static final int youtube_button=0x7f040037;
     }
     public static final class integer {
         public static final int abs__max_action_buttons=0x7f080000;
@@ -1072,11 +1076,13 @@ containing a value of this type.
         public static final int action_settings=0x7f090010;
         public static final int app_name=0x7f09000f;
         public static final int content_image_description=0x7f090013;
+        public static final int content_main_image=0x7f090018;
         public static final int hello_world=0x7f090011;
         public static final int information_contact=0x7f090015;
-        public static final int link_page=0x7f090018;
+        public static final int link_page=0x7f090019;
         public static final int message_dialog=0x7f090017;
         public static final int title_activity_main=0x7f090014;
+        public static final int title_activity_publications=0x7f09001a;
         public static final int title_activity_splash_screen=0x7f090012;
         public static final int title_dialog=0x7f090016;
     }
