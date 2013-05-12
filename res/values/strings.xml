@@ -10,8 +10,9 @@
     <string name="information_contact">Contacto</string>
     <string name="title_dialog">Información</string>
     <string name="message_dialog">El Corredor Cultural Roma Condesa es un evento que sucede dos veces al año en una zona histórica de la Ciudad de México.</string>
-    <string name="content_main_image">image_for_main_menu</string><string name="link_page">www.ccromacondesa.mx</string>
+    <string name="content_main_image">image_for_main_menu</string>
+    <string name="link_page">www.ccromacondesa.mx</string>
     <string name="title_activity_publications">Google+ CC Roma Condesa </string>
-    
+    <string name="title_activity_routes">RoutesActivity</string>
 
 </resources>

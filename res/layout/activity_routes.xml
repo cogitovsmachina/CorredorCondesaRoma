@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.google.condesaroma.view.DashboardLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+          <Button
+        android:id="@+id/cultural_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Cultural"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gastro_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Gastronomic"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/infa_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Infantile"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/enviro_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Enviromental"
+        android:textStyle="bold" />
+    </com.google.condesaroma.view.DashboardLayout>
+
+   
+
+</LinearLayout>

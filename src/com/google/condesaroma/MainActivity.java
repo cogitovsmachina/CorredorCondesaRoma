@@ -17,7 +17,7 @@ import com.actionbarsherlock.view.MenuItem;
 
 public class MainActivity extends SherlockActivity implements OnClickListener {
 
-	private Button youtubeButton, publicationsButton;
+	private Button youtubeButton, publicationsButton, routesButton;
 	private static final String URL_YOUTUBE_CHANNEL = "http://www.youtube.com/user/CorredorRomaCondesa";
 	private static final String PLUS_URL = "https://plus.google.com/+ccromacondesa/posts";
 
@@ -27,6 +27,7 @@ public class MainActivity extends SherlockActivity implements OnClickListener {
 		setContentView(R.layout.activity_main);
 		youtubeButton = (Button) findViewById(R.id.youtube_button);
 		publicationsButton = (Button) findViewById(R.id.publication_button);
+		routesButton = (Button) findViewById(R.id.route_button);
 	}
 
 	@Override
@@ -34,6 +35,7 @@ public class MainActivity extends SherlockActivity implements OnClickListener {
 		super.onResume();
 		youtubeButton.setOnClickListener(MainActivity.this);
 		publicationsButton.setOnClickListener(MainActivity.this);
+		routesButton.setOnClickListener(MainActivity.this);
 	}
 
 	@Override
@@ -85,7 +87,8 @@ public class MainActivity extends SherlockActivity implements OnClickListener {
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.route_button:
-
+			Intent routesMap = new Intent(MainActivity.this, MapActivity.class);
+			startActivity(routesMap);
 			break;
 		case R.id.publication_button:
 			googlePlusPublications(PLUS_URL);

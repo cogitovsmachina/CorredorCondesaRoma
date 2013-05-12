@@ -969,13 +969,17 @@ containing a value of this type.
         public static final int abs__title=0x7f04001b;
         public static final int abs__titleDivider=0x7f04001c;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040039;
+        public static final int action_settings=0x7f04003d;
+        public static final int cultural_button=0x7f040038;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040027;
+        public static final int enviro_button=0x7f04003b;
         public static final int event_button=0x7f040036;
+        public static final int gastro_button=0x7f040039;
         public static final int homeAsUp=0x7f040006;
-        public static final int imageView1=0x7f040038;
-        public static final int information_contact=0x7f04003a;
+        public static final int imageView1=0x7f04003c;
+        public static final int infa_button=0x7f04003a;
+        public static final int information_contact=0x7f04003e;
         public static final int listMode=0x7f040002;
         public static final int normal=0x7f040001;
         public static final int publication_button=0x7f040035;
@@ -1018,14 +1022,16 @@ containing a value of this type.
         public static final int abs__simple_dropdown_hint=0x7f030016;
         public static final int activity_home=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int activity_splash_screen=0x7f030019;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001a;
-        public static final int sherlock_spinner_item=0x7f03001b;
+        public static final int activity_routes=0x7f030019;
+        public static final int activity_splash_screen=0x7f03001a;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001b;
+        public static final int sherlock_spinner_item=0x7f03001c;
     }
     public static final class menu {
         public static final int home=0x7f0b0000;
         public static final int main=0x7f0b0001;
-        public static final int splash_screen=0x7f0b0002;
+        public static final int routes=0x7f0b0002;
+        public static final int splash_screen=0x7f0b0003;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1083,6 +1089,7 @@ containing a value of this type.
         public static final int message_dialog=0x7f090017;
         public static final int title_activity_main=0x7f090014;
         public static final int title_activity_publications=0x7f09001a;
+        public static final int title_activity_routes=0x7f09001b;
         public static final int title_activity_splash_screen=0x7f090012;
         public static final int title_dialog=0x7f090016;
     }

@@ -37,6 +37,7 @@
             android:name="com.google.condesaroma.MainActivity"
             android:label="@string/app_name" >
         </activity>
+       
     </application>
 
 </manifest>
