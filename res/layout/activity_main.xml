@@ -1,0 +1,26 @@
+<com.google.condesaroma.view.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1" >
+
+    <Button
+        style="@style/dashboardbutton"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Routes" />
+
+    <Button
+        style="@style/dashboardbutton"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Publications" />
+
+    <Button
+        style="@style/dashboardbutton"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Events" />
+
+    <Button
+        style="@style/dashboardbutton"
+        android:drawableTop="@drawable/ic_launcher"
+        android:text="Youtube" />
+
+</com.google.condesaroma.view.DashboardLayout>
