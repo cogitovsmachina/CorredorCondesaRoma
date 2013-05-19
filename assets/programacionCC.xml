@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Eventos>
+
+	<Evento>
+	<id>1</id>
+    <nombre>Proyecto Paralelo</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+    Alfonso Reyes 58 Entre Cosala y Pachuca
+	</direccion>
+	<corredor></corredor>
+	<link>proyectoparalelo.mx</link>
+	<telefono>5286 0046 </telefono>
+	<horario>•Viernes 24: 11:00 - 19:00&#10;•Sábado 25: 11:00 - 19:00&#10;•Domingo 26: 11:00 - 15:00</horario>
+	<descripcion> 		
+En paralelo a la exposición de Joan Jonas "Masks, Dolls and Baskets",haremos -exclusivamente para esta jornada- un screening con videos y performances de Jonas.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>2</id>
+    <nombre>SAE Institute México</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+    José Vasconcelos 184 Entre Vicente Suárez y Fernando Montes de Oca
+	</direccion>
+	<corredor></corredor>
+	<link>mexico.sae.edu</link>
+	<telefono>5211 9511</telefono>
+	<horario>•Viernes 24: 9:00 - 19:00&#10;•Sábado 25: 9:00 - 19:00</horario>
+	<descripcion> 		
+Google Hangouts Hub: SAE Institute México será sede para los hangouts previos y durante el Corredor.
+
+Mi Roma Condesa: Es una iniciativa en donde el público tiene un minuto para grabar un mensaje sobre lo que les gusta de la Roma Condesa y algo que les gustaría mejorar.&#10; Se hará una compilación de las mejores propuestas para integrar un videoen redes sociales acerca de las bellezas y áreas de oportunidad de la zona.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>3</id>
+    <nombre>Café La Gloria</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+    Vicente Suárez 41-D Entre Atlixco y Amatlán
+	</direccion>
+	<corredor></corredor>
+	<link>""</link>
+	<telefono>5211 4185</telefono>
+	<horario>•Viernes 24: 10:00 - 1:00&#10;•Sábado 25: 10:00 - 1:00&#10;•Domingo 26: 10:00 - 12:00</horario>
+	<descripcion> 		
+Antropofagia Gourmet, esculturas comestibles de César Martínez&#10;
+
+Café La Gloria presenta una documentación fotográfica de perforMANcenas donde se observará
+ómo grupos de personas devoran una serie de esculturas humanas escultococinadas con chocolate
+o gelatina.&#10;Durante todo el fin de semana estarán a la venta esculturas escultococinadas y se llevará un registro fotográfico de las perforMANcenas del Corredor.&#10;El cierre de nuestra exposición iniciará el sábado 25 con la presentación de un grupo de jazz a las 18:00 h, y continuará a las 19:30 h con el performance de clausura en el cual, usted podrá ingerir, degustar y absorber los nutrientes y proteínas simbólicas de una obra de arte de manera inusual,digiriendo conceptos y metáforas con la ayuda de su propio metabolismo o aparato digestivo.&#10;Este simbolismo comestible está destinado a saciar sus deseos artísticos como comensal privilegiado.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>4</id>
+    <nombre>Ismos Joyería</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+    Fernando Montes de Oca 47 Entre Amatlán y Atlixco
+	</direccion>
+	<corredor></corredor>
+	<link>""</link>
+	<telefono>5286 1535</telefono>
+	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 12:00 - 16:00</horario>
+	<descripcion> 		
+Ismos Joyería presenta la exposición de escultura y joyería de Álvaro Zardoni Los Misterios de Juana. Al darse la oportunidad de abordar una parte más femenina y sensual dentro de su escultura, Zardoni nos presenta una serie de sirenas en bronce, remitiéndonos a la herencia de la mitología greco romana, uno de los ejes principales de su temática. Además, el artista incursiona en el campo de la joyería, presentando piezas de plata con conchas y caracoles, toda una celebración al mar y a lo que le debemos los seres vivos.Cóctel de inauguración: Sábado 25 de 17:00 a 20:00 h.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>5</id>
+    <nombre>Salón Malafama</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Michoacán 78 Entre Tamaulipas y Nuevo León
+	</direccion>
+	<corredor></corredor>
+	<link>salonmalafama.com.mx</link>
+	<telefono>5286 1535</telefono>
+	<horario>•Viernes 24: 13:00 - 2:30&#10;•Sábado 25: 13:00 - 2:30&#10;•Domingo 26: 12:00 - 00:30</horario>
+	<descripcion> 		
+Santiago PerezGrovas en el Salón Malafama. Lanzamiento de las playeras con motivo de su exposición. Cóctel de clausura el domingo 26, de 18:00 a 20:00 h.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>6</id>
+    <nombre> | EDS | GALERIA</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Atlixco 32 Entre Juan Escutia y Antonio Sola
+	</direccion>
+	<corredor></corredor>
+	<link>edsgaleria.com</link>
+	<telefono>5256 2316</telefono>
+	<horario>•Viernes 24: 12:00 - 17:00&#10;•Sábado 25: 12:00 - 17:00&#10;•Domingo 26: 12:00 - 17:00</horario>
+	<descripcion> 		
+Words of Art
+Teresa Serrano · Sandra Valenzuela · Adrián Guerrero · Rubén Gutiérrez · Máximo González · Michele Chiossi
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>7</id>
+    <nombre>Julio de Mucha Showroom</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Ámsterdam 264
+	Entre Teotihuacan y Av. Sonora
+	</direccion>
+	<corredor></corredor>
+	<link>juliodemucha.com.mx</link>
+	<telefono>5564 1782</telefono>
+	<horario>•Viernes 24: 11:oo - 20.30&#10;•Sábado 25: 11:00 - 20:30&#10;•Domingo 26: 11:00 - 19:00</horario>
+	<descripcion> 		
+Julio de Mucha es una marca de calzado diseñada y producida 100% en México. Algunos de nuestros zapatos están hechos a mano y producidos a través de una técnica artesanal (tejido sobre la horma). Durante esta jornada, un grupo de tejedores recrearán el proceso. 
+Paralelamente, se exhibirá un video que explicará con detalle el valor que tiene un zapato producido de esta manera.	
+La diseñadora de la marca nos explicará cómo JDM tropicaliza las tendencias globales para un mercado como el de México. Avances de la colección O/I 2013, descuentos y concursos para que la gente recorra el Corredor disfrutando de la comodidad de los zapatos JDM.
+Música en vivo y bebidas de cortesía.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>8</id>
+    <nombre>JZafra Design &amp; Art</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Ámsterdam 288-B
+	Entre Sonora y Celaya
+	</direccion>
+	<corredor></corredor>
+	<link>zafradesign.com</link>
+	<telefono>5392 8321</telefono>
+	<horario>•Viernes 24: 12:00 - 20:00&#10;•Sábado 25: 12:00 - 22:00&#10;•Domingo 26: 12:00 - 19:00</horario>
+	<descripcion> 
+Exposición de objetos utilitarios fabricados en mármol, ónix y cristal, realizados por artistas y diseñadores. Invitados: Raymundo Sesma, Massimo Zucchi, Yolanda Gutiérrez, Silvino Lopeztovar, Ricardo Casas, Gala Fernández, Xanath Lammoglia, Andrés Amaya e Israel Zafra.&#10;
+Inauguración: 25 de Mayo.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>9</id>
+    <nombre>Frente</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Popocatépetl 7
+	Entre Ámsterdam e Insurgentes
+	</direccion>
+	<corredor></corredor>
+	<link>frente.com.mx</link>
+	<telefono>4171 2961</telefono>
+	<horario>•Sábado 25: 15:00 - 22:00&#10;•Domingo 26: 15:00 - 22:00</horario>
+	<descripcion> 		
+The Caballero's Way es la primera muestra de Chikita Banana, colectivo seleccionado para representar a la República Bananera en la 55 Bienal de Venecia. Esta muestra toma su nombre del cuento homónimo de O'Henry (1862-1910), y despliega desde ahí un relato en torno a Centroamérica y México desde del siglo XIX hasta los años 70.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>10</id>
+    <nombre>Caradura</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Nuevo León 73, 1er piso
+	Entre Cadereyta y Parque España
+	</direccion>
+	<corredor></corredor>
+	<link>caradura.mx</link>
+	<telefono>5211 8035</telefono>
+	<horario>•Sábado 25: 12:00 - 19:00&#10;•Domingo 26: 12:00 - 23:00</horario>
+	<descripcion> 		
+Somos chilangos pero no somos iguales es la premisa sobre la que gira Estigma, exposición en la que artistas visuales, fotógrafos e ilustradores, presentan una reflexión sobre los estereotipos y paradigmas de la gran urbe como un espacio multicultural. Estigma pone en evidencia una metrópoli rica en diversidad pero fragmentada en lo social; señalando una falta de identidad como habitantes de una misma comunidad, pero al mismo tiempo enfatizando y promoviendo la generación de acciones que desemboquen en el restablecimiento del respeto e integración colectiva.&#10;
+Artistas participantes: Marco Colín, Aníbal Pantoja, Eduardo Bastida “Trash”, Frank Mysterio, David Pescador Rivera, Dr. Befa, Fershow Escárcega, Sharon Delgadillo, Luis Miguel Silva Guzmán y Mariori Barriga
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>11</id>
+    <nombre>Un Teatro</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Nuevo León 46 Entre Parras y Laredo
+	</direccion>
+	<corredor>Corredor Infantil</corredor>
+	<link>realizandoideas.com</link>
+	<telefono>2623 1333</telefono>
+	<horario>•Viernes 24: 9:30 - 20:00&#10;•Sábado 25: 9:30 - 20:00&#10;•Domingo 26: 9:30 - 20:00</horario>
+	<descripcion> 		
+Viernes 24:
+(horario por confirmar) Taller "Pinta tus alas de dragón o mariposa" impartido por Jerildy Bosch. Costo: $150.
+11:00 - 12:00 h. Taller "Pinta tu capa de superhéroe" por Jerildy Bosch. Costo: $600.
+20:00 h. Cecilia Colacrani. Costo: $150.&#10;
+Sábado 25 y domingo 26:
+9:30 - 11:30 h. Taller previo a la función de Triciclo Rojo impartido por los miembros del grupo. Costo: $100
+12:00 - 13:00 h. "7 giros a la luna", espectáculo de Danza Clown Triciclo Rojo. Costo: $100.&#10;
+Taller + función = $170
+17:00 - 20:00 h. Maratón de danza y monólogos. Costo: $40
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>12</id>
+    <nombre>Cuauhtémoc + Verde</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Michoacán "" (dentro del Parque México frente a la fuente de los Cántaros) Entre Av. México
+	</direccion>
+	<corredor>Corredor Ambiental</corredor>
+	<link>cuauhtemoc.df.gob.mx</link>
+	<telefono>""</telefono>
+	<horario>•Viernes 24: 11:00 - 16:00&#10;•Sábado 25: 11:00 - 18:00&#10;•Domingo 26: 11:00 - 18:00</horario>
+	<descripcion> 		
+	Viernes 24:
+11:00 - 14:00 h: Agricultura Urbana Orgánica Integral: Taller de lombricomposta, germinación, trasplante, elaboración de insecticidas orgánicos y mantenimiento de huertos.
+14:00 - 16:00 h: Taller culinario de Alimentos Sanos en la Ciudad "Lechugas Orgánicas y Germinados”.&#10;
+Sábado 25:
+11:00 - 16:00 h: Importancia, Cuidado y Preservación de la Fauna Silvestre: Grupos de Estudio de Conservación de Aves Rapaces,  PIMV’S ANANSI (Centro Integral Veterinario).
+11:00 - 16:00 h: Mascotas “Dueños Responsables”: Adopción de perros y gatos y tenencia responsable de mascota en marco de la ley
+11:00 - 16:00 h: Enchúlame la Bici: Taller de  mecánica básica de bicicleta y cultura ciclista.
+11:00 - 18:00 h: Feria Ambiental Cuauhtémoc + Verde “Nada de plástico y guácala el unicel”: Venta de Productos Verdes.&#10;
+Domingo  26:
+11:00 - 18:00 h: Feria Ambiental Cuauhtémoc + Verde “Nada de plástico y guácala el unicel”: Venta de Productos Verdes.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>13</id>
+    <nombre>Chiquitito Café</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Alfonso Reyes 232-E Entre Ometusco y Altata
+	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>chiquititocafe.com</link>
+	<telefono>6303 7433</telefono>
+	<horario>•Sábado 25: 12:00 - 14:00</horario>
+	<descripcion> 		
+El mejor café posible en casa.&#10;
+Curso para hacer el mejor café posible en casa.Incluye: 2 horas de curso intensivo | Introducción al café | Diferentes métodos de preparación caseros | Reglas y tips esenciales | Degustación del café | Póster artesanal con instrucciones | Bolsita de café.
+En Chiquitito Café cuidamos cada etapa del proceso de producción de nuestro café, desde el origen de la semilla a la taza. Con este curso queremos fomentar la apreciación y la cultura del buen café.&#10;
+Limitado a 10 comensales. Costo: $300 pax
+Reservaciones: Jeremy Clouser | T. 6303 7433 | info@chiquititocafe.com
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>14</id>
+    <nombre>Restaurante Terré (Hotel María Condesa)</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Atlixco 132, Esq. con Campeche
+	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>mariacondesa.com</link>
+	<telefono>5286 5828</telefono>
+	<horario>•Viernes 24: 13:00 - 23:00&#10;•Sábado 25: 13:00 - 23:00&#10;•Domingo 26: 13:00 - 23:00</horario>
+	<descripcion> 		
+Menú de Degustación sin límite de tiempos. El chef sugiere los platillos de degustación y el comensal indica cuántos quiere probar por un mismo precio.	Recetas clásicas de las cocinas española y francesa pero con ingredientes mexicanos y viceversa con el toque personal de los Chefs Azari Cuenca y Gerardo Delgado.
+La propuesta culinaria está basada en las tres raíces culinarias que se han dado en la zona de lo que hoy conocemos como la Condesa. La raíz española, en honor de la condesa de Miravalle, quien fuera la propietaria en la época del Virreinato de la hacienda donde hoy está fincada la colonia. La raíz francesa, porque en el Porfiriato se edificaron las mansiones en la colonia buscando reproducir la sofisticación de aquel país. Y la raíz mexicana, por su importancia y la que da sentido a la propuesta de los chefs.&#10;
+Limitado a 70 comensales por servicio.
+Reservaciones: info@mariacondesa.com | T. 5286 5828 / 5286 5829
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>15</id>
+    <nombre>Fonda Garufa</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Michoacán 93 Entre Parral y Atlixco	
+	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>garufa.com</link>
+	<telefono>5286 8295</telefono>
+	<horario>•Sábado 25: 13:00 - 1:00&#10;•Domingo 26: 13:00 - 1:00</horario>
+	<descripcion> 		
+Twiteros toman la cocina de Garufa y nos muestran que además de twitear saben cocinar, compartir y comer.&#10;
+Limitado a 100 comensales por servicio.
+Reservaciones: T. 5286 8295 | opentable.com | garufa.com
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>16</id>
+    <nombre>Café Toscano en el Mercado de la Condesa</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Michoacán, Esq. con Vicente Suárez, Local 15	
+	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>""</link>
+	<telefono>5553 6677</telefono>
+	<horario>•Viernes 24: 13:00 - 22:30&#10;•Sábado 25: 13:00 - 22:30&#10;•Domingo 26: 13:00 - 22:30</horario>
+	<descripcion> 		
+El chef poblano Fernando Hernández propone una nueva forma de preparar cemitas y, junto con los panini del Café Toscano del Mercado, se hará un menú especial.&#10;
+Limitado a 40 comensales por servicio.
+Reservaciones: T. 5553 6677
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>17</id>
+    <nombre>Romero Condesa</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Saltillo 1, Esq. con Vicente Suárez	
+	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>""</link>
+	<telefono>5553 1300</telefono>
+	<horario>•Sábado 25: 20:00 a 00:00</horario>
+	<descripcion> 		
+El chef Oscar Sánchez y su invitada especial, la chef Lula Martín del Campo, ofrecen una cena maridaje de 8 tiempos.
+Chef invitada, Lula Martín del Campo.&#10;
+Limitado a 70 comensales.
+Reservaciones: José Luis Chávez | T. 5553 1300
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>18</id>
+    <nombre>Food Truck Fair en QueremosComer</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Juan Escutia 29 Entre Atlixco y Tamaulipas	
+	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>""</link>
+	<telefono>55 2115 6781</telefono>
+	<horario>•Sábado 25: 13:00 - 22:00&#10;•Domingo 26: 13:00 - 20:00</horario>
+	<descripcion> 		
+Diferentes propuestas gastronómicas integran la feria de Food Trucks en el estacionamiento de QueremosComer. Talleres de cerveza artesanal y música. Agradecemos a Ambienta y a QueremosComer.com por su apoyo.&#10;
+Para más información sobre los Food Trucks sigue a @foodtruckfair en Twitter.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>19</id>
+    <nombre>Bó Pastisseria</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Av. Sonora 174-B Entre Av. México
+	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>bopastisseria.com</link>
+	<telefono>4622 7050</telefono>
+	<horario>•Viernes 24: 11:00 - 23:00&#10;•Sábado 25: 9:00 - 23:00&#10;•Domingo 26: 9:00 - 20:00</horario>
+	<descripcion> 		
+Alicia en el país de las Maravillas&#10;
+Degustación de petit fours dulces y salados con maridaje de vinos espumosos y té durante todo el fin de semana.&#10;
+Sábado 25:
+Trivia sobre Alicia en el País de las Maravillas a las 15:00 h, habrá deliciosos premios.
+Plática sobre cómo maridar postres a las 19:00 h. Costo: $250 pax · Limitado a  25 comensales · Requiere reservación.&#10;
+Domingo 26:
+Rally para la familia donde habrá deliciosos premios a las 11:00 h. Costo: $50 por adulto (niños no pagan); limitado a  25 adultos con por lo menos un niño; requiere reservación.&#10;
+Reservaciones: Betsabé Ruiz | T. 4622 7050 | bopasteleria@gmail.com
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>20</id>
+    <nombre>DUO, SALADO Y DULCE</nombre>
+    <colonia>condesa</colonia>
+    <direccion>
+	Ámsterdam 53-PB Entre Sonora y Huichapan
+	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>duosaladoydulce.com</link>
+	<telefono>5211 6727</telefono>
+	<horario>•Viernes 24: 16:00 - 20:00&#10;•Sábado 25: 16:00 - 20:00</horario>
+	<descripcion> 		
+Maridaje de postres con Nespresso de los chefs de la casa, Estefanía Robles y David Müller.
+	</descripcion>
+	</Evento>
+
+</Eventos>

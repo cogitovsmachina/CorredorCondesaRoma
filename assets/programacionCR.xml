@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Eventos>
+
+	<Evento>
+	<id>1</id>
+    <nombre>Atelier Central</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+    Durango 342, Esq. con Acapulco
+	</direccion>
+	<corredor></corredor>
+	<link>www.ateliercentral.com.mx</link>
+	<telefono>5286 6211</telefono>
+	<horario>•Viernes 24: 18:00 - 23:00&#10;•Sábado 25: 18:00 - 23:00&#10;•Domingo 26: 18:00 - 23:00</horario>
+	<descripcion> 		
+Atelier Central Pop Up Store. Triplicaremos el tamaño de la tienda al ocupar toda la casa de Ambienta.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>2</id>
+    <nombre>TalCual</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+    Colima 326-A Entre Medellín y Valladolid
+	</direccion>
+	<corredor></corredor>
+	<link>www.artetalcual.com</link>
+	<telefono>5514 9616</telefono>
+	<horario>•Viernes 24: 10:00 - 18:00&#10;•Sábado 25: 10:00 - 18:00&#10;•Domingo 26: 11:00 - 16:00</horario>
+	<descripcion> 		
+Heavy Matter: Gustavo Abascal muestra un dibujo en un rollo de 20m de largo.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>3</id>
+    <nombre>Sensorama</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+San Luis Potosí 196 (5to piso) Entre Monterrey y Medellín
+	</direccion>
+	<corredor></corredor>
+	<link>www.sensorama.com.mx</link>
+	<telefono>5211 4185</telefono>
+	<horario></horario>
+	<descripcion> 		
+
+2 x 1 sobre pago general en todas las obras en cartelera de Sensorama.&#10;
+Cuatro Elementos Cantos Indígenas  
+Viernes 16:00 h | Sábado 16:00 h | Domingo 13:30 h&#10;
+Cosas que sólo de muerto se saben
+Viernes 18:30 h | Sábado 18:30 h | Domingo 16:00 h&#10;
+Cuerpo Planeta; Red de vida (Sensibilización Ecológica Sensorial)
+Sábado 13:30 h&#10;
+Instante Dentro · Instalaciones de inmersión sensorial (cupo limitado para  5 personas)
+Sábado 15:30, 17:00 y 18:30 h | Domingo 14:00, 15:30 y 17:00 h&#10;
+Proceso de Formación Sensorial · Taller impartido por Héctor Delfín Fernández Piña, creador y fundador de Sensorama.
+Sábado 11:00 a 13:30 h | Costo normal: $600 p/p · Costo ccrc: $300 p/p | Cupo limitado | Informes y reservaciones al 1998 2586 y 87.&#10;
+Concierto Sensorial con el grupo Antanukama Música Planetaria
+Domingo 17:00 h | Costo normal: $250 p/p · Costo ccrc: $150 p/p | Cupo limitado | Informes y reservaciones al 1998 2586 y 87.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>4</id>
+    <nombre>CC186 | Cultura Colectiva</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+    Chiapas 186 Entre Manzanillo y Medellín
+	</direccion>
+	<corredor></corredor>
+	<link>www.culturacolectiva.com</link>
+	<telefono>6284 5439</telefono>
+	<horario>•Viernes 24: 17:00 - 21:00&#10;•Sábado 25: 12:00 - 17:00&#10;</horario>
+	<descripcion> 		
+C186 es el espacio físico de Cultura Colectiva: Plataforma de Apoyo al Arte Emergente y Contemporáneo.&#10;
+Viernes 24: Presentación del proyecto AHÍVAN. Participan: Alessius, Aether, Karla Sotres, Rodete y Taller NU.&#10;
+Sábado 25: Presentación de la exposición individual GIGANTES – guía para perderse (serie de diez pinturas de gran formato) de la artista sinaloense Pilar Cárdenas. La artista estará firmando serigrafías de 12:00 a 17:00 h.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>5</id>
+    <nombre>FIl, arte y experimentación textil</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Coahuila 129-B Entre Monterrey y Tonaláón
+	</direccion>
+	<corredor></corredor>
+	<link>www.filart.com.mx</link>
+	<telefono>5574 3148</telefono>
+	<horario>•Viernes 24: 18:00 - 20:00&#10;•Sábado 25: 10:00 - 14:00&#10;</horario>
+	<descripcion> 		
+Vestidos de época. Diseño de vestuario de época a escala.
+Descuento en revistas y fibras de algodón y lino
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>6</id>
+    <nombre>noox</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Monterrey 159, Esq. con Zacatecas
+	</direccion>
+	<corredor></corredor>
+	<link>www.noox.mx</link>
+	<telefono>6553 4573</telefono>
+	<horario>•Viernes 24: 15:00 - 22:00&#10;•Sábado 25: 12:00 - 22:00&#10;•Domingo 26: 11:00 - 16:00</horario>
+	<descripcion> 		
+Exposición colectiva de pintura y gráfica Entre el kitsch y el pop con los artistas Mónica ae, Sara Singer, Rodrigo Zárate e Iván Salamanca. En el marco de esta exposición, se llevarán a cabo las siguientes actividades: Concierto de música alternativa del músico Galo Contreras (viernes 24 · 20:00 h), entrevista con la artista Mónica ae (sábado 25 · 18:00 h), presentación de la obra Encendido y apagado de las compañías La Triple A y Los Cornetes Hipertróficos (domingo 26 · 11:00 h) y taller infantil de artes plásticas (domingo 26 · 12:30 h).&#10;
+Exposición de carteles conmemorando los 50 años de Amnistía Internacional. En el marco de esta exposición y la campaña actual de AI de migrantes se llevarán a cabo las siguientes actividades: Plática de la situación de personas migrantes en México por un representante de AI (sábado 25 · 12:00 h), proyección del documental Los invisibles, dirigido por Marc Silver y Gael García Bernal en colaboración con Amnistía Internacional (sábado 25 · 13:00 h) y la improvisación de los personajes de la puesta en escena El viaje de Tina de la compañía Laboratorio de la máscara (sábado 25 · 16:00 h).&#10;
+Venta de libros de diseño, arquitectura y arte, objetos de diseño, discos, documentales y bicicletas.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>7</id>
+    <nombre>Lavamp Store</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Insurgentes Sur 257 Entre Tabasco y Álvaro Obregón
+	</direccion>
+	<corredor></corredor>
+	<link>www.lavampstore.com</link>
+	<telefono>5514 2197</telefono>
+	<horario>•Viernes 24: 11:30 - 20:00&#10;•Sábado 25: 11:30 - 20:00&#10;•Domingo 26: 11:30 - 17:00</horario>
+	<descripcion> 		
+Exposición: De la libido y la culpa, pinturas e ilustraciones de Ledania (Colombia) y Helena Vólkova (México). Serigrafías, playeras y libretas con diseños especiales de ambas artistas.
+Ledania renovará la imagen de nuestra fachada pintando una pieza en gran formato.&#10;
+Viernes 18:00 h: Cóctel de inauguración.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>8</id>
+    <nombre>Arca</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Insurgentes Sur 257-C Entre Tabasco y Álvaro Obregón
+	</direccion>
+	<corredor></corredor>
+	<link>www.arcamx.com</link>
+	<telefono>5207 5412</telefono>
+	<horario>•Viernes 24: 12:00 - 19:00&#10;•Sábado 25: 12:00 - 19:00&#10;•Domingo 26: 12:00 - 19:00</horario>
+	<descripcion> 
+Exposición: Migración cinética. Artistas: Ledania (Colombia), Meg Adamson y Angy Wills (Estados Unidos).&#10;
+Asiste el viernes 24 a la fiesta de inauguración a partir de las 21:00 h en el bar Casa Vieja ubicado en Colima 158. Cupo limitado, regístrate a través del portal descubre.la
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>9</id>
+    <nombre>La Roma Records</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Álvaro Obregón 200-Bis 1 Entre Insurgentes y Monterrey
+	</direccion>
+	<corredor></corredor>
+	<link>www.laromarecords.com</link>
+	<telefono>5264 2140</telefono>
+	<horario>•Viernes 24: 12:00 - 20:00&#10;•Sábado 25: 12:00 - 22:00&#10;•Domingo 26: 12:00 - 16:00</horario>
+	<descripcion> 		
+10% de descuento en todos los discos de vinilo y en todo el equipo electrónico (tornamesas, mezcladoras, controladores, bocinas y amplificadores). Carcasas para iPhone de cortesía en compras mayores a $1,500. CDs de cortesía con set de DJ Sondera.&#10;
+El Sábado 25 desde las 18:00 h cóctel de bienvenida, rifa de discos y DJ invitado.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>10</id>
+    <nombre>Anteojería Dr.York 1947</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Álvaro Obregón 187, Local B Entre Monterrey y Tonalá
+	</direccion>
+	<corredor></corredor>
+	<link>www.dr-york.com</link>
+	<telefono>5207 9359</telefono>
+	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 19:00</horario>
+	<descripcion> 		
+Dr. York prestará su espacio para la exposición fotográfica: Venice Beach - Un carnaval diario, inspirada en el folklor cotidiano de esta icónica playa al sur de Los Ángeles, las fotografías retratan un día en este ajetreado y multifacético destino.Venice Beach - Un carnaval diario es la primera exhibición del fotógrafo mexicano Aldo Orestano, quien reside en Los Ángeles, California desde hace siete años
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>11</id>
+    <nombre>DIME</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Álvaro Obregón 185-B Entre Monterrey y Tonalá
+	</direccion>
+	<corredor></corredor>
+	<link>www.dimetienda.com</link>
+	<telefono>2454 6790</telefono>
+	<horario>•Viernes 24: 11:30 - 20:30&#10;•Sábado 25: 11:30 - 20:30&#10;•Domingo 26: 11:30 - 16:30</horario>
+	<descripcion> 		
+A fin de promover el ciclismo urbano y generar entusiasmo por el uso de la bicicleta, te invitamos a nuestra exposición 3 AÑOS RODANDO, imagen del movimiento ciclista El Paseo de Todos.&#10;
+Además, disfruta del torneo de videojuegos de guerra old school (sábado 25 de 12:00 a 20:00 h) y gana productos de la marca Dirty &amp; Miserable que lanzará para este Corredor lanza su línea Mr. Dirty, una edición limitada en camuflaje, formada por camisas, playeras, corbatas de moño, corbatas y mochilas. También se presentará el nuevo modelo de bicicletas retro Delfín, en algunas versiones personalizadas
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>12</id>
+    <nombre>FASHION LOVERS</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Álvaro Obregón 185-bis Entre Monterrey y Tonalá
+	</direccion>
+	<corredor></corredor>
+	<link>www.fashionlovers.com.mx</link>
+	<telefono>5208 8290</telefono>
+	<horario>•Viernes 24: 11:30 - 20:30&#10;•Sábado 25: 11:30 - 20:30&#10;•Domingo 26: 11:30 - 16:30</horario>
+	<descripcion> 		
+Te invitamos a visitar la exposición Accesorios de Ensueño a cargo del reconocido diseñador Gustavo Helguera, con las piezas de alta joyería que lo han distinguido en las principales pasarelas, editoriales y videos a lo largo de más de 20 años de trayectoria.&#10;
+Lanzamiento de la nueva línea de T-shirts Fashion Icons, y donde en colaboración con diseñadores de FASHION LOVERS, podrás adquirir una de las playeras de edición limitada, cuyo tema central son los personajes emblemáticos del mundo de la moda.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>13</id>
+    <nombre>HEADQUARTER</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Colima 244 PA Entre Insurgentes y Tonalá
+	</direccion>
+	<corredor></corredor>
+	<link>www.headquarterstore.com</link>
+	<telefono>5511 1238</telefono>
+	<horario>•Viernes 24: 12:30 - 21:00&#10;•Sábado 25: 12:30 - 21:00&#10;•Domingo 26: 12:30 - 21:00</horario>
+	<descripcion> 		
+Presentación de la línea Rage Handcraft.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>14</id>
+    <nombre>Lucky Bastard</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Colima 212 PB Entre Tonalá y Jalapa
+	</direccion>
+	<corredor></corredor>
+	<link>www.luckybstrd.tumblr.com</link>
+	<telefono>6272 5169</telefono>
+	<horario>•Viernes 24: 12:00 - 20:00&#10;•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 20:00</horario>
+	<descripcion> 		
+Exposición de obras de artistas locales dentro de la tienda. Además, presentaremos las colecciones P/V 2013 para hombre y mujer de nuestras marcas de Nueva York y California: 10XDEEP, GLMR KLLS, D9 RESERVE, SSUR, HELLZ BELLZ.&#10;
+Rap y DJs en vivo. Bebidas de cortesía y convivencia con clientes y amigos. Horarios e información detallada a través de @LuckyBSTRD
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>15</id>
+    <nombre>LEMUR</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Jalapa 85, Esq. Colima
+	</direccion>
+	<corredor></corredor>
+	<link>www.facebook.com/lemurshop</link>
+	<telefono>3547 2182</telefono>
+	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 11:00 - 20:00</horario>
+	<descripcion> 		
+Presentación del proyecto ART ON THE WALL x Vans &amp; Lemur.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>16</id>
+    <nombre>Sangre de mi Sangre</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Orizaba 101, Local F (entrada por Álvaro Obregón) Entre Álvaro Obregón y Tabasco	
+	</direccion>
+	<corredor></corredor>
+	<link>www.sdemis.com</link>
+	<telefono>5511 8599</telefono>
+	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 11:00 - 20:00</horario>
+	<descripcion> 		
+Las joyas son un accesorio que no puede faltar en una mujer. Presentación de nuestra nueva colección This is the End. Habrá bebidas frescas a base de pepino y mezcal.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>17</id>
+    <nombre>Breve (Casa Rosano)</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Orizaba 101, Local D (entrada por Álvaro Obregón) Entre Álvaro Obregón y Tabasco
+	</direccion>
+	<corredor></corredor>
+	<link>www.casarosano.com</link>
+	<telefono>5525 6108</telefono>
+	<horario>•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 13:00 - 19:00</horario>
+	<descripcion> 		
+Breve presenta: Las posibilidades de la evocación, exhibición de Alejandra España, obra de mediano y gran formato en técnica mixta. Los esperamos con un cóctel a base de mezcal, bocadillos y alguno que otro descuento a la hora de enmarcar.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>18</id>
+    <nombre>Centro Cultural Casa Lamm | Librería Pegaso</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Álvaro Obregón 99 Entre Orizaba y Córdoba	
+	</direccion>
+	<corredor></corredor>
+	<link>www.casalamm.com.mx</link>
+	<telefono>5514 4899 / 5208 0171·5208 0174</telefono>
+	<horario>CL: •Viernes 24: 11:00 - 21:00&#10;•Sábado 25: 11:00 - 17:00&#10;•Domingo 26: 11:00 - 17:00&#10;PL: •Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 11:00 - 20:00</horario>
+	<descripcion> 		
+Conoce de cerca la pintura y escultura contemporáneas. La vida es sueño de Javier Cruz ocupará las siguientes salas: Galería Planta Alta, Espacio Visual y Elena Lamm | Cantes de siembra de la artista Virginia Chévez se exhibe en los salones Tarkovsky y Central | Esculturas de Sergio Hernández estará expuesta en el jardín.&#10;
+En la Librería Pegaso, 15% de descuento en libros y un obsequio del diseñador Daniel Espinosa en la compra de 1 ,000 pesos de su joyería.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>19</id>
+    <nombre>FIFTY24MX</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+	Colima 184 Entre Jalapa y Orizaba
+	</direccion>
+	<corredor></corredor>
+	<link>www.fifty24mx.com</link>
+	<telefono>5256 1444</telefono>
+	<horario>•Sábado 25: 13:00 - 20:00&#10;•Domingo 26: 12:00 - 18:00</horario>
+	<descripcion> 		
+Presentación de la primera exposición en México del artista brasileño Herbert Baglionne. El reconocido street artist presenta su más reciente serie de pintura, caligrafía, fotografía e instalación, inspirada en la muerte y los lazos familiares, desde el Museo de Arte Contemporáneo de Bogotá.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>20</id>
+    <nombre>180º SHOP</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+    Colima 180 Entre Jalapa y Orizaba
+	</direccion>
+	<corredor></corredor>
+	<link>www.180grados.mx</link>
+	<telefono>5525 5626</telefono>
+	<horario>•Viernes 24: 11:00 - 23:00&#10;•Sábado 25: 11:00 - 23:00&#10;•Domingo 26: 11:00 - 23:00</horario>
+	<descripcion> 		
+Presentación de nuestra colección de camisetas gráficas 2013. Lanzamiento de la colección Bike the Way 2013 de bicicletas urbanas hechas en México, las cuales estarán expuestas durante los tres días afuera de la tienda; de esta manera, exponemos nuestro trabajo y promovemos un estilo de vida urbano ligado al uso de la bicicleta.&#10;
+Evento patrocinado por Mezcal Espíritu Lauro.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>21</id>
+    <nombre>TRAEGER &amp; PINTO Arte Contemporáneo</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+    Colima 179 Entre Jalapa y Orizaba
+	</direccion>
+	<corredor></corredor>
+	<link>www.traeger-pinto.com</link>
+	<telefono>5525 4500</telefono>
+	<horario>•Viernes 24: 10:00 - 19:00&#10;•Sábado 25: 12:00 - 19:00&#10;•Domingo 26: 12:00 - 19:00</horario>
+	<descripcion> 		
+Exposición individual del artista plástico franco americano Christophe Cassidy.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>22</id>
+    <nombre>Toca / Galería</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+    Colima 174 Entre Jalapa y Orizaba
+	</direccion>
+	<corredor></corredor>
+	<link>www.tocagaleria.com</link>
+	<telefono>5525 7614</telefono>
+	<horario>•Viernes 24: 12:00 - 19:00&#10;•Sábado 25: 12:00 - 19:00&#10;•Domingo 26: 12:00 - 19:00</horario>
+	<descripcion> 		
+Ricardo Pinto (obra reciente).
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>23</id>
+    <nombre>Terreno Baldío Arte</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Orizaba 87 Entre Tabasco y Colima	
+	</direccion>
+	<corredor></corredor>
+	<link>www.terrenobaldio.com</link>
+	<telefono>2454 4013</telefono>
+	<horario>•Viernes 24: 10:00 - 18:00&#10;•Sábado 25: 11:00 - 17:00</horario>
+	<descripcion> 		
+"La naturaleza es el espíritu visible, y el espíritu es la naturaleza invisible."
+Schelling&#10;
+El arte taoista distribuye las formas con el fin de que resalte el vacío. En la obra de arte taoísta no hay, centralidad convergente, sino múltiples puntos de fuga que apuntan fuera del cuadro, hacia un universo infinito que refleja la interioridad del que lo contempla.&#10;
+El vacío en el arte atrae, como el abismo romántico, porque nos constituye.
+El vacío es lo que somos más allá de nuestra identidad particular.&#10;
+La manifestación del todo y la nada es el universo, organismo más perfecto y, a la vez, la más perfecta obra de arte.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>24</id>
+    <nombre>Dimitri</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+   Orizaba 92 Entre Tabasco y Colima
+   	</direccion>
+	<corredor></corredor>
+	<link>www.dimitri.mx</link>
+	<telefono>5533 4148</telefono>
+	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 18:00</horario>
+	<descripcion> 		
+Exposición de muebles de diseñadores industriales y artistas mexicanos.&#10;
+Proyección de documentales. Viernes 24 y sábado 25 de 16:00 a 18:00 h y de 18:00 a 20:00 h | domingo 26 de 16:00 a 18:00 h.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>25</id>
+    <nombre>Arróniz Arte Contemporáneo</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+   Plaza Río de Janeiro 53 PB Entre Durango y Orizaba
+   	</direccion>
+	<corredor></corredor>
+	<link>www.arroniz-arte.com</link>
+	<telefono>5511 7965</telefono>
+	<horario>•Viernes 24: 10:00 - 19:00&#10;•Sábado 25: 11:00 - 16:00</horario>
+	<descripcion> 		
+Archivo, exposición individual de Daniel Alcalá en Sala Principal.&#10;
+Pyramid, exposición individual de Pablo López Luz en Sala de Proyectos.
+	</descripcion>
+	</Evento>
+
+</Eventos>
