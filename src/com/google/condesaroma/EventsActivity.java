@@ -10,10 +10,7 @@ import com.google.condesaroma.util.FragmentPager;
 import com.viewpagerindicator.TitlePageIndicator;
 import com.viewpagerindicator.TitlePageIndicator.IndicatorStyle;
 
-public class EventsActivity extends SherlockFragmentActivity { // implements
-	// OnClickCardListener {
-
-	// private CardUI cardUI;
+public class EventsActivity extends SherlockFragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,14 +26,6 @@ public class EventsActivity extends SherlockFragmentActivity { // implements
 		TitlePageIndicator indicator = (TitlePageIndicator) findViewById(R.id.indicator);
 		indicator.setViewPager(pager);
 		setCustomStyleIndicator(indicator);
-		//
-		// cardUI = (CardUI) findViewById(R.id.container_cards);
-		// cardUI.setSwipeable(false);
-		// cardUI.hideScrollBar(true);
-		//
-		// AsyncParser asyncParser = new AsyncParser();
-		// asyncParser.execute("programacionCC.xml");
-
 	}
 
 	@Override
@@ -47,35 +36,10 @@ public class EventsActivity extends SherlockFragmentActivity { // implements
 					MainActivity.class);
 			intentHome.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			startActivity(intentHome);
-
 		default:
 			return false;
 		}
 	}
-
-	// private class AsyncParser extends
-	// AsyncTask<String, Void, ArrayList<EventCard>> {
-	//
-	// @Override
-	// protected ArrayList<EventCard> doInBackground(String... params) {
-	// EventParser parser = new EventParser(EventsActivity.this, params[0]);
-	//
-	// return parser.xmlParserEvent();
-	// }
-	//
-	// @Override
-	// protected void onPostExecute(ArrayList<EventCard> result) {
-	// super.onPostExecute(result);
-	// // cardUI.addCardsArray(result, EventsActivity.this);
-	//
-	// }
-	// }
-
-	// @Override
-	// public void onClickCard(Card card, View view) {
-	//
-	// setCardInformation(card);
-	// }
 
 	private void setCustomStyleIndicator(TitlePageIndicator indicator) {
 		float density = getResources().getDisplayMetrics().density;

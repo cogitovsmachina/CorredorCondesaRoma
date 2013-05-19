@@ -2,6 +2,7 @@ package com.google.condesaroma.util;
 
 import java.util.ArrayList;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -20,16 +21,10 @@ import com.google.condesaroma.view.EventCard;
 public class EventFragment extends SherlockFragment {
 
 	private CardUI cardUI;
-	// private ArrayList<EventCard> cards;
 	private AsyncEventParser asyncEventParser;
 
 	public static EventFragment newInstance(String name) {
 		EventFragment eventFragment = new EventFragment();
-		// Bundle bundle = new Bundle();
-		// bundle.putInt("index", index);
-		// bundle.putString("name", name);
-		// eventFragment.setArguments(bundle);
-		//
 		eventFragment.fragmentName = name;
 
 		return eventFragment;
@@ -93,6 +88,18 @@ public class EventFragment extends SherlockFragment {
 
 	private class AsyncEventParser extends
 			AsyncTask<String, Void, ArrayList<EventCard>> {
+		private ProgressDialog dialog;
+
+		@Override
+		protected void onPreExecute() {
+			super.onPreExecute();
+
+			dialog = new ProgressDialog(getActivity());
+			dialog.setTitle("Eventos");
+			dialog.setMessage("Cargando");
+			dialog.show();
+
+		}
 
 		@Override
 		protected ArrayList<EventCard> doInBackground(String... params) {
@@ -103,7 +110,8 @@ public class EventFragment extends SherlockFragment {
 		@Override
 		protected void onPostExecute(ArrayList<EventCard> result) {
 			super.onPostExecute(result);
-			if (result != null) {
+			if (result != null && dialog.isShowing()) {
+				dialog.cancel();
 				cardUI.addCardsArray(result, new OnClickCardListener() {
 
 					@Override
@@ -125,7 +133,7 @@ public class EventFragment extends SherlockFragment {
 		eventInformation.putExtras(bundle);
 		// eventInformation.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(eventInformation);
-	}	
+	}
 
 	private String[] getCardContent(Card card) {
 		EventCard eventCard = (EventCard) card;

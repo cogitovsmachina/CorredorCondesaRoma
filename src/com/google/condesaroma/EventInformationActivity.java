@@ -2,6 +2,7 @@ package com.google.condesaroma;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.util.Linkify;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -14,7 +15,8 @@ import com.actionbarsherlock.widget.ShareActionProvider;
 public class EventInformationActivity extends SherlockActivity {
 
 	private String[] cardInformation;
-	private TextView eventName, eventSchedule, eventBroker, eventDescription;
+	private TextView eventName, eventSchedule, eventBroker, eventDescription,
+			eventLink;
 	private ShareActionProvider shareActionProvider;
 
 	@Override
@@ -30,6 +32,7 @@ public class EventInformationActivity extends SherlockActivity {
 		eventSchedule = (TextView) findViewById(R.id.event_schedule);
 		eventBroker = (TextView) findViewById(R.id.event_broker);
 		eventDescription = (TextView) findViewById(R.id.event_description);
+		eventLink = (TextView) findViewById(R.id.link);
 
 	}
 
@@ -39,7 +42,9 @@ public class EventInformationActivity extends SherlockActivity {
 		eventName.setText(cardInformation[0]);
 		eventBroker.setText(cardInformation[3]);
 		eventDescription.setText(cardInformation[7]);
-		eventSchedule.setText(cardInformation[6]);
+		eventSchedule.setText( getResources().getString(R.string.event_schedule)+"\n" + cardInformation[6]);
+		eventLink.setText(cardInformation[4]);
+		Linkify.addLinks(eventLink, Linkify.ALL);
 	}
 
 	@Override
@@ -57,10 +62,7 @@ public class EventInformationActivity extends SherlockActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case android.R.id.home:
-			Intent intent = new Intent(EventInformationActivity.this,
-					EventsActivity.class);
-			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-			startActivity(intent);
+			this.onBackPressed();
 			return true;
 
 		default:
@@ -72,7 +74,7 @@ public class EventInformationActivity extends SherlockActivity {
 		Intent shareIntent = new Intent();
 		shareIntent.setAction(Intent.ACTION_SEND);
 		shareIntent.putExtra(Intent.EXTRA_TEXT, "#CorredorPresenta  \n"
-				+ cardInformation[0] + "\n" + cardInformation[6]);
+				+ cardInformation[0] + "\n" + cardInformation[4]+"\n" +cardInformation[6]);
 		shareIntent.setType("text/*");
 
 		return shareIntent;

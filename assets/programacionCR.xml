@@ -6,9 +6,9 @@
     <nombre>Atelier Central</nombre>
     <colonia>roma</colonia>
     <direccion>
-    Durango 342, Esq. con Acapulco
+Durango 342, Esq. con Acapulco
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.ateliercentral.com.mx</link>
 	<telefono>5286 6211</telefono>
 	<horario>•Viernes 24: 18:00 - 23:00&#10;•Sábado 25: 18:00 - 23:00&#10;•Domingo 26: 18:00 - 23:00</horario>
@@ -23,9 +23,10 @@ Atelier Central Pop Up Store. Triplicaremos el tamaño de la tienda al ocupar to
     <nombre>TalCual</nombre>
     <colonia>roma</colonia>
     <direccion>
-    Colima 326-A Entre Medellín y Valladolid
+Colima 326-A 
+Entre Medellín y Valladolid
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.artetalcual.com</link>
 	<telefono>5514 9616</telefono>
 	<horario>•Viernes 24: 10:00 - 18:00&#10;•Sábado 25: 10:00 - 18:00&#10;•Domingo 26: 11:00 - 16:00</horario>
@@ -40,9 +41,10 @@ Heavy Matter: Gustavo Abascal muestra un dibujo en un rollo de 20m de largo.
     <nombre>Sensorama</nombre>
     <colonia>roma</colonia>
     <direccion>
-San Luis Potosí 196 (5to piso) Entre Monterrey y Medellín
+San Luis Potosí 196 (5to piso) 
+Entre Monterrey y Medellín
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.sensorama.com.mx</link>
 	<telefono>5211 4185</telefono>
 	<horario></horario>
@@ -70,9 +72,10 @@ Domingo 17:00 h | Costo normal: $250 p/p · Costo ccrc: $150 p/p | Cupo limitado
     <nombre>CC186 | Cultura Colectiva</nombre>
     <colonia>roma</colonia>
     <direccion>
-    Chiapas 186 Entre Manzanillo y Medellín
+Chiapas 186 
+Entre Manzanillo y Medellín
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.culturacolectiva.com</link>
 	<telefono>6284 5439</telefono>
 	<horario>•Viernes 24: 17:00 - 21:00&#10;•Sábado 25: 12:00 - 17:00&#10;</horario>
@@ -88,9 +91,10 @@ Sábado 25: Presentación de la exposición individual GIGANTES – guía para p
     <nombre>FIl, arte y experimentación textil</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Coahuila 129-B Entre Monterrey y Tonaláón
+Coahuila 129-B 
+Entre Monterrey y Tonaláón
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.filart.com.mx</link>
 	<telefono>5574 3148</telefono>
 	<horario>•Viernes 24: 18:00 - 20:00&#10;•Sábado 25: 10:00 - 14:00&#10;</horario>
@@ -105,9 +109,10 @@ Descuento en revistas y fibras de algodón y lino
     <nombre>noox</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Monterrey 159, Esq. con Zacatecas
+Monterrey 159, 
+Esq. con Zacatecas
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.noox.mx</link>
 	<telefono>6553 4573</telefono>
 	<horario>•Viernes 24: 15:00 - 22:00&#10;•Sábado 25: 12:00 - 22:00&#10;•Domingo 26: 11:00 - 16:00</horario>
@@ -123,9 +128,10 @@ Venta de libros de diseño, arquitectura y arte, objetos de diseño, discos, doc
     <nombre>Lavamp Store</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Insurgentes Sur 257 Entre Tabasco y Álvaro Obregón
+Insurgentes Sur 257 
+Entre Tabasco y Álvaro Obregón
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.lavampstore.com</link>
 	<telefono>5514 2197</telefono>
 	<horario>•Viernes 24: 11:30 - 20:00&#10;•Sábado 25: 11:30 - 20:00&#10;•Domingo 26: 11:30 - 17:00</horario>
@@ -141,9 +147,10 @@ Viernes 18:00 h: Cóctel de inauguración.
     <nombre>Arca</nombre>
     <colonia>roma</colonia>
     <direccion>
-Insurgentes Sur 257-C Entre Tabasco y Álvaro Obregón
+Insurgentes Sur 257-C 
+Entre Tabasco y Álvaro Obregón
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.arcamx.com</link>
 	<telefono>5207 5412</telefono>
 	<horario>•Viernes 24: 12:00 - 19:00&#10;•Sábado 25: 12:00 - 19:00&#10;•Domingo 26: 12:00 - 19:00</horario>
@@ -159,9 +166,10 @@ Asiste el viernes 24 a la fiesta de inauguración a partir de las 21:00 h en el 
     <nombre>La Roma Records</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Álvaro Obregón 200-Bis 1 Entre Insurgentes y Monterrey
+Álvaro Obregón 200-Bis 1 
+Entre Insurgentes y Monterrey
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.laromarecords.com</link>
 	<telefono>5264 2140</telefono>
 	<horario>•Viernes 24: 12:00 - 20:00&#10;•Sábado 25: 12:00 - 22:00&#10;•Domingo 26: 12:00 - 16:00</horario>
@@ -177,9 +185,10 @@ El Sábado 25 desde las 18:00 h cóctel de bienvenida, rifa de discos y DJ invit
     <nombre>Anteojería Dr.York 1947</nombre>
     <colonia>roma</colonia>
     <direccion>
-Álvaro Obregón 187, Local B Entre Monterrey y Tonalá
+Álvaro Obregón 187, Local B 
+Entre Monterrey y Tonalá
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.dr-york.com</link>
 	<telefono>5207 9359</telefono>
 	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 19:00</horario>
@@ -194,9 +203,10 @@ Dr. York prestará su espacio para la exposición fotográfica: Venice Beach - U
     <nombre>DIME</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Álvaro Obregón 185-B Entre Monterrey y Tonalá
+Álvaro Obregón 185-B 
+Entre Monterrey y Tonalá
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.dimetienda.com</link>
 	<telefono>2454 6790</telefono>
 	<horario>•Viernes 24: 11:30 - 20:30&#10;•Sábado 25: 11:30 - 20:30&#10;•Domingo 26: 11:30 - 16:30</horario>
@@ -211,9 +221,10 @@ Además, disfruta del torneo de videojuegos de guerra old school (sábado 25 de 
     <nombre>FASHION LOVERS</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Álvaro Obregón 185-bis Entre Monterrey y Tonalá
+Álvaro Obregón 185-bis 
+Entre Monterrey y Tonalá
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.fashionlovers.com.mx</link>
 	<telefono>5208 8290</telefono>
 	<horario>•Viernes 24: 11:30 - 20:30&#10;•Sábado 25: 11:30 - 20:30&#10;•Domingo 26: 11:30 - 16:30</horario>
@@ -228,9 +239,10 @@ Lanzamiento de la nueva línea de T-shirts Fashion Icons, y donde en colaboraci�
     <nombre>HEADQUARTER</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Colima 244 PA Entre Insurgentes y Tonalá
+Colima 244 PA 
+Entre Insurgentes y Tonalá
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.headquarterstore.com</link>
 	<telefono>5511 1238</telefono>
 	<horario>•Viernes 24: 12:30 - 21:00&#10;•Sábado 25: 12:30 - 21:00&#10;•Domingo 26: 12:30 - 21:00</horario>
@@ -244,9 +256,10 @@ Presentación de la línea Rage Handcraft.
     <nombre>Lucky Bastard</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Colima 212 PB Entre Tonalá y Jalapa
+Colima 212 PB 
+Entre Tonalá y Jalapa
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.luckybstrd.tumblr.com</link>
 	<telefono>6272 5169</telefono>
 	<horario>•Viernes 24: 12:00 - 20:00&#10;•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 20:00</horario>
@@ -261,9 +274,10 @@ Rap y DJs en vivo. Bebidas de cortesía y convivencia con clientes y amigos. Hor
     <nombre>LEMUR</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Jalapa 85, Esq. Colima
+Jalapa 85
+Esq. Colima
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.facebook.com/lemurshop</link>
 	<telefono>3547 2182</telefono>
 	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 11:00 - 20:00</horario>
@@ -278,9 +292,10 @@ Presentación del proyecto ART ON THE WALL x Vans &amp; Lemur.
     <nombre>Sangre de mi Sangre</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Orizaba 101, Local F (entrada por Álvaro Obregón) Entre Álvaro Obregón y Tabasco	
+Orizaba 101, Local F (entrada por Álvaro Obregón) 
+Entre Álvaro Obregón y Tabasco	
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.sdemis.com</link>
 	<telefono>5511 8599</telefono>
 	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 11:00 - 20:00</horario>
@@ -294,9 +309,10 @@ Las joyas son un accesorio que no puede faltar en una mujer. Presentación de nu
     <nombre>Breve (Casa Rosano)</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Orizaba 101, Local D (entrada por Álvaro Obregón) Entre Álvaro Obregón y Tabasco
+Orizaba 101, Local D (entrada por Álvaro Obregón) 
+Entre Álvaro Obregón y Tabasco
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.casarosano.com</link>
 	<telefono>5525 6108</telefono>
 	<horario>•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 13:00 - 19:00</horario>
@@ -311,9 +327,10 @@ Breve presenta: Las posibilidades de la evocación, exhibición de Alejandra Esp
     <nombre>Centro Cultural Casa Lamm | Librería Pegaso</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Álvaro Obregón 99 Entre Orizaba y Córdoba	
+Álvaro Obregón 99 
+Entre Orizaba y Córdoba	
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.casalamm.com.mx</link>
 	<telefono>5514 4899 / 5208 0171·5208 0174</telefono>
 	<horario>CL: •Viernes 24: 11:00 - 21:00&#10;•Sábado 25: 11:00 - 17:00&#10;•Domingo 26: 11:00 - 17:00&#10;PL: •Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 11:00 - 20:00</horario>
@@ -328,9 +345,10 @@ En la Librería Pegaso, 15% de descuento en libros y un obsequio del diseñador 
     <nombre>FIFTY24MX</nombre>
     <colonia>roma</colonia>
     <direccion>
-	Colima 184 Entre Jalapa y Orizaba
+Colima 184 
+Entre Jalapa y Orizaba
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.fifty24mx.com</link>
 	<telefono>5256 1444</telefono>
 	<horario>•Sábado 25: 13:00 - 20:00&#10;•Domingo 26: 12:00 - 18:00</horario>
@@ -344,9 +362,10 @@ Presentación de la primera exposición en México del artista brasileño Herber
     <nombre>180º SHOP</nombre>
     <colonia>roma</colonia>
     <direccion>
-    Colima 180 Entre Jalapa y Orizaba
+Colima 180 
+Entre Jalapa y Orizaba
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.180grados.mx</link>
 	<telefono>5525 5626</telefono>
 	<horario>•Viernes 24: 11:00 - 23:00&#10;•Sábado 25: 11:00 - 23:00&#10;•Domingo 26: 11:00 - 23:00</horario>
@@ -362,9 +381,10 @@ Evento patrocinado por Mezcal Espíritu Lauro.
     <nombre>TRAEGER &amp; PINTO Arte Contemporáneo</nombre>
     <colonia>roma</colonia>
     <direccion>
-    Colima 179 Entre Jalapa y Orizaba
+Colima 179
+Entre Jalapa y Orizaba
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.traeger-pinto.com</link>
 	<telefono>5525 4500</telefono>
 	<horario>•Viernes 24: 10:00 - 19:00&#10;•Sábado 25: 12:00 - 19:00&#10;•Domingo 26: 12:00 - 19:00</horario>
@@ -379,9 +399,10 @@ Exposición individual del artista plástico franco americano Christophe Cassidy
     <nombre>Toca / Galería</nombre>
     <colonia>roma</colonia>
     <direccion>
-    Colima 174 Entre Jalapa y Orizaba
+Colima 174 
+Entre Jalapa y Orizaba
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.tocagaleria.com</link>
 	<telefono>5525 7614</telefono>
 	<horario>•Viernes 24: 12:00 - 19:00&#10;•Sábado 25: 12:00 - 19:00&#10;•Domingo 26: 12:00 - 19:00</horario>
@@ -395,9 +416,10 @@ Ricardo Pinto (obra reciente).
     <nombre>Terreno Baldío Arte</nombre>
     <colonia>roma</colonia>
     <direccion>
-Orizaba 87 Entre Tabasco y Colima	
+Orizaba 87 
+Entre Tabasco y Colima	
 	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.terrenobaldio.com</link>
 	<telefono>2454 4013</telefono>
 	<horario>•Viernes 24: 10:00 - 18:00&#10;•Sábado 25: 11:00 - 17:00</horario>
@@ -416,9 +438,10 @@ La manifestación del todo y la nada es el universo, organismo más perfecto y, 
     <nombre>Dimitri</nombre>
     <colonia>roma</colonia>
     <direccion>
-   Orizaba 92 Entre Tabasco y Colima
+Orizaba 92 
+Entre Tabasco y Colima
    	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.dimitri.mx</link>
 	<telefono>5533 4148</telefono>
 	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 18:00</horario>
@@ -433,9 +456,10 @@ Proyección de documentales. Viernes 24 y sábado 25 de 16:00 a 18:00 h y de 18:
     <nombre>Arróniz Arte Contemporáneo</nombre>
     <colonia>roma</colonia>
     <direccion>
-   Plaza Río de Janeiro 53 PB Entre Durango y Orizaba
+Plaza Río de Janeiro 53 PB 
+Entre Durango y Orizaba
    	</direccion>
-	<corredor></corredor>
+	<corredor>Corredor Cultural</corredor>
 	<link>www.arroniz-arte.com</link>
 	<telefono>5511 7965</telefono>
 	<horario>•Viernes 24: 10:00 - 19:00&#10;•Sábado 25: 11:00 - 16:00</horario>
@@ -444,5 +468,418 @@ Archivo, exposición individual de Daniel Alcalá en Sala Principal.&#10;
 Pyramid, exposición individual de Pablo López Luz en Sala de Proyectos.
 	</descripcion>
 	</Evento>
+	
+	<Evento>
+	<id>26</id>
+    <nombre>MERCADILLO Pop up en Casa Drölma</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Puebla 135 
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.casadrolma.blogspot.mx</link>
+	<telefono>5533 3278</telefono>
+	<horario>•Sábado 25: 12:00 - 20:00&#10;•Domingo 12:00 - 19:00</horario>
+	<descripcion> 		
+MERCADILLO Pop up tercera edición. Más de 20 diseñadores independientes (moda, arte y diseño), ponen a la venta sus más recientes colecciones. Gastronomía y música.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>27</id>
+    <nombre>Libros UNAM | Casa Universitaria del Libro</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Orizaba 24 
+Entre Puebla y Av. Chapultepec
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.libros.unam.mx</link>
+	<telefono>5207 1787</telefono>
+	<horario>•Viernes 24: 10:00 - 18:30&#10;•Sábado 25: 10:00 - 18:30</horario>
+	<descripcion> 		
+Venta especial de Libros unam. Estarán a la venta publicaciones de diseño, arquitectura, arte, gastronomía, medio ambiente y sustentabilidad. Presencia de la librería virtual con más de 100 títulos en formatos ebook, pdf y mp3 para libre descarga.&#10;
+Estación de lectura. Proyecto itinerante para disfrutar sin costo de más de 50 títulos impresos y más de 40 en formato electrónico.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>28</id>
+    <nombre>Córdoba 25</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Córdoba 25
+Esq. Con Puebla
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.cordoba25.net</link>
+	<telefono>6378 2976</telefono>
+	<horario>•Viernes 24: 12:00 - 20:00&#10;•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 20:00</horario>
+	<descripcion> 		
+Córdoba 25 se compone de:&#10;
+Savvy-Studio | Panorama tienda de lentes | New Order tienda de objetos utilitarios | nakedboutique.com Showroom tienda de moda en línea | Galería Machete | Galería Distrito 14 | Jorge de la Garza Estudio | Librería Casa Bosques&#10;
+Precios especiales durante toda la jornada, y el sábado tendremos, durante el día, un brunch y bebidas de cortesía de nuestros patrocinadores.electrónico.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>29</id>
+    <nombre>OMR, el52</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Plaza Río de Janeiro 54 
+Entre Durango y Orizaba
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.galeriaomr.com</link>
+	<telefono>5511 1179</telefono>
+	<horario>•Viernes 24: 10:00 - 15:00&#10;•Viernes 24: 16:00 - 19:00&#10;•Sábado 25: 10:00 - 14:00</horario>
+	<descripcion> 		
+The Far Side of Reason de Troika en OMR.&#10;
+Cuento del barco que se hunde, que es un barco y a la vez no lo es de Iñaki Bonillas en el52.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>30</id>
+    <nombre>Fábrica Social</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Córdoba 67 Int. 7 
+Entre Colima y Durango
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.fabricasocial.org</link>
+	<telefono>5535 3431</telefono>
+	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 12:00 - 18:00</horario>
+	<descripcion> 		
+Presentación de la fotógrafa Maruch Santiz Gómez, indígena chiapaneca que a través de sus imágenes ilustra algunas curiosas creencias de los chamulas.&#10;Sábado 25, evento especial a las 18:00 h.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>31</id>
+    <nombre>Artes de México</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Córdoba 69 
+Entre Colima y Durango
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.artesdemexico.com</link>
+	<telefono>5208 3205</telefono>
+	<horario>•Viernes 24: 11:00 - 18:00&#10;•Sábado 25: 11:00 - 18:00&#10;•Domingo 26: 11:00 - 18:00</horario>
+	<descripcion> 		
+Artes de México cumple 25 años y queremos celebrarlo. Los festejos comenzarán con una exposición fotográfica, iconográfica y literaria de nuestro trabajo durante estos años. Aprovecharemos que el evento se lleva a cabo en nuestras instalaciones para poder convivir con los visitantes.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>32</id>
+    <nombre>Museo Del Objeto del Objeto | MODO</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Colima 145 
+Entre Orizaba y Córdoba
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.elmodo.mx</link>
+	<telefono>5533 9637</telefono>
+	<horario>•Viernes 24: 10:00 - 18:00&#10;•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 18:00</horario>
+	<descripcion> 		
+En curso: Roma Condesa, 111 años de historia (entrada sin costo el sábado 25 y domingo 26). Venta y decoración de candados.&#10;Regalo en tienda con códigos de edificios que hay en la exposición.es.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>33</id>
+    <nombre>Gurú Galería</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Colima 143-B
+Esq. con Córdoba
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.gurugalleryshop.com</link>
+	<telefono>5533 7140</telefono>
+	<horario>•Viernes 24: 12:00 - 20:00&#10;•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 19:00</horario>
+	<descripcion> 		
+Renovación del muro por parte del Colectivo Chachacha. Los chicos estarán pintando desde el viernes 24 a partir de las 13:00 h. La inauguración será el sábado 25 a las 18:00 h. Coctel de bienvenida.&#10;
+Exposición del artista australiano Anthony Wright dentro de la galería.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>34</id>
+    <nombre>Black Box | Arquitectura en Movimiento</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Colima 128 
+Entre Córdoba y Mérida
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.arqmov.com</link>
+	<telefono>5286 1600</telefono>
+	<horario>•Viernes 24: 18:00 - 21:00&#10;•Sábado 25: 14:00 - 20:00&#10;•Domingo 26: 11:00 - 17:00</horario>
+	<descripcion> 		
+Black Box, instalación.&#10;
+Mediante insinuaciones se invita al transeúnte a un recorrido por las calles de la colonia Roma, teniendo como punto final/inicial el Black Box (Colima 128), una caja sensorial que interviene al visitante.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>35</id>
+    <nombre>DFC</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Colima 124-D 
+Entre Córdoba y Mérida
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.totaldfc.com</link>
+	<telefono>5533 5339</telefono>
+	<horario>•Viernes 24: 12:00 - 20:00&#10;•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 18:00</horario>
+	<descripcion> 		
+En la compra de un trophy head de cerámica, te obsequiamos un set de 3 baby parts de cerámica (1 candelabro, 1 incensario y 1 bud vase).
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>36</id>
+    <nombre>Suhab</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Mérida 30 
+Entre Puebla y Durango
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.suhab.com.mx</link>
+	<telefono>5514 5471</telefono>
+	<horario>•Viernes 24: 16:30 - 20:00&#10;•Sábado 25: 11:00 - 14:00&#10;•Sábado 25: 16:30 a 20:00&#10;•Domingo 26: 12:00 -17:30 h
+	</horario>
+	<descripcion> 		
+Encuentra productos del día a día hechos en México, con diseños innovadores y procesos sustentables.&#10;
+Asiste al taller ¿Cómo arreglar una bici con mecánica básica? Sábado 25 de 17:00 a 18:30 h.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>37</id>
+    <nombre>Suhab</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Mérida 30 
+Entre Puebla y Durango
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.suhab.com.mx</link>
+	<telefono>5514 5471</telefono>
+	<horario>•Viernes 24: 16:30 - 20:00&#10;•Sábado 25: 11:00 - 14:00&#10;•Sábado 25: 16:30 a 20:00&#10;•Domingo 26: 12:00 -17:30 h
+	</horario>
+	<descripcion> 		
+Encuentra productos del día a día hechos en México, con diseños innovadores y procesos sustentables.&#10;
+Asiste al taller ¿Cómo arreglar una bici con mecánica básica? Sábado 25 de 17:00 a 18:30 h.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>38</id>
+    <nombre>La Miscelánea</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Tabasco 97 
+Entre Mérida y Frontera
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.lamiscelanea.net</link>
+	<telefono>5207 9039</telefono>
+	<horario>Librería: •Viernes 24: 11:00 - 23:00&#10;•Sábado 25: 11:00 - 23:00&#10;•Domingo 26: 11:00 - 23:00&#10;Galería: •Viernes 24: 12:00 - 20:00&#10;•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 20:00
+	</horario>
+	<descripcion> 		
+En curso: Aterrizaje de la artista canadiense Geneviève Saumier. Coctel con motivo de la exposición el sábado 25.&#10;
+Descuentos durante todo el fin de semana en la librería.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>39</id>
+    <nombre>MAGRATHEA</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Álvaro Obregón 66 
+Entre Córdoba y Mérida
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.facebook.com/magratheastore</link>
+	<telefono>55256 1444</telefono>
+	<horario>•Sábado 25: 12:00 - 20:00&#10;•Domingo 26: 12:00 - 19:00</horario>
+	<descripcion> 		
+Nike presenta Magrathea Store. Boutique multimarca con propuestas de diseñadores y marcas nacionales e internacionales. Ropa, sneakers, accesorios, arte y diseño.&#10;
+Cóctel de inauguración el sábado 25 a las 18:00 h. Drinks by Félix. DJ set Julián Placencia.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>40</id>
+    <nombre>NABI Fashion</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Mérida 140-bis 
+Entre Guanajuato y Zacatecas
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>S/N</link>
+	<telefono>5584 4427</telefono>
+	<horario>•Viernes 24: 11:00 - 20:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 11:00 - 20:00</horario>
+	<descripcion> 		
+Viaja en el tiempo disfrutando de un concepto diferente en moda, interiorismo y decoración.
+Venta de ropa y accesorios para mujer | Exposición y venta de muebles antiguos y accesorios para el hogar | Venta de LPs y libros antiguos | Degustación de canapés y postres, compartiremos las recetas de antaño.&#10;
+Domingo 26 de 16:00 a 17:30 h: Taller para la elaboración de accesorios.
+- Costo: $150 pesos (incluye kit con el material necesario para crear tus accesorios).
+- Inscripciones en la tienda o vía fashionnabi@gmail.com
+- Cupo limitado a 15 personas.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>41</id>
+    <nombre>People For Bikes</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Zacatecas 55 
+Entre Córdoba y Mérida
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.pfb.com.mx</link>
+	<telefono>5264 1457</telefono>
+	<horario>•Viernes 24: 10:00 a 20:00&#10;•Sábado 25: 10:00 a 20:00&#10;•Domingo 26: 12:00 a 18:00</horario>
+	<descripcion> 		
+Entregas de manuales "Consejos para sobrevivir las calles del DeFectuoso".
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>42</id>
+    <nombre>Nómada</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Chihuahua 126 
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.facebook.com/NomadaCo</link>
+	<telefono>3099 3507</telefono>
+	<horario>•Viernes 24: 11:00 - 19:00&#10;•Sábado 25: 11:00 - 20:00&#10;•Domingo 26: 11:00 - 19:00</horario>
+	<descripcion> 		
+Bazar de Moda, Arte y Diseño. Plataforma concebida en México, dedicada a difundir el diseño, arte y moda por medio de exposiciones itinerantes.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>43</id>
+    <nombre>Aguafuerte Galería</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Guanajuato 118 
+Entre Jalapa y Plaza Luis Cabrera
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.aguafuertegaleria.com</link>
+	<telefono>2454 9638</telefono>
+	<horario>•Viernes 24: 10:00 - 22:00&#10;•Sábado 25: 10:00 - 22:00&#10;•Domingo 26: 10:00 - 22:00</horario>
+	<descripcion> 		
+Aguafuerte Galería presenta El Beat de la Roma, proyecto que conjuga artes plásticas, literatura, performance y música (tema central: La Generación Beat).&#10;
+Viernes 24: Libros ilustrados por artistas emergentes a las 15:00 h | Generación Beat a las 18:00 h | Exposición Animales impuros a las 19:00 h.&#10;
+Sábado 25: Presentación de la nueva edición de libros y portadas ilustradas por artistas emergentes de la Editorial Letras Vivas a las 13:30 h | Performance de Jerry Transgerardo Shaw de la Plaza Luis Cabrera a la Galería a las 17:00 h | Presentación del libro Entre muros de Israel Alvarado a las 17:30 h | DJ Bigger a las 18:30 h.&#10;
+Domingo 26: Presentación de libros a las 13:00 h | Cuentos y poemas a las 17:00 h | DJ Bigger a las 18:00 h.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>44</id>
+    <nombre>Universidad de la Comunicación</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Zacatecas 120
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.uc.edu.mx</link>
+	<telefono>5265 2220</telefono>
+	<horario>•Sábado 25: 11:00 - 19:00&#10;•Domingo 26: 11:00 - 14:00</horario>
+	<descripcion> 		
+Durante esta jornada se organizará, manejará, promoverá y venderá el trabajo de la artista Andrea Camarelli, a través de su Galería Móvil dentro de la universidad.   
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>45</id>
+    <nombre>ALTIPLANO GALERIA</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+San Luis Potosí 43-C 
+Entre Mérida y Frontera
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.altiplanogaleria.com</link>
+	<telefono>5264 2095</telefono>
+	<horario>•Viernes 24: 11:00 - 19:00&#10;•Sábado 25: 11:00 - 19:00&#10;•Domingo 26: 11:00 - 19:00</horario>
+	<descripcion> 		
+Visitas guiadas a la exposición individual: El Fin es el Principio de Julieta Aguinaco.
+En El Fin es el Principio, Julieta Aguinaco presenta una reflexión en torno a la manera en la que el ser humano percibe el tiempo. Escala y estructura son los ejes que guían esta exhibición, y buscan evocar los distintos matices con los que experimentamos nuestra condición efímera: como individuos, como comunidad o como especie. La exposición está conformada por múltiples soportes: pintura, dibujo, arte objeto y video instalación.&#10;
+Las visitas guiadas se darán el sábado 25 y el domingo 26. Habrá dos visitas guiadas por día, una a las 12:00 h y otra a las 16:00 h.  
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>46</id>
+    <nombre>Trolebuses</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Plaza Luis Cabrera
+Orizaba Entre Guanajuato y Zacatecas&#10;
+Plaza del Lanzador
+Orizaba esquina con Antonio M. Anza
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.altiplanogaleria.com</link>
+	<telefono>5264 2095</telefono>
+	<horario>•Sábado 25: 12:00 - 19:00&#10;•Domingo 26: 12:00 - 19:00</horario>
+	<descripcion> 		
+El colectivo M.O.R.R.A.S. llevará a cabo una intervención artística en vivo en el exterior de dos trolebuses con un proyecto de arte de género. Así mismo, en el interior de los troles se llevará a cabo la intervención Pásele... 
+Y escriba o pinte su sentir coordinada por las artistas Mirna Roldán y Paola Medina, invitando al público a participar en una pinta colectiva donde cada quien se exprese libremente, ya sea de manera literaria o gráfica.  
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>47</id>
+    <nombre>Time Out México/FILTER/GAStv</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Plaza Luis Cabrera
+Orizaba Entre Guanajuato y Zacatecas&#10;
+Plaza del Lanzador
+Orizaba esquina con Antonio M. Anza
+   	</direccion>
+	<corredor>Corredor Cultural</corredor>
+	<link>www.timeoutmexico.mx / www.filtermexico.com / www.gastv.mx</link>
+	<telefono>S/N</telefono>
+	<horario>•Sábado 25: 18:00 - 21:00&#10;•Domingo 26: 11:00 - 14:00</horario>
+	<descripcion> 		
+
+Sábado 25:&#10;
+Garash Galería
+Álvaro Obregón 49
+Entre Mérida y Frontera&#10;
+Tarde de música, cine y mezcales. Comenzaremos con un acústico de Ella y El Muerto, la agrupación formada por Camila Sodi y Saúl Ledesma. Luego proyectaremos una película cortesía del Festival Internacional de Cine de Morelia. Mezcales de cortesía.
+Domingo 26:&#10;
+Museo del Objeto del Objeto | MODO
+Colima 145
+Entre Orizaba y Córdoba&#10;
+TOM, FILTER y GAS invitan al público a participar en el bici-rally Roma Condesa. Arrancamos en el MODO donde se formarán 2 equipos en bicicleta de hasta 15 personas cada uno. Se les entregará una pista que deberán descifrar para conocer la siguiente parada. Los equipos recibirán una sorpresa al llegar a la meta.
+	</descripcion>
+	</Evento>
+
 
 </Eventos>

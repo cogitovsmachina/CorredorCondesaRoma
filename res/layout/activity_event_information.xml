@@ -2,10 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/card_separator"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".EventInformationActivity" >
+    tools:context=".EventInformationActivity"
+    android:background="@color/background_desc_card"
+    >
 
     <ImageView
         android:id="@+id/imageView1"
@@ -46,7 +47,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Large Text"
-                        android:textSize="23sp" />
+                        android:textSize="21sp" />
 
                     <TextView
                         android:id="@+id/event_broker"
@@ -62,9 +63,18 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="3dp"
-                        android:padding="3dp"
+
                         android:text="Small Text"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/link"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:linksClickable="true"
+                        android:background="@drawable/background_selector_event_card"
+                        android:text="TextView" />
 
                     <TextView
                         android:id="@+id/event_schedule"

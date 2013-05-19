@@ -13,9 +13,10 @@
     <string name="content_main_image">image_for_main_menu</string>
     <string name="link_page">www.ccromacondesa.mx</string>
     <string name="title_activity_publications">Google+ CC Roma Condesa </string>
-    <string name="title_activity_routes">RoutesActivity</string>
+    <string name="title_activity_routes">Routes</string>
     <string name="title_activity_route">RouteActivity</string>
     <string name="title_activity_events">Events</string>
     <string name="title_activity_event_information">Información</string>
+    <string name="event_schedule">Horario:</string>
 
 </resources>
