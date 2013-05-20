@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:drawableTop="@drawable/ic_launcher"
-        android:text="Cultural"
+        android:text="@string/text_cultural_button"
         android:textStyle="bold" />
 
     <Button
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:drawableTop="@drawable/ic_launcher"
-        android:text="Gastronomic"
+        android:text="@string/text_gastronomic_button"
         android:textStyle="bold" />
 
     <Button
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:drawableTop="@drawable/ic_launcher"
-        android:text="Infantile"
+        android:text="@string/text_infantile_button"
         android:textStyle="bold" />
 
     <Button
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:drawableTop="@drawable/ic_launcher"
-        android:text="Enviromental"
+        android:text="@string/text_enviromental_button"
         android:textStyle="bold" />
     </com.google.condesaroma.view.DashboardLayout>
 

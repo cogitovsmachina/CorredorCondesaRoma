@@ -1,7 +1,6 @@
 package com.google.condesaroma.view;
 
 import android.content.Context;
-import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;

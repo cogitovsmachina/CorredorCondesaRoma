@@ -2,25 +2,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_desc_card"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".EventInformationActivity"
-    android:background="@color/background_desc_card"
-    >
+    tools:context=".EventInformationActivity" >
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:scaleX="1.5"
-        android:src="@drawable/logochico" />
+        android:layout_margin="10dp"
+        android:contentDescription="@string/image_resource"
+        android:scaleX="1.3"
+        android:src="@drawable/logochico"
+        
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="15dp"
-        android:background="@color/background_color_card_information"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_layout_event_information"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="5dp" >
@@ -46,15 +48,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Large Text"
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/event_broker"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Medium Text"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <TextView
@@ -63,8 +64,6 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="3dp"
-
-                        android:text="Small Text"
                         android:textAppearance="?android:attr/textAppearanceSmall" />
 
                     <TextView
@@ -72,9 +71,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:linksClickable="true"
                         android:background="@drawable/background_selector_event_card"
-                        android:text="TextView" />
+                        android:linksClickable="true" />
 
                     <TextView
                         android:id="@+id/event_schedule"
@@ -82,7 +80,6 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:layout_margin="3dp"
-                        android:text="Medium Text"
                         android:textSize="12sp" />
                 </LinearLayout>
             </ScrollView>

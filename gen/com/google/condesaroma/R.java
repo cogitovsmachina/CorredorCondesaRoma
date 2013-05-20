@@ -1436,16 +1436,17 @@ containing a value of this type.
         public static final int card_background=0x7f020072;
         public static final int card_background_shadow=0x7f020073;
         public static final int card_shadow=0x7f020074;
-        public static final int ic_launcher=0x7f020075;
-        public static final int logochico=0x7f020076;
-        public static final int top_shadow=0x7f020077;
-        public static final int vpi__tab_indicator=0x7f020078;
-        public static final int vpi__tab_selected_focused_holo=0x7f020079;
-        public static final int vpi__tab_selected_holo=0x7f02007a;
-        public static final int vpi__tab_selected_pressed_holo=0x7f02007b;
-        public static final int vpi__tab_unselected_focused_holo=0x7f02007c;
-        public static final int vpi__tab_unselected_holo=0x7f02007d;
-        public static final int vpi__tab_unselected_pressed_holo=0x7f02007e;
+        public static final int custom_layout_event_information=0x7f020075;
+        public static final int ic_launcher=0x7f020076;
+        public static final int logochico=0x7f020077;
+        public static final int top_shadow=0x7f020078;
+        public static final int vpi__tab_indicator=0x7f020079;
+        public static final int vpi__tab_selected_focused_holo=0x7f02007a;
+        public static final int vpi__tab_selected_holo=0x7f02007b;
+        public static final int vpi__tab_selected_pressed_holo=0x7f02007c;
+        public static final int vpi__tab_unselected_focused_holo=0x7f02007d;
+        public static final int vpi__tab_unselected_holo=0x7f02007e;
+        public static final int vpi__tab_unselected_pressed_holo=0x7f02007f;
     }
     public static final class id {
         public static final int ScrollView1=0x7f04004c;
@@ -1576,21 +1577,20 @@ containing a value of this type.
         public static final int activity_events=0x7f030018;
         public static final int activity_home=0x7f030019;
         public static final int activity_main=0x7f03001a;
-        public static final int activity_route=0x7f03001b;
-        public static final int activity_routes=0x7f03001c;
-        public static final int activity_splash_screen=0x7f03001d;
-        public static final int cards_view=0x7f03001e;
-        public static final int cards_view_multicolumn=0x7f03001f;
-        public static final int header=0x7f030020;
-        public static final int item_card=0x7f030021;
-        public static final int item_card_empty=0x7f030022;
-        public static final int item_card_empty_first=0x7f030023;
-        public static final int item_card_empty_last=0x7f030024;
-        public static final int item_stack=0x7f030025;
-        public static final int layout_event_card=0x7f030026;
-        public static final int layout_fragment_event=0x7f030027;
-        public static final int sherlock_spinner_dropdown_item=0x7f030028;
-        public static final int sherlock_spinner_item=0x7f030029;
+        public static final int activity_routes=0x7f03001b;
+        public static final int activity_splash_screen=0x7f03001c;
+        public static final int cards_view=0x7f03001d;
+        public static final int cards_view_multicolumn=0x7f03001e;
+        public static final int header=0x7f03001f;
+        public static final int item_card=0x7f030020;
+        public static final int item_card_empty=0x7f030021;
+        public static final int item_card_empty_first=0x7f030022;
+        public static final int item_card_empty_last=0x7f030023;
+        public static final int item_stack=0x7f030024;
+        public static final int layout_event_card=0x7f030025;
+        public static final int layout_fragment_event=0x7f030026;
+        public static final int sherlock_spinner_dropdown_item=0x7f030027;
+        public static final int sherlock_spinner_item=0x7f030028;
     }
     public static final class menu {
         public static final int event_information=0x7f0b0000;
@@ -1651,19 +1651,23 @@ containing a value of this type.
         public static final int app_name=0x7f0a000f;
         public static final int content_image_description=0x7f0a0013;
         public static final int content_main_image=0x7f0a0018;
-        public static final int event_schedule=0x7f0a001f;
-        public static final int hello_world=0x7f0a0011;
+        public static final int event_schedule=0x7f0a001e;
+        public static final int image_resource=0x7f0a001f;
         public static final int information_contact=0x7f0a0015;
         public static final int link_page=0x7f0a0019;
         public static final int message_dialog=0x7f0a0017;
-        public static final int title_activity_event_information=0x7f0a001e;
-        public static final int title_activity_events=0x7f0a001d;
+        public static final int text_cultural_button=0x7f0a0020;
+        public static final int text_enviromental_button=0x7f0a0023;
+        public static final int text_gastronomic_button=0x7f0a0021;
+        public static final int text_infantile_button=0x7f0a0022;
+        public static final int title_activity_event_information=0x7f0a001d;
+        public static final int title_activity_events=0x7f0a001c;
         public static final int title_activity_main=0x7f0a0014;
         public static final int title_activity_publications=0x7f0a001a;
-        public static final int title_activity_route=0x7f0a001c;
         public static final int title_activity_routes=0x7f0a001b;
         public static final int title_activity_splash_screen=0x7f0a0012;
         public static final int title_dialog=0x7f0a0016;
+        public static final int title_youtube=0x7f0a0011;
     }
     public static final class style {
         /** 

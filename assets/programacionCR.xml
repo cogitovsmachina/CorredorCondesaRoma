@@ -881,5 +881,505 @@ TOM, FILTER y GAS invitan al público a participar en el bici-rally Roma Condesa
 	</descripcion>
 	</Evento>
 
+	<Evento>
+	<id>48</id>
+    <nombre>Bubos</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Tabasco 233
+Entre Monterrey y Tonalá
+   	</direccion>
+	<corredor>Corredor Infantil</corredor>
+	<link>www.bubos.co</link>
+	<telefono>4444 0979</telefono>
+	<horario>•Viernes 24: 10:00 - 17:00&#10;•Sábado 25: 10:00 - 17:00&#10;•Domingo 26: 10:00 - 17:00</horario>
+	<descripcion> 		
 
+Viernes 24: Taller de pintura de Máscaras, de 15:00 a 16:00.
+Sábado 25: Taller Cómo hacer tu títere preferido, de 11:00 a 13:00.
+Domingo 26: Cuenta cuentos, de 11:00 a 13:00.
+Aguas frescas para los niños y vino de honor para los adultos a partir de las 13:00.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>49</id>
+    <nombre>Universidad de la Comunicación</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Zacatecas 120
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Infantil</corredor>
+	<link>www.uc.edu.mx</link>
+	<telefono>5265 2220</telefono>
+	<horario>•Sábado 25: 12:00 - 19:00</horario>
+	<descripcion> 		
+Como actividades paralelas al manejo de la Galería Camarelli Móvil, se llevarán a cabo actividades artísticas y un taller-demostración de cómo la artista Andrea Camarelli crea y produce  su obra. Nuestra intención es buscar que los niños experimenten, sin uso del fuego, la técnica que la artista utiliza en la creación de su obra. 
+Para lograrlo se instalarán mesas en las que se colocarán objetos de uso cotidiano para los niños (juguetes, figuras con relieves, popotes, cucharas y pintura acrílica), para que sirvan como instrumento de creación y recreación artística así como un primer acercamiento didáctico al mundo del arte.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>50</id>
+    <nombre>Cortomanía en la Universidad de la Comunicación</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Zacatecas 120
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Infantil</corredor>
+	<link>www.cortomania.com.mx</link>
+	<telefono>5533 3564</telefono>
+	<horario>•Sábado 25: 11:00-13:00&#10;•Domingo 26: 11:00-13:00</horario>
+	<descripcion> 		
+Cortomanía y la Universidad de la Comunicación invitan a niños de 6 a 12 años a las funciones de cortometrajes de animación.&#10;Visita cortomania.com.mx y entérate de la programación.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>51</id>
+    <nombre>DELIRIO DE CONCIENCIA</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Puebla 135
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Ambiental</corredor>
+	<link>www.delirio.mx</link>
+	<telefono>5264 6233</telefono>
+	<horario></horario>
+	<descripcion> 		
+ 
+Sábado 25:&#10;
+11:00 - 12:45. Documental Food Inc. (90 min.), seguido por una sesión de preguntas y respuestas. Por Greenpeace.
+11:00 - 12:00. Taller para niños Bolitas de vida, por Huerto Romita.
+13:00 - 13:30. Taller Cultiva tu ensalada, por Huerto Romita.
+13:30 - 14:30. Taller de Cocina Orgánica por Mónica Patiño y plática de Consumo local por Alan Favero de Mercado el 100.
+14:30 - 16:30. Comida al aire libre (elaborado por Delirio con ingredientes de Mercado el 100).
+16:00 - 16:30. Consejos para enfrentar las calles del defectuoso en bicicleta por Alan Huber de People for Bikes.
+16:30 - 17:20. Documental Un salto de vida (20 min.), seguido por una sesión de preguntas y respuestas. Por Greenpeace.
+17:30. Presentación Delirio de conciencia: acciones para rediseñar la manera en que consumimos. Seguida por un cóctel.
+
+
+DOMINGO 25;&#10;
+11:00 - 11:40. Documental Un salto de vida (20 min.), seguido por una sesión de preguntas y respuestas. Por Greenpeace.
+11:40 - 12:00. Captación de agua de lluvia, por Enrique Lomnitz del Instituto Internacional de Recursos Renovables (irri).
+12:00 - 14:30. Pan rústico casero, por Mari Carmen de Mercado el 100.
+12:30 - 13:30. Taller Cultiva tu ensalada, por Huerto Romita.
+13:30 - 14:00. Presentación del proyecto Cuatro ciénegas, por David Jaramillo de irri.
+14:00 - 16:30. Parrillada (elaborada por Delirio, con ingredientes de Mercado el 100).
+16:30 - 17:20. Documental Revolución forestal (30 min.), seguido por una sesión de preguntas y respuestas. Por Greenpeace.
+
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>52</id>
+    <nombre>Mercado el 100</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Plaza Luis Cabrera
+Orizaba entre Guanajuato y Zacatecas
+   	</direccion>
+	<corredor>Corredor Ambiental</corredor>
+	<link>www.mercadoel100.org</link>
+	<telefono>5264 6233</telefono>
+	<horario>•Domingo 26: 9:30 a 14:30</horario>
+	<descripcion> 		
+25 puestos de productos frescos y locales hechos por pequeños productores.
+	</descripcion>
+	</Evento>
+
+
+	<Evento>
+	<id>53</id>
+    <nombre>Restaurante SÍ</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Av. Veracruz 42
+Entre Tampico y Sinaloa
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.restaurantesi.com.mx</link>
+	<telefono>5286 4837</telefono>
+	<horario>•Domingo 26: 13:00 - 00:00</horario>
+	<descripcion>
+Confort food, comida que da alegría&#10;
+Restaurante SÍ recibe al Chef Matteo Salas. Matteo tiene pasión por lo que llama el producto (los ingredientes en su esencia básica) y las tradiciones culinarias. Busca aportar algo donde se pueda, porque “hay cosas que no necesitan nada”, a través de técnicas tradicionales e innovadoras. Es la técnica lo que le da a los platillos su textura, lo que permite que conserve o no su sabor, lo que sorprende a los comensales.
+Confort food es una cocina casual, ligera, que nos trasmite paz; muy similar a la comida casera, una comida sin pretensión, que va directo al grano.&#10;
+Limitado a 50 comensales.
+Reservaciones: Ileana Agusti · Brenda Tenorio | T. 5286 4837 / 5286 4818
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>54</id>
+    <nombre>Mexsi Bocu</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Durango 359
+Entre Tampico y Acapulco
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>S/N</link>
+	<telefono>3099 4920 / 3099 4961</telefono>
+	<horario>•Viernes 24: 13:00 - 00:00&#10;•Sábado 25: 13:00 - 00:00&#10;•Domingo 26: 13:00 - 00:00</horario>
+	<descripcion> 		
+Tarde monocromática Moulin Rouge y noches de Marsella en la azotea&#10;
+Moulin Rouge:
+Menú monocromático de cinco tiempos con maridaje creado por Valerie Avernin y el chef ejecutivo de la casa, Alexis Preschez.&#10;Marsella en la azotea:
+Tres tapas + martini&#10;
+Reservaciones: T. 3099 4920 / 3099 4961
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>55</id>
+    <nombre>Estación en Ambienta</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Durango 342, Esq. con Acapulco
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>S/N</link>
+	<telefono>55 2955 1041</telefono>
+	<horario>•Viernes 24: 20:00 - 2:00&#10;•Sábado 25: 20:00 - 2:00&#10;•Domingo 26: 20:00 - 2:00</horario>
+	<descripcion> 	
+Memoria
+Estación visita la Roma. 
+Daniel Estebaranz intervendrá el showroom de Ambienta con un menú de cinco tiempos con maridaje.&#10;
+Limitado a 45 comensales por servicio.
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>56</id>
+    <nombre>La Burguesa</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Cozumel 67
+Entre Colima y Durango
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>S/N</link>
+	<telefono>6272 7078</telefono>
+	<horario>•Viernes 24: 14:00 - 00:00&#10;•Sábado 25: 14:00 - 00:00</horario>
+	<descripcion> 	
+Petite France
+El chef Salvador Sánchez y Alberto Harwy recuerdan sus días en la vieja escuela francesa, y recrean aquellos donde esta cocina era la mejor del mundo, por lo que habrá un menú con quesos, pan y vino.&#10;
+Limitado a 30 comensales por servicio.
+Reservaciones: Patricio González Noriega | T. 6272 7078
+
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>57</id>
+    <nombre>Casa del Agua</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Puebla 242
+Entre Valladolid y Medellín
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.casadelagua.com.mx</link>
+	<telefono>6277 7009</telefono>
+	<horario>•Sábado 25: 12:00 - 18:00&#10;•Domingo 26: 12:00 - 18:00</horario>
+	<descripcion> 	
+Enlaces Gastronómicos presenta: Raw Bar by Kholmann &amp; Ingredienta
+Barra de mariscos de excelente calidad, principalmente de Ensenada, acompañados con vino y cervezas artesanales.&#10;
+Limitado a 55 comensales por servicio.78
+
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>58</id>
+    <nombre>Casa del Agua</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Puebla 242
+Entre Valladolid y Medellín
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.casadelagua.com.mx</link>
+	<telefono>6277 7009</telefono>
+	<horario>•Sábado 25: 12:00 - 18:00&#10;•Domingo 26: 12:00 - 18:00</horario>
+	<descripcion> 	
+Enlaces Gastronómicos presenta: Raw Bar by Kholmann &amp; Ingredienta
+Barra de mariscos de excelente calidad, principalmente de Ensenada, acompañados con vino y cervezas artesanales.&#10;
+Limitado a 55 comensales por servicio.78
+
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>59</id>
+    <nombre>Club Social Rhodesia</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Durango 181
+Entre La Cibeles y Monterrey
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.clubsocialrhodesia.tv</link>
+	<telefono>5533 8208</telefono>
+	<horario>•Viernes 24: 23:00 - 3:00</horario>
+	<descripcion> 	
+3er aniversario
+Es el 3er aniversario de la casa de los 3 pisos y tiraremos la casa por la ventana con participaciones estelares de DJs aclamados tanto en la escena internacional como nacional.
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>60</id>
+    <nombre>Breakfast - by The Room Service</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Durango 131
+Entre Tonalá y Pomona
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>S/N</link>
+	<telefono>6553 0689</telefono>
+	<horario>•Sábado 25: 10:00 - 17:00</horario>
+	<descripcion> 	
+Pichón brunch @ Breakfast
+Brunch al estilo Pichón para celebrar nuestro primer aniversario y dar a conocer el nuevo espacio de Breakfast. Nuestros brunches se caracterizan por ingredientes frescos provenientes de huertos locales. Como siempre, ofreceremos 2 opciones de platillos fuertes, 3-4 acompañamientos/entradas, café orgánico y una carta de bebidas hechas a mano.
+Limitado a 60 comensales.&#10;
+Reservaciones: Niki Nakazawa · pichon.food@gmail.com
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>61</id>
+    <nombre>Sesâmê</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Colima 183
+Entre Orizaba y Jalapa
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>S/N</link>
+	<telefono>5207 7471</telefono>
+	<horario>•Viernes 24: 14:00 - 23:00&#10;•Sábado 25: 14:00 - 23:00&#10;•Domingo 26: 14:00 - 23:00</horario>
+	<descripcion> 	
+Duelo de chefs
+Segunda edición de duelo de chefs. Cinco ingredientes y cinco tiempos por cada chef. Síguenos en Twitter -@SesameMx- para conocer a los chefs invitados en esta ocasión.&#10;
+Limitado a 60 comensales por servicio.
+Reservaciones: info@sesame.com.mx · vfarill@gmail.com | T. 5207 7471
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>62</id>
+    <nombre>Panería</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Colima 179
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>S/N</link>
+	<telefono>5207 2976</telefono>
+	<horario>•Viernes 24: 8:00 - 21:00&#10;•Sábado 25: 8:00 - 21:00</horario>
+	<descripcion> 	
+Presentación de nuevos panes y sandwiches de la Chef Elena Reygadas.
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>63</id>
+    <nombre>Panería</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Colima 179
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>S/N</link>
+	<telefono>5207 2976</telefono>
+	<horario>•Viernes 24: 8:00 - 21:00&#10;•Sábado 25: 8:00 - 21:00</horario>
+	<descripcion> 	
+Estrenando
+Presentación de nuevos panes y sandwiches de la Chef Elena Reygadas.
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>64</id>
+    <nombre>República Gastronómica</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Córdoba 56
+Entre Durango y Puebla
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.repgastromx.tumblr.com</link>
+	<telefono>55 4368 9955</telefono>
+	<horario>•Sábado 25:  11:00 - 19:00&#10;•Domingo 26: 11:00 - 19:00</horario>
+	<descripcion> 	
+Tienda ambulante
+La tienda ambulante de productos artesanales tendrá más de 15 compañías representadas con productos gastronómicos, que incluirán vino, queso, mezcal, cerveza, mermeladas, dulces, galletas y charcutería.
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>65</id>
+    <nombre>Galiagourmet</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Orizaba 101, Local B (entrada por Álvaro Obregón)
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.galiagourmet.com</link>
+	<telefono>55511 3949</telefono>
+	<horario>•Viernes 24: 11:30 - 00:00&#10;•Sábado 25: 11:30 - 00:00&#10;•Domingo 26: 11:30 - 00:00</horario>
+	<descripcion> 	
+El chef Emmanuel Laurent diseñará un menú de su región y llevará la Provence al plato del visitante. Copa de bienvenida, cortesía de Ricard, aperitivo tradicional de Marsella.&#10;
+Limitado a 40 comensales por servicio.
+Reservaciones: galiagourmet@galiachef.com | T. 5511 3949
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>66</id>
+    <nombre>Jamón J. Jamón</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Álvaro Obregón 128
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>S/N</link>
+	<telefono>5264 5161</telefono>
+	<horario>•Viernes 24: 13:00 - 00:00&#10;•Sábado 25: 13:00 - 00:00&#10;•Domingo 26: 13:00 - 00:00</horario>
+	<descripcion> 	
+Cata de jamones
+Sábado 25 - 13.00 h: Taller de jamón. Imparte: Ricardo González premio nacional al mejor corte. Duración: 45 min. Explicación de las diferencias entre serrano e ibérico, razas, hábitat alimentación y curación.&#10;
+Cata de jamones con copa de vino o cava.
+Precio por persona:  $250.00&#10;
+Limitado a 60 comensales por servicio.
+Reservaciones: T. 5264 5161
+	</descripcion>
+	</Evento>
+
+	<Evento>
+	<id>67</id>
+    <nombre>Licorería Limantour</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Álvaro Obregón 106
+Entre Orizaba y Córdoba
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.limantour.tv</link>
+	<telefono>5264 4122</telefono>
+	<horario>•Sábado 25: 16:00 - 17:30&#10;•Domingo 26: 18:00 - 19:30</horario>
+	<descripcion> 	
+Clínicas
+Limantour dará una serie de clínicas para los asistentes de esta jornada.&#10;
+Limitado a 12 comensales por clínica.
+Reservaciones: T. 5264 4122
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>68</id>
+    <nombre>La Miscelánea</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Tabasco 97
+Entre Mérida y Frontera
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.lamiscelanea.net</link>
+	<telefono>5207 9039</telefono>
+	<horario>•Viernes 24: 11:00 - 23:00&#10;•Sábado 25: 11:00 - 23:00&#10;•Domingo 26: 11:00 - 23:00</horario>
+	<descripcion> 	
+Nosotros decimos que la felicidad tiene recetas, por eso es que pretendemos recuperar esos sabores que nos transportan a otros tiempos, a través de la reinterpretación de recetas de nuestras familias, de amigos y de ustedes.
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>69</id>
+    <nombre>Romita Comedor</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Álvaro Obregón 49
+Entre Mérida y Frontera
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.romitacomedor.com</link>
+	<telefono>5525 8975</telefono>
+	<horario>•Sábado 25: 14:00 - 2:00</horario>
+	<descripcion> 	
+Noche Fortuna
+Romita Comedor y Fortuna Mezcal ofrecerán una noche de coctelería donde por 250 pesos podrás degustar 3 tipos de cócteles hechos a base de mezcal, acompañados de tapas cortesía de Romita Comedor.
+Los expertos que estarán a cargo de las barras serán: Guillermo Domínguez de Limantour, Rodolfo Domínguez de Félix y David Mora de Romita. Síguenos en twitter -@FortunaMezcal- para conocer los cócteles que ofreceremos.	
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>70</id>
+    <nombre>Romita Comedor</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Álvaro Obregón 49
+Entre Mérida y Frontera
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.romitacomedor.com</link>
+	<telefono>5525 8975</telefono>
+	<horario>•Sábado 25: 14:00 - 2:00</horario>
+	<descripcion> 	
+Noche Fortuna
+Romita Comedor y Fortuna Mezcal ofrecerán una noche de coctelería donde por 250 pesos podrás degustar 3 tipos de cócteles hechos a base de mezcal, acompañados de tapas cortesía de Romita Comedor.
+Los expertos que estarán a cargo de las barras serán: Guillermo Domínguez de Limantour, Rodolfo Domínguez de Félix y David Mora de Romita.&#10;
+Síguenos en twitter -@FortunaMezcal- para conocer los cócteles que ofreceremos.	
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>71</id>
+    <nombre>La Casa Tropical</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Chihuahua 77-bajo
+Entre Córdoba y Mérida
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.omelette.com.mx</link>
+	<telefono>5564 7570</telefono>
+	<horario>•Sábado 25: 11:00 - 18:00&#10;•Domingo 26: 11:00 - 18:00</horario>
+	<descripcion> 	
+
+Los hijos del postre. La Casa  Tropical y ESPAISUCRE México compartimos contigo muchas maneras de crear  y devorar un postre, ingredientes deliciosos, espumas, cremas y curiosidades por gramo. Acción y diversión,  no  importa que seas adulto, niño, niña, niño-niña, niña-niña, ni tortuga Ninja, ESPAISUCRE te enseñará a romper las reglas con tus manitas y con chocolate delicioso y tropical de nuestras nuevas cosechas.&#10;
+¡Habrá sorpresas! Niños traigan dinero, también a sus papás y a sus mascotas.&#10;
+Limitado a 50 comensales por servicio.
+Reservaciones: lacasatropical@omelette.com.mx	
+	</descripcion>
+	</Evento>
+	
+	<Evento>
+	<id>72</id>
+    <nombre>SI MON en Broka</nombre>
+    <colonia>roma</colonia>
+    <direccion>
+Zacatecas 126-B
+Entre Jalapa y Orizaba
+   	</direccion>
+	<corredor>Corredor Gastronómico</corredor>
+	<link>www.brokabistrot.com</link>
+	<telefono>55 4437 4285</telefono>
+	<horario>•Sábado 25: 12:00 - 18:00</horario>
+	<descripcion> 	
+El mar en la ciudad
+Mariscos estilo Ensenada. Conchas, ceviches, sashimis, etc. maridados con vino del Valle de Guadalupe.&#10;
+Limitado a 40 comensales
+Reservaciones: Natalia · fiesta@brokabistrot.com | @brokabistrot | @simon_vinosmx
+	</descripcion>
+	</Evento>
 </Eventos>

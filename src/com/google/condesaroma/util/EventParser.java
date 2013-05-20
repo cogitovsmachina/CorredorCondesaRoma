@@ -8,14 +8,12 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import android.content.Context;
 import android.content.res.AssetManager;
-import android.widget.Toast;
 
 import com.google.condesaroma.view.EventCard;
 
 public class EventParser {
 
 	private InputStream stream;
-	private Context myContext;
 
 	public EventParser(Context context, String resource) {
 		AssetManager assetManager = context.getResources().getAssets();
@@ -24,7 +22,7 @@ public class EventParser {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		myContext = context;
+
 	}
 
 	public ArrayList<EventCard> xmlParserEvent() {
@@ -104,7 +102,7 @@ public class EventParser {
 
 		} catch (Exception e) {
 			e.printStackTrace();
-			//Toast.makeText(myContext, "Error ", Toast.LENGTH_SHORT).show();
+
 		}
 
 		return cards;
