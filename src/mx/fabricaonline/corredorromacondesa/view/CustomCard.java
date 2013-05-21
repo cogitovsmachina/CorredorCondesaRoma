@@ -1,7 +1,8 @@
-package com.google.condesaroma.view;
+package mx.fabricaonline.corredorromacondesa.view;
+
+import mx.fabricaonline.corredorromacondesa.R;
 
 import com.fima.cardsui.objects.Card;
-import com.google.condesaroma.R;
 
 public abstract class CustomCard extends Card {
 

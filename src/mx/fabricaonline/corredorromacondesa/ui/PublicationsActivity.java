@@ -1,5 +1,6 @@
-package com.google.condesaroma;
+package mx.fabricaonline.corredorromacondesa.ui;
 
+import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;

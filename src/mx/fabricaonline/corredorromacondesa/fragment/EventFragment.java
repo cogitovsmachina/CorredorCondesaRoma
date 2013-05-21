@@ -1,7 +1,11 @@
-package com.google.condesaroma.util;
+package mx.fabricaonline.corredorromacondesa.fragment;
 
 import java.util.ArrayList;
 
+import mx.fabricaonline.corredorromacondesa.R;
+import mx.fabricaonline.corredorromacondesa.ui.EventInformationActivity;
+import mx.fabricaonline.corredorromacondesa.util.EventParser;
+import mx.fabricaonline.corredorromacondesa.view.EventCard;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -14,9 +18,6 @@ import com.actionbarsherlock.app.SherlockFragment;
 import com.fima.cardsui.objects.Card;
 import com.fima.cardsui.objects.Card.OnClickCardListener;
 import com.fima.cardsui.views.CardUI;
-import com.google.condesaroma.EventInformationActivity;
-import com.google.condesaroma.R;
-import com.google.condesaroma.view.EventCard;
 
 public class EventFragment extends SherlockFragment {
 
@@ -59,6 +60,7 @@ public class EventFragment extends SherlockFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
+
 		View layout = inflater.inflate(R.layout.layout_fragment_event,
 				container, false);
 		cardUI = (CardUI) layout.findViewById(R.id.container_cards);

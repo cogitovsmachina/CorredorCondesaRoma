@@ -1,12 +1,13 @@
-package com.google.condesaroma;
+package mx.fabricaonline.corredorromacondesa.ui;
 
+import mx.fabricaonline.corredorromacondesa.R;
+import mx.fabricaonline.corredorromacondesa.adapter.FragmentPager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.MenuItem;
-import com.google.condesaroma.util.FragmentPager;
 import com.viewpagerindicator.TitlePageIndicator;
 import com.viewpagerindicator.TitlePageIndicator.IndicatorStyle;
 

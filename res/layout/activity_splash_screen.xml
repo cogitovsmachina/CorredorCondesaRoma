@@ -6,10 +6,11 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/content_image_description"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_launcher" />
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/splash" />
 
 </LinearLayout>

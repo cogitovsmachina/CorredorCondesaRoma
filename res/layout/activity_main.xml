@@ -1,4 +1,4 @@
-<com.google.condesaroma.view.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<mx.fabricaonline.corredorromacondesa.view.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_weight="1" >
@@ -31,4 +31,4 @@
         android:drawableTop="@drawable/icn_video"
         android:text="@string/title_youtube" />
 
-</com.google.condesaroma.view.DashboardLayout>
+</mx.fabricaonline.corredorromacondesa.view.DashboardLayout>

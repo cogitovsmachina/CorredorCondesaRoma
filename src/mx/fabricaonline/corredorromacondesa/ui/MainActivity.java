@@ -1,5 +1,6 @@
-package com.google.condesaroma;
+package mx.fabricaonline.corredorromacondesa.ui;
 
+import mx.fabricaonline.corredorromacondesa.R;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Context;

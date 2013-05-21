@@ -1,7 +1,9 @@
-package com.google.condesaroma.util;
+package mx.fabricaonline.corredorromacondesa.util;
 
 import java.io.InputStream;
 import java.util.ArrayList;
+
+import mx.fabricaonline.corredorromacondesa.view.EventCard;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -9,7 +11,6 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import android.content.Context;
 import android.content.res.AssetManager;
 
-import com.google.condesaroma.view.EventCard;
 
 public class EventParser {
 

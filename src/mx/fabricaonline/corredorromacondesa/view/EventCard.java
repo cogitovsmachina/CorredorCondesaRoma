@@ -1,5 +1,6 @@
-package com.google.condesaroma.view;
+package mx.fabricaonline.corredorromacondesa.view;
 
+import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,7 +8,6 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.google.condesaroma.R;
 
 public class EventCard extends CustomCard implements OnClickListener {
 

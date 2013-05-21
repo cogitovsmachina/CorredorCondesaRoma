@@ -1,4 +1,4 @@
-package com.google.condesaroma.view;
+package mx.fabricaonline.corredorromacondesa.view;
 
 /*
  * Copyright 2011 Google Inc.
