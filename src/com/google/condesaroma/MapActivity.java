@@ -79,6 +79,8 @@ public class MapActivity extends SherlockActivity implements OnClickListener {
 	private void routeMapWithKmlFile(String url) {
 		Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW,
 				Uri.parse("geo:0,0?q=" + url));
+		myIntent.setClassName("com.google.android.apps.maps",
+				"com.google.android.maps.MapsActivity");
 		startActivity(myIntent);
 	}
 }

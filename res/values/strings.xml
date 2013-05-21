@@ -3,7 +3,7 @@
 
     <string name="app_name">CC Roma Condesa</string>
     <string name="action_settings">Compartir</string>
-    <string name="title_youtube">Youtube</string>
+    <string name="title_youtube">Videos</string>
     <string name="title_activity_splash_screen">SplashScreenActivity</string>
     <string name="content_image_description">splash_screen_image</string>
     <string name="title_activity_main">MainActivity</string>

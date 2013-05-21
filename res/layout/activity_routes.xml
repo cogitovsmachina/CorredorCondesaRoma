@@ -9,44 +9,46 @@
     <com.google.condesaroma.view.DashboardLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-        
-          <Button
-        android:id="@+id/cultural_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:drawableTop="@drawable/ic_launcher"
-        android:text="@string/text_cultural_button"
-        android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/gastro_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:drawableTop="@drawable/ic_launcher"
-        android:text="@string/text_gastronomic_button"
-        android:textStyle="bold" />
+        <Button
+            android:id="@+id/cultural_button"
+            style="@style/dashboardbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_main_button"
+            android:drawableTop="@drawable/icn_arteydisenio"
+            android:text="@string/text_cultural_button" />
 
-    <Button
-        android:id="@+id/infa_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:drawableTop="@drawable/ic_launcher"
-        android:text="@string/text_infantile_button"
-        android:textStyle="bold" />
+        <Button
+            android:id="@+id/gastro_button"
+            style="@style/dashboardbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_main_button"
+            android:drawableTop="@drawable/icn_gastronomico"
+            android:text="@string/text_gastronomic_button" />
 
-    <Button
-        android:id="@+id/enviro_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:drawableTop="@drawable/ic_launcher"
-        android:text="@string/text_enviromental_button"
-        android:textStyle="bold" />
+        <Button
+            android:id="@+id/infa_button"
+            style="@style/dashboardbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_main_button"
+            android:drawableTop="@drawable/icn_infantil"
+            android:text="@string/text_infantile_button" />
+
+        <Button
+            android:id="@+id/enviro_button"
+            style="@style/dashboardbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_main_button"
+            android:drawableTop="@drawable/icn_ambiental"
+            android:text="@string/text_enviromental_button" />
     </com.google.condesaroma.view.DashboardLayout>
-
-   
 
 </LinearLayout>

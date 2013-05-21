@@ -42,7 +42,8 @@ public class EventInformationActivity extends SherlockActivity {
 		eventName.setText(cardInformation[0]);
 		eventBroker.setText(cardInformation[3]);
 		eventDescription.setText(cardInformation[7]);
-		eventSchedule.setText( getResources().getString(R.string.event_schedule)+"\n" + cardInformation[6]);
+		eventSchedule.setText(getResources().getString(R.string.event_schedule)
+				+ "\n" + cardInformation[6]);
 		eventLink.setText(cardInformation[4]);
 		Linkify.addLinks(eventLink, Linkify.ALL);
 	}
@@ -53,6 +54,7 @@ public class EventInformationActivity extends SherlockActivity {
 		menuInflater.inflate(R.menu.events, menu);
 		MenuItem item = menu.findItem(R.id.share_event);
 		shareActionProvider = (ShareActionProvider) item.getActionProvider();
+		shareActionProvider.subUiVisibilityChanged(true);
 		shareActionProvider.setShareIntent(setShareIntent());
 		return true;
 
@@ -73,8 +75,11 @@ public class EventInformationActivity extends SherlockActivity {
 	private Intent setShareIntent() {
 		Intent shareIntent = new Intent();
 		shareIntent.setAction(Intent.ACTION_SEND);
-		shareIntent.putExtra(Intent.EXTRA_TEXT, "#CorredorPresenta  \n"
-				+ cardInformation[0] + "\n" + cardInformation[4]+"\n" +cardInformation[6]);
+
+		shareIntent.putExtra(android.content.Intent.EXTRA_TEXT,
+				"#micorredor  \n"
+				+ cardInformation[0] + "\n" + cardInformation[4] + "\n"
+						+ cardInformation[6]);
 		shareIntent.setType("text/*");
 
 		return shareIntent;
