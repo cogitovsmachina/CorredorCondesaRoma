@@ -4,13 +4,13 @@ import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.actionbarsherlock.app.SherlockActivity;
-
-public class MapActivity extends SherlockActivity implements OnClickListener {
+public class MapActivity extends ActionBarActivity implements OnClickListener {
 
 	private static final String[] KML_FILES = {
 			"http://fabricaonline.mx/CorredorCulturalRomaCondesa10.kml",
@@ -44,7 +44,7 @@ public class MapActivity extends SherlockActivity implements OnClickListener {
 
 	@Override
 	public boolean onOptionsItemSelected(
-			com.actionbarsherlock.view.MenuItem item) {
+			MenuItem item) {
 		switch (item.getItemId()) {
 		case android.R.id.home:
 			Intent homeIntent = new Intent(MapActivity.this, MainActivity.class);

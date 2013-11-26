@@ -77,7 +77,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="2dp"
-            android:textColor="@color/abs__primary_text_holo_light"
             android:textStyle="bold"
             tools:ignore="SelectableText" />
 
@@ -86,7 +85,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="@color/abs__primary_text_holo_light"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 

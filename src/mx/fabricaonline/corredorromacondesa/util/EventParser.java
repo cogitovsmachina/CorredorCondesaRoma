@@ -37,7 +37,7 @@ public class EventParser {
 			@Override
 			public void onResponse(JSONArray response) {
 				try {
-					cards = new ArrayList<EventCard>();
+		ArrayList<EventCard> cards = new ArrayList<EventCard>();
 					int sizeArray = response.length();
 					for (int i = 0; i < sizeArray; i++) {
 						JSONObject evento = response.getJSONObject(i);

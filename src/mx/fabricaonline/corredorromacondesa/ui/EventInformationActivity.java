@@ -3,22 +3,21 @@ package mx.fabricaonline.corredorromacondesa.ui;
 import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.text.util.Linkify;
 import android.util.Log;
+import android.view.ActionProvider;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuInflater;
-import com.actionbarsherlock.view.MenuItem;
-import com.actionbarsherlock.widget.ShareActionProvider;
-
-public class EventInformationActivity extends SherlockActivity {
+public class EventInformationActivity extends ActionBarActivity {
 
 	private String[] cardInformation;
 	private TextView eventName, eventSchedule, eventBroker, eventDescription,
 			eventLink;
-	private ShareActionProvider shareActionProvider;
+	private ActionProvider shareActionProvider;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -51,12 +50,14 @@ public class EventInformationActivity extends SherlockActivity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		MenuInflater menuInflater = getSupportMenuInflater();
+		MenuInflater menuInflater = getMenuInflater();
 		menuInflater.inflate(R.menu.events, menu);
 		MenuItem item = menu.findItem(R.id.share_event);
-		shareActionProvider = (ShareActionProvider) item.getActionProvider();
-		shareActionProvider.subUiVisibilityChanged(true);
-		shareActionProvider.setShareIntent(setShareIntent());
+		// shareActionProvider = (ShareActionProvider) item.getActionProvider();
+		// TODO: MAKE SURE HOW TO DO THIS THING
+		// shareActionProvider = item.getActionProvider();
+		// shareActionProvider.subUiVisibilityChanged(true);
+		// shareActionProvider.setShareIntent(setShareIntent());
 		return true;
 
 	}
@@ -78,9 +79,8 @@ public class EventInformationActivity extends SherlockActivity {
 		shareIntent.setAction(Intent.ACTION_SEND);
 
 		shareIntent.putExtra(android.content.Intent.EXTRA_TEXT,
-				"#micorredor  \n"
-				+ cardInformation[0] + "\n" + cardInformation[4] + "\n"
-						+ cardInformation[6]);
+				"#micorredor  \n" + cardInformation[0] + "\n"
+						+ cardInformation[4] + "\n" + cardInformation[6]);
 		shareIntent.setType("text/*");
 
 		return shareIntent;

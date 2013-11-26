@@ -4,13 +4,12 @@ import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.MenuItem;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.MenuItem;
-
-public class PublicationsActivity extends SherlockActivity {
+public class PublicationsActivity extends ActionBarActivity {
 	// private static final String PLUS_URL =
 	// "https://plus.google.com/+ccromacondesa/posts";
 	private static final String PLUS_MOBILE_URL = "https://plus.google.com/app/basic/+ccromacondesa/posts?cbp=1js8p1gj7rgrz&sview=25";

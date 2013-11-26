@@ -7,16 +7,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuInflater;
-import com.actionbarsherlock.view.MenuItem;
-
-public class MainActivity extends SherlockActivity implements OnClickListener {
+public class MainActivity extends ActionBarActivity implements OnClickListener {
 
 	private Button youtubeButton, publicationsButton, routesButton,
 			eventsButton;
@@ -45,7 +44,7 @@ public class MainActivity extends SherlockActivity implements OnClickListener {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		MenuInflater inflater = getSupportMenuInflater();
+		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.main, menu);
 		return true;
 	}

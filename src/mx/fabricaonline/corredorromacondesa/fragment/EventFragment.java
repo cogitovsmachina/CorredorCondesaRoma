@@ -10,16 +10,16 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.actionbarsherlock.app.SherlockFragment;
 import com.fima.cardsui.objects.Card;
 import com.fima.cardsui.objects.Card.OnClickCardListener;
 import com.fima.cardsui.views.CardUI;
 
-public class EventFragment extends SherlockFragment {
+public class EventFragment extends Fragment {
 
 	private CardUI cardUI;
 	private AsyncEventParser asyncEventParser;

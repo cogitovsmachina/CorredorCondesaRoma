@@ -4,8 +4,9 @@ import mx.fabricaonline.corredorromacondesa.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 
-public class SplashScreenActivity extends Activity {
+public class SplashScreenActivity extends ActionBarActivity {
 
 	private boolean actived = true;
 	private int splashTime = 950;
