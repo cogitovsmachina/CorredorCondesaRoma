@@ -5,12 +5,15 @@ import java.util.ArrayList;
 
 import mx.fabricaonline.corredorromacondesa.view.EventCard;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import android.content.Context;
 import android.content.res.AssetManager;
-
+import com.android.volley.*;
+import com.android.volley.toolbox.JsonArrayRequest;
 
 public class EventParser {
 
@@ -24,6 +27,44 @@ public class EventParser {
 			e.printStackTrace();
 		}
 
+	}
+	
+	public ArrayList<EventCard> jsonParserEvent(){
+		final ArrayList<EventCard> cards = null;
+		String uri = "https://script.google.com/macros/s/AKfycbwiR0UCk_w6YlyJnOGCI53SqTsUWHJZ12GeJIF6MAlDUmg-Y062/exec";
+		JsonArrayRequest jsonAR = new JsonArrayRequest(uri, new Response.Listener<JSONArray>() {
+
+			@Override
+			public void onResponse(JSONArray response) {
+				try {
+					cards = new ArrayList<EventCard>();
+					int sizeArray = response.length();
+					for (int i = 0; i < sizeArray; i++) {
+						JSONObject evento = response.getJSONObject(i);
+						EventCard ec = new EventCard();
+						ec.setName(evento.optString(""));
+						ec.setBroker(evento.optString(""));
+						ec.setColony(evento.optString(""));
+						ec.setDescription(evento.optString(""));
+//						ec.setId(evento.optString(""));
+						ec.setLink(evento.optString(""));
+						ec.setPhone(evento.optString(""));
+						ec.setSchedule(evento.optString(""));
+						cards.add(ec);
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}, new Response.ErrorListener() {
+
+			@Override
+			public void onErrorResponse(VolleyError error) {
+				error.printStackTrace();
+			}
+		});
+		
+		return cards;
 	}
 
 	public ArrayList<EventCard> xmlParserEvent() {
