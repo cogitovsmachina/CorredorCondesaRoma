@@ -8,7 +8,7 @@ import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-
+import android.view.View;
 import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Intent;
 import android.location.Location;
@@ -28,15 +28,13 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_routes);
+		setContentView(R.layout.activity_map);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-		// TODO: SETUP A MAP
 		map = (SupportMapFragment) getSupportFragmentManager()
 				.findFragmentById(R.id.map);
 		if (map.getMap() != null) {
 			map.getMap().setMyLocationEnabled(true);
 		}
-
 		locationClient = new LocationClient(this, this, this);
 
 	}
@@ -61,8 +59,6 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 
 	@Override
 	public void onConnectionFailed(ConnectionResult arg0) {
-		// TODO Auto-generated method stub
-
 	}
 
 	@Override
@@ -99,5 +95,19 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	protected void onStart() {
 		locationClient.connect();
 		super.onStart();
+	}
+
+	public void doLevelOne(View view) {
+		//TODO: Validate if is checked, do something
+
+		
+		//TODO: Else, do another thing
+		
+	}
+
+	public void doLevelTwo(View view) {
+		// gMap.clear();
+		// drawingRooms();
+		// drawSponsorMakers();
 	}
 }
