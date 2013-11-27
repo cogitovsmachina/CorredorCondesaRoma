@@ -29,6 +29,7 @@ public class EventParser {
 
 	}
 	
+	/*
 	public ArrayList<EventCard> jsonParserEvent(){
 		final ArrayList<EventCard> cards = null;
 		String uri = "https://script.google.com/macros/s/AKfycbwiR0UCk_w6YlyJnOGCI53SqTsUWHJZ12GeJIF6MAlDUmg-Y062/exec";
@@ -66,7 +67,7 @@ public class EventParser {
 		
 		return cards;
 	}
-
+*/
 	public ArrayList<EventCard> xmlParserEvent() {
 
 		XmlPullParserFactory factoryParser = null;
@@ -132,11 +133,16 @@ public class EventParser {
 				parser.require(XmlPullParser.START_TAG, null, "descripcion");
 				String description = parser.nextText();
 				parser.require(XmlPullParser.END_TAG, null, "descripcion");
+				
+				parser.nextTag();
+				parser.require(XmlPullParser.START_TAG, null, "categoria");
+				String category = parser.nextText();
+				parser.require(XmlPullParser.END_TAG, null, "categoria");
 
 				parser.nextTag();
 				parser.require(XmlPullParser.END_TAG, null, "Evento");
 				eventCard = new EventCard(id, name, colony, address, broker,
-						link, phone, schedule, description);
+						link, phone, schedule, description, category);
 				cards.add(eventCard);
 			}
 			parser.require(XmlPullParser.END_TAG, null, "Eventos");

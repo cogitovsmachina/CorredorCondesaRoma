@@ -15,6 +15,7 @@ public abstract class CustomCard extends Card {
 	private String phone;
 	private String schedule;
 	private String description;
+	private String category;
 
 	public CustomCard() {
 	}
@@ -32,6 +33,22 @@ public abstract class CustomCard extends Card {
 		this.phone = phone;
 		this.schedule = schedule;
 		this.description = description;
+	}
+	
+	public CustomCard(int id, String name, String colony, String address,
+			String broker, String link, String phone, String schedule,
+			String description, String category) {
+		super(name, description, R.drawable.ic_launcher);
+		this.id = id;
+		this.name = name;
+		this.colony = colony;
+		this.address = address;
+		this.broker = broker;
+		this.link = link;
+		this.phone = phone;
+		this.schedule = schedule;
+		this.description = description;
+		this.setCategory(category);
 	}
 
 	public int getId() {
@@ -104,5 +121,13 @@ public abstract class CustomCard extends Card {
 
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
 	}
 }
