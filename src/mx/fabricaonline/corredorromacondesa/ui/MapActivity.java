@@ -7,7 +7,10 @@ import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 import android.view.View;
 import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Intent;
@@ -97,17 +100,33 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 		super.onStart();
 	}
 
-	public void doLevelOne(View view) {
-		//TODO: Validate if is checked, do something
-
-		
-		//TODO: Else, do another thing
-		
+	public void displayEnvironmentMarkers(View view) {
+		// TODO: Validate if is checked, do something
+		map.getMap()
+				.addMarker(
+						new MarkerOptions()
+								.position(new LatLng(19.414595, -99.158935))
+								.title("SAK, Taller de integración plástica")
+								.icon(BitmapDescriptorFactory
+										.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+		// TODO: Else, do another thing
 	}
 
-	public void doLevelTwo(View view) {
-		// gMap.clear();
+	public void displayArtMarkers(View view) {
+		map.getMap().clear();
+	}
+
+	public void displayEventsMarkers(View view) {
+		map.getMap().clear();
+	}
+
+	public void displayFoodMarkers(View view) {
+		map.getMap().clear();
 		// drawingRooms();
-		// drawSponsorMakers();
 	}
+
+	public void displayKidsMarkers(View view) {
+		map.getMap().clear();
+	}
+
 }

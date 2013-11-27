@@ -11,33 +11,56 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    
-    
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginRight="14dp"
-        android:background="#95ffffff"
-        android:onClick="doLevelTwo"
-        android:shadowColor="@android:color/black"
-        android:text="otro" />
 
-    <Button
-        android:id="@+id/button2"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignRight="@+id/button3"
-        android:layout_marginBottom="5dp"
-        android:background="#95ffffff"
-        android:onClick="doLevelOne"
-        android:shadowColor="@android:color/black"
-        android:text="uno" />
-    
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingRight="5dp"
+        android:shadowColor="@android:color/black" >
+
+        <CheckBox
+            android:id="@+id/environment_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#95ffffff"
+            android:onClick="displayEnvironmentMarkers"
+            android:shadowColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/art_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:background="#95ffffff"
+            android:onClick="displayArtMarkers" />
+
+        <CheckBox
+            android:id="@+id/art_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:background="#95ffffff"
+            android:onClick="displayArtMarkers" />
+
+        <CheckBox
+            android:id="@+id/art_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:background="#95ffffff"
+            android:onClick="displayArtMarkers" />
+
+        <CheckBox
+            android:id="@+id/art_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:background="#95ffffff"
+            android:onClick="displayArtMarkers" />
+    </LinearLayout>
 
 </RelativeLayout>
