@@ -105,7 +105,12 @@ public class EventFragment extends Fragment {
 
 		@Override
 		protected ArrayList<EventCard> doInBackground(String... params) {
+<<<<<<< HEAD
 			EventParser parser = new EventParser(getActivity(), params[0]);	
+=======
+			EventParser parser = new EventParser(getActivity(), params[0]);
+//			return parser.jsonParserEvent();
+>>>>>>> 1e3c6bfcdbaca8b2863badb94e804ea65e7063cf
 			return parser.xmlParserEvent();
 		}
 

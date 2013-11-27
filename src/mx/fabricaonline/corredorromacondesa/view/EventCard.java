@@ -21,6 +21,13 @@ public class EventCard extends CustomCard implements OnClickListener {
 				description);
 	}
 
+	public EventCard(int id, String name, String colony, String address,
+			String broker, String link, String phone, String schedule,
+			String description, String category) {
+		super(id, name, colony, address, broker, link, phone, schedule,
+				description, category);
+	}
+	
 	@Override
 	public View getCardContent(Context context) {
 		View container = LayoutInflater.from(context).inflate(
