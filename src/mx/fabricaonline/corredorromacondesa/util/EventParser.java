@@ -24,6 +24,52 @@ public class EventParser {
 		}
 
 	}
+<<<<<<< HEAD
+	
+	/*public ArrayList<EventCard> jsonParserEvent(){
+=======
+	/*
+	public ArrayList<EventCard> jsonParserEvent(){
+>>>>>>> 1e3c6bfcdbaca8b2863badb94e804ea65e7063cf
+		final ArrayList<EventCard> cards = null;
+		String uri = "https://script.google.com/macros/s/AKfycbwiR0UCk_w6YlyJnOGCI53SqTsUWHJZ12GeJIF6MAlDUmg-Y062/exec";
+		JsonArrayRequest jsonAR = new JsonArrayRequest(uri, new Response.Listener<JSONArray>() {
+
+			@Override
+			public void onResponse(JSONArray response) {
+				try {
+		ArrayList<EventCard> cards = new ArrayList<EventCard>();
+					int sizeArray = response.length();
+					for (int i = 0; i < sizeArray; i++) {
+						JSONObject evento = response.getJSONObject(i);
+						EventCard ec = new EventCard();
+						ec.setName(evento.optString(""));
+						ec.setBroker(evento.optString(""));
+						ec.setColony(evento.optString(""));
+						ec.setDescription(evento.optString(""));
+//						ec.setId(evento.optString(""));
+						ec.setLink(evento.optString(""));
+						ec.setPhone(evento.optString(""));
+						ec.setSchedule(evento.optString(""));
+						cards.add(ec);
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}, new Response.ErrorListener() {
+
+			@Override
+			public void onErrorResponse(VolleyError error) {
+				error.printStackTrace();
+			}
+		});
+		
+		return cards;
+
+	}*/
+	
+=======
 
 	/*
 	 * public ArrayList<EventCard> jsonParserEvent(){
@@ -53,6 +99,7 @@ public class EventParser {
 	 * }
 	 */
 
+>>>>>>> 4cdbe24a243e83d0bc8343847829f874e7f55d60
 	public ArrayList<EventCard> xmlParserEvent() {
 
 		XmlPullParserFactory factoryParser = null;
