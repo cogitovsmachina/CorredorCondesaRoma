@@ -19,9 +19,9 @@ public class FragmentPager extends FragmentPagerAdapter {
 
 		switch (arg0) {
 		case 0:
-			return EventFragment.newInstance("programacionCC.xml");
+			return EventFragment.newInstance("Condesa.xml");
 		case 1:
-			return EventFragment.newInstance("programacionCR.xml");
+			return EventFragment.newInstance("Roma.xml");
 		default:
 			return null;
 		}

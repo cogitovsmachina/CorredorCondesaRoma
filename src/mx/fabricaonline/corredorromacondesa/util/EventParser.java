@@ -5,15 +5,11 @@ import java.util.ArrayList;
 
 import mx.fabricaonline.corredorromacondesa.view.EventCard;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 import android.content.Context;
 import android.content.res.AssetManager;
-import com.android.volley.*;
-import com.android.volley.toolbox.JsonArrayRequest;
 
 public class EventParser {
 
@@ -29,7 +25,7 @@ public class EventParser {
 
 	}
 	
-	public ArrayList<EventCard> jsonParserEvent(){
+	/*public ArrayList<EventCard> jsonParserEvent(){
 		final ArrayList<EventCard> cards = null;
 		String uri = "https://script.google.com/macros/s/AKfycbwiR0UCk_w6YlyJnOGCI53SqTsUWHJZ12GeJIF6MAlDUmg-Y062/exec";
 		JsonArrayRequest jsonAR = new JsonArrayRequest(uri, new Response.Listener<JSONArray>() {
@@ -65,7 +61,7 @@ public class EventParser {
 		});
 		
 		return cards;
-	}
+	}*/
 
 	public ArrayList<EventCard> xmlParserEvent() {
 
