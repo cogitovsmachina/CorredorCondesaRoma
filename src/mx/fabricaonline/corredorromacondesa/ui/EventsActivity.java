@@ -4,29 +4,67 @@ import mx.fabricaonline.corredorromacondesa.R;
 import mx.fabricaonline.corredorromacondesa.adapter.FragmentPager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBar.TabListener;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.ActionBar.Tab;
 import android.view.MenuItem;
 
 import com.viewpagerindicator.TitlePageIndicator;
 import com.viewpagerindicator.TitlePageIndicator.IndicatorStyle;
 
 public class EventsActivity extends ActionBarActivity {
+	
+	private ViewPager pager;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_events);
-
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		
+		ActionBar actionBar =  getSupportActionBar();
+		
+		actionBar.setDisplayHomeAsUpEnabled(true);
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		FragmentPager fragmentPager = new FragmentPager(
 				getSupportFragmentManager());
-		ViewPager pager = (ViewPager) findViewById(R.id.pager);
+		pager = (ViewPager) findViewById(R.id.pager);
 		pager.setAdapter(fragmentPager);
-
-		TitlePageIndicator indicator = (TitlePageIndicator) findViewById(R.id.indicator);
-		indicator.setViewPager(pager);
-		setCustomStyleIndicator(indicator);
+		
+		ActionBar.TabListener tabListener = new TabListener() {
+			
+			@Override
+			public void onTabUnselected(Tab arg0, FragmentTransaction arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void onTabSelected(Tab tab, FragmentTransaction arg1) {
+				pager.setCurrentItem(tab.getPosition());
+				
+			}
+			
+			@Override
+			public void onTabReselected(Tab arg0, FragmentTransaction arg1) {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+		
+		actionBar.addTab(actionBar.newTab().setText("Condesa").setTabListener(tabListener));
+		actionBar.addTab(actionBar.newTab().setText("Roma").setTabListener(tabListener));
+		
+		pager.setOnPageChangeListener(
+	            new ViewPager.SimpleOnPageChangeListener() {
+	                @Override
+	                public void onPageSelected(int position) {
+	                    getSupportActionBar().setSelectedNavigationItem(position);
+	                }
+	            });
 	}
 
 	@Override

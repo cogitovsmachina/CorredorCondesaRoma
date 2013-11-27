@@ -105,9 +105,9 @@ public class EventFragment extends Fragment {
 
 		@Override
 		protected ArrayList<EventCard> doInBackground(String... params) {
-			EventParser parser = new EventParser(getActivity(), params[0]);
-			return parser.jsonParserEvent();
-//			return parser.xmlParserEvent();
+			EventParser parser = new EventParser(getActivity(), params[0]);	
+
+			return parser.xmlParserEvent();
 		}
 
 		@Override
@@ -124,7 +124,6 @@ public class EventFragment extends Fragment {
 				});
 			}
 		}
-
 	}
 
 	private void setCardInformation(Card card) {
