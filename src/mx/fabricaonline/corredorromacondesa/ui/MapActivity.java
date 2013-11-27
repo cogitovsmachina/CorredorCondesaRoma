@@ -1,87 +1,103 @@
 package mx.fabricaonline.corredorromacondesa.ui;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesClient;
+import com.google.android.gms.location.LocationClient;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+
 import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Intent;
-import android.net.Uri;
+import android.location.Location;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 
-public class MapActivity extends ActionBarActivity implements OnClickListener {
+public class MapActivity extends ActionBarActivity implements LocationListener,
+		GooglePlayServicesClient.ConnectionCallbacks,
+		GooglePlayServicesClient.OnConnectionFailedListener {
 
-	private static final String[] KML_FILES = {
-			"http://fabricaonline.mx/CorredorCulturalRomaCondesa10.kml",
-			"http://fabricaonline.mx/CorredorGastronmicoRomaCondesa.kml",
-			"http://fabricaonline.mx/CorredorInfantilRomaCondesa10.kml",
-			"http://fabricaonline.mx/CorredorAmbientalRomaCondesa.kml" };
-
-	private Button culturalButton, gastroButton, infanButton, envirButton;
+	private SupportMapFragment map;
+	private LocationClient locationClient;
+	private double lat;
+	private double lon;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_routes);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		// TODO: SETUP A MAP
+		map = (SupportMapFragment) getSupportFragmentManager()
+				.findFragmentById(R.id.map);
+		if (map.getMap() != null) {
+			map.getMap().setMyLocationEnabled(true);
+		}
 
-		culturalButton = (Button) findViewById(R.id.cultural_button);
-		gastroButton = (Button) findViewById(R.id.gastro_button);
-		infanButton = (Button) findViewById(R.id.infa_button);
-		envirButton = (Button) findViewById(R.id.enviro_button);
+		locationClient = new LocationClient(this, this, this);
 
 	}
 
 	@Override
 	protected void onResume() {
 		super.onResume();
-		culturalButton.setOnClickListener(MapActivity.this);
-		gastroButton.setOnClickListener(MapActivity.this);
-		infanButton.setOnClickListener(MapActivity.this);
-		envirButton.setOnClickListener(MapActivity.this);
 	}
 
 	@Override
-	public boolean onOptionsItemSelected(
-			MenuItem item) {
+	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case android.R.id.home:
 			Intent homeIntent = new Intent(MapActivity.this, MainActivity.class);
 			homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			startActivity(homeIntent);
 			return true;
-
 		default:
 			return false;
 		}
 	}
 
 	@Override
-	public void onClick(View v) {
-		switch (v.getId()) {
-		case R.id.cultural_button:
-			routeMapWithKmlFile(KML_FILES[0]);
-			break;
-		case R.id.gastro_button:
-			routeMapWithKmlFile(KML_FILES[1]);
-			break;
-		case R.id.infa_button:
-			routeMapWithKmlFile(KML_FILES[2]);
-			break;
-		case R.id.enviro_button:
-			routeMapWithKmlFile(KML_FILES[3]);
-			break;
-		default:
-			break;
-		}
+	public void onConnectionFailed(ConnectionResult arg0) {
+		// TODO Auto-generated method stub
+
 	}
 
-	private void routeMapWithKmlFile(String url) {
-		Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW,
-				Uri.parse("geo:0,0?q=" + url));
-		myIntent.setClassName("com.google.android.apps.maps",
-				"com.google.android.maps.MapsActivity");
-		startActivity(myIntent);
+	@Override
+	public void onConnected(Bundle bundle) {
+		Location currentLocation = locationClient.getLastLocation();
+		lat = currentLocation.getLatitude();
+		lon = currentLocation.getLongitude();
+
+		LatLng latLng = new LatLng(lat, lon);
+		CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng,
+				15);
+		// map.animateCamera(cameraUpdate);
+		map.getMap().moveCamera(cameraUpdate);
+	}
+
+	@Override
+	public void onDisconnected() {
+
+	}
+
+	@Override
+	public void onLocationChanged(Location location) {
+		lat = location.getLatitude();
+		lon = location.getLongitude();
+	}
+
+	@Override
+	protected void onStop() {
+		locationClient.disconnect();
+		super.onStop();
+	}
+
+	@Override
+	protected void onStart() {
+		locationClient.connect();
+		super.onStart();
 	}
 }
