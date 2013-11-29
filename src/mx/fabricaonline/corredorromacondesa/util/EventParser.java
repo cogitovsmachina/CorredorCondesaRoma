@@ -64,8 +64,6 @@ public class EventParser {
 		return cards;
 
 	}*/
-	
-
 	/*
 	 * public ArrayList<EventCard> jsonParserEvent(){
 	 * 

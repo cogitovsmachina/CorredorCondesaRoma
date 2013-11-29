@@ -1,14 +1,14 @@
 {
   "Infantil": [
-     {
-      "lat": "19.418435",
-      "name": "Bubos",
-      "lon": "-99.163758"
+    {
+      "latitude": "19.419002",
+      "name": "Cortomanía",
+      "longitude": "-99.158546"
     },
     {
-        "lat":"12.21",
-        "name":"wee",
-        "lon":"123.1"
+      "latitude": "19.418435",
+      "name": "Bubos",
+      "longitude": "-99.163758"
     }
-]
+  ]
 }

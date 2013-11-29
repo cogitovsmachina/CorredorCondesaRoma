@@ -1,7 +1,6 @@
 package mx.fabricaonline.corredorromacondesa.adapter;
 
 import mx.fabricaonline.corredorromacondesa.fragment.EventFragment;
-import android.content.res.AssetManager;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;

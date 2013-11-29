@@ -2,8 +2,6 @@ package mx.fabricaonline.corredorromacondesa.ui;
 
 import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Intent;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
@@ -57,7 +55,6 @@ public class EventInformationActivity extends ActionBarActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		MenuInflater menuInflater = getMenuInflater();
 		menuInflater.inflate(R.menu.events, menu);
-		MenuItem item = menu.findItem(R.id.share_event);
 		// shareActionProvider = (ShareActionProvider) item.getActionProvider();
 		// TODO: MAKE SURE HOW TO DO THIS THING
 		// shareActionProvider = item.getActionProvider();
@@ -73,13 +70,15 @@ public class EventInformationActivity extends ActionBarActivity {
 		case android.R.id.home:
 			this.onBackPressed();
 			return true;
-
+		case R.id.share_event:
+			setShareIntent();
+			return true;
 		default:
 			return false;
 		}
 	}
 
-	private Intent setShareIntent() {
+	private void setShareIntent() {
 		Intent shareIntent = new Intent();
 		shareIntent.setAction(Intent.ACTION_SEND);
 
@@ -88,7 +87,7 @@ public class EventInformationActivity extends ActionBarActivity {
 						+ cardInformation[4] + "\n" + cardInformation[6]);
 		shareIntent.setType("text/*");
 
-		return shareIntent;
+		startActivity(shareIntent);
 	}
 
 }

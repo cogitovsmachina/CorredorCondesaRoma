@@ -187,8 +187,8 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 
 			for (int i = 0; i < kidsArray.length(); i++) {
 				String name = kidsArray.getJSONObject(i).getString("name");
-				String latitude = kidsArray.getJSONObject(i).getString("lat");
-				String longitude = kidsArray.getJSONObject(i).getString("lon");
+				String latitude = kidsArray.getJSONObject(i).getString("latitude");
+				String longitude = kidsArray.getJSONObject(i).getString("longitude");
 
 				drawMarkers(name, latitude, longitude);
 			}
