@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -26,6 +27,11 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		ActionBar actionBar = getSupportActionBar();
+		actionBar.setIcon(R.drawable.logo_navbar);
+		actionBar.setTitle("");
+		
 		youtubeButton = (Button) findViewById(R.id.youtube_button);
 		publicationsButton = (Button) findViewById(R.id.publication_button);
 		routesButton = (Button) findViewById(R.id.route_button);

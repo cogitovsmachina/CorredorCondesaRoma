@@ -6,15 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBar.TabListener;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar.Tab;
 import android.view.MenuItem;
-
-import com.viewpagerindicator.TitlePageIndicator;
-import com.viewpagerindicator.TitlePageIndicator.IndicatorStyle;
 
 public class EventsActivity extends ActionBarActivity {
 	
@@ -26,7 +22,7 @@ public class EventsActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_events);
 		
 		ActionBar actionBar =  getSupportActionBar();
-		
+		getSupportActionBar().setIcon(R.drawable.logo11_navbar_);
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		FragmentPager fragmentPager = new FragmentPager(
@@ -79,17 +75,4 @@ public class EventsActivity extends ActionBarActivity {
 			return false;
 		}
 	}
-
-	private void setCustomStyleIndicator(TitlePageIndicator indicator) {
-		float density = getResources().getDisplayMetrics().density;
-		indicator.setBackgroundColor(0x41FFFB73);
-		indicator.setFooterColor(0xFFFFFF);
-		indicator.setFooterLineHeight(2 * density); // 1dp
-		indicator.setFooterIndicatorHeight(3 * density); // 3dp
-		indicator.setFooterIndicatorStyle(IndicatorStyle.Underline);
-		indicator.setTextColor(0xFFFFFFFF);
-		indicator.setSelectedColor(0xFF000000);
-		indicator.setSelectedBold(true);
-	}
-
 }

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 
@@ -33,13 +32,13 @@ public class EventCard extends CustomCard implements OnClickListener {
 		View container = LayoutInflater.from(context).inflate(
 				R.layout.layout_event_card, null);
 		((TextView) container.findViewById(R.id.title)).setText(title);
-		((TextView) container.findViewById(R.id.broker)).setText(getBroker());
+		//((TextView) container.findViewById(R.id.broker)).setText(getBroker());
 		((TextView) container.findViewById(R.id.card_informacion))
 				.setText("Tel: " + getPhone());
 		
 		((TextView) container.findViewById(R.id.address)).setText(getAddress());
-		((ImageView) container.findViewById(R.id.imageView1))
-				.setImageResource(R.drawable.logochico);
+		/*((ImageView) container.findViewById(R.id.imageView1))
+				.setImageResource(R.drawable.logochico);*/
 
 		container.setOnClickListener(this);
 

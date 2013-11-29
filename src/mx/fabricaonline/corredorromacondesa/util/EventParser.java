@@ -24,8 +24,6 @@ public class EventParser {
 		}
 
 	}
-<<<<<<< HEAD
-	
 	/*public ArrayList<EventCard> jsonParserEvent(){
 =======
 	/*
@@ -69,8 +67,6 @@ public class EventParser {
 
 	}*/
 	
-=======
-
 	/*
 	 * public ArrayList<EventCard> jsonParserEvent(){
 	 * 
@@ -99,7 +95,6 @@ public class EventParser {
 	 * }
 	 */
 
->>>>>>> 4cdbe24a243e83d0bc8343847829f874e7f55d60
 	public ArrayList<EventCard> xmlParserEvent() {
 
 		XmlPullParserFactory factoryParser = null;
