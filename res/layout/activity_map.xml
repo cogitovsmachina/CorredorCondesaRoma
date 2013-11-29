@@ -39,28 +39,28 @@
             android:onClick="displayArtMarkers" />
 
         <CheckBox
-            android:id="@+id/art_checkbox"
+            android:id="@+id/events_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="14dp"
             android:background="#95ffffff"
-            android:onClick="displayArtMarkers" />
+            android:onClick="displayEventsMarkers" />
 
         <CheckBox
-            android:id="@+id/art_checkbox"
+            android:id="@+id/food_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="14dp"
             android:background="#95ffffff"
-            android:onClick="displayArtMarkers" />
+            android:onClick="displayFoodMarkers" />
 
         <CheckBox
-            android:id="@+id/art_checkbox"
+            android:id="@+id/kids_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="14dp"
             android:background="#95ffffff"
-            android:onClick="displayArtMarkers" />
+            android:onClick="displayKidsMarkers" />
     </LinearLayout>
 
 </RelativeLayout>
