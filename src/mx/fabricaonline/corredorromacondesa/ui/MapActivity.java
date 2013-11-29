@@ -3,11 +3,20 @@ package mx.fabricaonline.corredorromacondesa.ui;
 import java.io.IOException;
 import java.io.InputStream;
 
+import mx.fabricaonline.corredorromacondesa.R;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.android.volley.toolbox.JsonObjectRequest;
+import android.content.Intent;
+import android.location.Location;
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.location.LocationClient;
@@ -19,18 +28,6 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import android.util.Log;
-import android.view.View;
-import mx.fabricaonline.corredorromacondesa.R;
-import android.content.Context;
-import android.content.Intent;
-import android.content.res.AssetManager;
-import android.location.Location;
-import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.view.MenuItem;
-import android.widget.Toast;
-
 public class MapActivity extends ActionBarActivity implements LocationListener,
 		GooglePlayServicesClient.ConnectionCallbacks,
 		GooglePlayServicesClient.OnConnectionFailedListener {
@@ -39,8 +36,8 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	private LocationClient locationClient;
 	private double lat;
 	private double lon;
-	private JSONArray parkingPlaces = new JSONArray();
 	private InputStream stream;
+	private JSONArray kidsArray;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -136,9 +133,9 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 
 			for (int i = 1; i < kids.length(); i++) {
 				// Obtain data from kids object
-//				String name = kids.getJSONObject(""+i);
-				JSONObject name = kids.getJSONObject(""+i);
-				
+				// String name = kids.getJSONObject(""+i);
+				JSONObject name = kids.getJSONObject("" + i);
+
 				Toast.makeText(this, "" + name, 1000).show();
 
 				// String title = parkingPlaces.getJSONObject(
@@ -174,7 +171,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	// }
 
 	public void displayEventsMarkers(View view) {
-		map.getMap().clear();
+
 	}
 
 	public void displayFoodMarkers(View view) {
@@ -183,7 +180,32 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	}
 
 	public void displayKidsMarkers(View view) {
-		map.getMap().clear();
+		String jsonKids = getTextFromAssets("infantil.txt");
+		try {
+			JSONObject kids = new JSONObject(jsonKids);
+			kidsArray = kids.getJSONArray("Infantil");
+
+			for (int i = 0; i < kidsArray.length(); i++) {
+				String name = kidsArray.getJSONObject(i).getString("name");
+				String latitude = kidsArray.getJSONObject(i).getString("lat");
+				String longitude = kidsArray.getJSONObject(i).getString("lon");
+
+				drawMarkers(name, latitude, longitude);
+			}
+
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	private void drawMarkers(String name, String latitude, String longitude) {
+
+		LatLng position = new LatLng(Double.parseDouble(latitude),
+				Double.parseDouble(longitude));
+		map.getMap().addMarker(
+				new MarkerOptions().position(position).title(name));
+
 	}
 
 	private String getTextFromAssets(String assetName) {

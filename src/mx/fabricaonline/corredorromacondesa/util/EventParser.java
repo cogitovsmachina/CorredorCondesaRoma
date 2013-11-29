@@ -24,12 +24,9 @@ public class EventParser {
 		}
 
 	}
-<<<<<<< HEAD
+
 	/*public ArrayList<EventCard> jsonParserEvent(){
-=======
-	/*
-	public ArrayList<EventCard> jsonParserEvent(){
->>>>>>> 1e3c6bfcdbaca8b2863badb94e804ea65e7063cf
+
 		final ArrayList<EventCard> cards = null;
 		String uri = "https://script.google.com/macros/s/AKfycbwiR0UCk_w6YlyJnOGCI53SqTsUWHJZ12GeJIF6MAlDUmg-Y062/exec";
 		JsonArrayRequest jsonAR = new JsonArrayRequest(uri, new Response.Listener<JSONArray>() {
@@ -68,9 +65,7 @@ public class EventParser {
 
 	}*/
 	
-=======
 
->>>>>>> 2ea1d54be27a8caecd62493047985081992063e5
 	/*
 	 * public ArrayList<EventCard> jsonParserEvent(){
 	 * 
