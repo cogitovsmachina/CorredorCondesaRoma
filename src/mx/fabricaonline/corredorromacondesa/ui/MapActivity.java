@@ -4,7 +4,10 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.location.LocationClient;
@@ -16,6 +19,7 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import android.util.Log;
 import android.view.View;
 import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Context;
@@ -123,9 +127,46 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	}
 
 	public void displayArtMarkers(View view) {
-		// TODO: IMPLEMENT SAME FUNCTIONALITY FROM PARKINGFINDER:
-		String json = getTextFromAssets("locations.json");
+		String jsonText = getTextFromAssets("locationsByCategory.json");
 		// TODO: Parse JSON data
+		try {
+			JSONObject data = new JSONObject(jsonText);
+			JSONObject kids = data.getJSONObject("Infantil");
+
+			for (int i = 1; i < kids.length(); i++) {
+				// Obtain data from kids object
+//				String name = kids.getJSONObject(""+i);
+				JSONObject name = kids.getJSONObject(""+i);
+				
+				Toast.makeText(this, "" + name, 1000).show();
+
+				// String title = parkingPlaces.getJSONObject(
+				// i).getString("name");
+			}
+			// Toast.makeText(this, "" + data.length(),
+			// Toast.LENGTH_SHORT).show();
+			// JSONObject artEvents = data.getJSONObject("art_route");
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+
+		// parkingPlaces = parkingSpots
+		// .getJSONArray("results");
+		// for (int i = 0; i < parkingPlaces.length(); i++) {
+		// String title = parkingPlaces.getJSONObject(
+		// i).getString("name");
+		// String lat = parkingPlaces.getJSONObject(i)
+		// .getJSONObject("geometry")
+		// .getJSONObject("location")
+		// .getString("lat");
+		// String lon = parkingPlaces.getJSONObject(i)
+		// .getJSONObject("geometry")
+		// .getJSONObject("location")
+		// .getString("lng");
+		//
+		// drawingMarkers(title, lat, lon);
+		// }
+
 	}
 
 	// map.getMap().clear();
