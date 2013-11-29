@@ -38,6 +38,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	private double lon;
 	private InputStream stream;
 	private JSONArray kidsArray;
+	private JSONArray environmentArray;		
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -113,15 +114,24 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	}
 
 	public void displayEnvironmentMarkers(View view) {
-		// TODO: Validate if is checked, do something
-		map.getMap()
-				.addMarker(
-						new MarkerOptions()
-								.position(new LatLng(19.414595, -99.158935))
-								.title("SAK, Taller de integración plástica")
-								.icon(BitmapDescriptorFactory
-										.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
-		// TODO: Else, do another thing
+
+		String jsonEnvironment = getTextFromAssets("ambiental.txt");
+		try {
+			JSONObject environment = new JSONObject(jsonEnvironment);
+			environmentArray = environment.getJSONArray("Ambiental");
+
+			for (int i = 0; i < environmentArray.length(); i++) {
+				String name = environmentArray.getJSONObject(i).getString("name");
+				String latitude = environmentArray.getJSONObject(i).getString("latitude");
+				String longitude = environmentArray.getJSONObject(i).getString("longitude");
+
+				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_GREEN);
+			}
+
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		
 	}
 
 	public void displayArtMarkers(View view) {
@@ -148,27 +158,10 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 			e.printStackTrace();
 		}
 
-		// parkingPlaces = parkingSpots
-		// .getJSONArray("results");
-		// for (int i = 0; i < parkingPlaces.length(); i++) {
-		// String title = parkingPlaces.getJSONObject(
-		// i).getString("name");
-		// String lat = parkingPlaces.getJSONObject(i)
-		// .getJSONObject("geometry")
-		// .getJSONObject("location")
-		// .getString("lat");
-		// String lon = parkingPlaces.getJSONObject(i)
-		// .getJSONObject("geometry")
-		// .getJSONObject("location")
-		// .getString("lng");
-		//
-		// drawingMarkers(title, lat, lon);
-		// }
+
 
 	}
 
-	// map.getMap().clear();
-	// }
 
 	public void displayEventsMarkers(View view) {
 
@@ -190,7 +183,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 				String latitude = kidsArray.getJSONObject(i).getString("latitude");
 				String longitude = kidsArray.getJSONObject(i).getString("longitude");
 
-				drawMarkers(name, latitude, longitude);
+				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_CYAN);
 			}
 
 		} catch (JSONException e) {
@@ -199,13 +192,19 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 
 	}
 
-	private void drawMarkers(String name, String latitude, String longitude) {
+	private void drawMarkers(String name, String latitude, String longitude, float color) {
 
 		LatLng position = new LatLng(Double.parseDouble(latitude),
 				Double.parseDouble(longitude));
 		map.getMap().addMarker(
-				new MarkerOptions().position(position).title(name));
+				new MarkerOptions().position(position).title(name).icon(BitmapDescriptorFactory
+						.defaultMarker(color)));
+						
+						
+						
+						
 
+		
 	}
 
 	private String getTextFromAssets(String assetName) {

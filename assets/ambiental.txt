@@ -1,0 +1,14 @@
+{
+  "Ambiental": [
+    {
+      "latitude": "19.421117",
+      "name": "Mercado el 100",
+      "longitude": "-99.160464"
+    },
+    {
+      "latitude": "19.4120687",
+      "name": "Cuauhtémoc + Verde. Conciencia ambiental, Delegación Cuauhtémoc",
+      "longitude": "-99.16948730000001"
+    }
+  ]
+}
