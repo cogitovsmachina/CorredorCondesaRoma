@@ -38,7 +38,9 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	private double lon;
 	private InputStream stream;
 	private JSONArray kidsArray;
-	private JSONArray environmentArray;		
+	private JSONArray environmentArray;
+	private JSONArray artArray;
+	private JSONArray eventArray;		
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -135,35 +137,47 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	}
 
 	public void displayArtMarkers(View view) {
-		String jsonText = getTextFromAssets("locationsByCategory.json");
-		// TODO: Parse JSON data
+
+		String jsonArt = getTextFromAssets("arte.txt");
 		try {
-			JSONObject data = new JSONObject(jsonText);
-			JSONObject kids = data.getJSONObject("Infantil");
+			JSONObject art= new JSONObject(jsonArt);
+			artArray = art.getJSONArray("Arte y Diseño");
 
-			for (int i = 1; i < kids.length(); i++) {
-				// Obtain data from kids object
-				// String name = kids.getJSONObject(""+i);
-				JSONObject name = kids.getJSONObject("" + i);
+			for (int i = 0; i < artArray.length(); i++) {
+				String name = artArray.getJSONObject(i).getString("name");
+				String latitude = artArray.getJSONObject(i).getString("latitude");
+				String longitude = artArray.getJSONObject(i).getString("longitude");
 
-				Toast.makeText(this, "" + name, 1000).show();
-
-				// String title = parkingPlaces.getJSONObject(
-				// i).getString("name");
+				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_ORANGE);
 			}
-			// Toast.makeText(this, "" + data.length(),
-			// Toast.LENGTH_SHORT).show();
-			// JSONObject artEvents = data.getJSONObject("art_route");
+
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
-
-
-
+		
 	}
 
 
 	public void displayEventsMarkers(View view) {
+
+		String jsonEvents = getTextFromAssets("eventos.txt");
+		try {
+			JSONObject event= new JSONObject(jsonEvents);
+			eventArray = event.getJSONArray("Eventos");
+
+			for (int i = 0; i < eventArray.length(); i++) {
+				String name = eventArray.getJSONObject(i).getString("name");
+				String latitude = eventArray.getJSONObject(i).getString("latitude");
+				String longitude = eventArray.getJSONObject(i).getString("longitude");
+
+				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_RED);
+			}
+
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		
+	
 
 	}
 
