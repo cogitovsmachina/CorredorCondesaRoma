@@ -13,5 +13,6 @@
     <color name="backgroud_main_color">#efe5e2</color>
     <color name="main_text_color">#461b1d</color>
     <color name="tab_selector_color">#ff7521</color>
+    <color name="back">#95ffffff</color>
     
 </resources>

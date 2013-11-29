@@ -22,45 +22,54 @@
         android:paddingRight="5dp"
         android:shadowColor="@android:color/black" >
 
-        <CheckBox
+        <ToggleButton
             android:id="@+id/environment_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#95ffffff"
-            android:onClick="displayEnvironmentMarkers"
-            android:shadowColor="@android:color/black" />
+            android:background="@drawable/toggle_drawable_layer_environment"
+            android:onClick="displayEnvironmentMarkers" 
+            android:textOff=""
+            android:textOn=""/>
 
-        <CheckBox
+        <ToggleButton
             android:id="@+id/art_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="14dp"
-            android:background="#95ffffff"
-            android:onClick="displayArtMarkers" />
+            android:background="@drawable/toggle_drawable_layer_art"
+            android:onClick="displayArtMarkers" 
+            android:textOff=""
+            android:textOn=""/>
 
-        <CheckBox
+        <!-- <ToggleButton
             android:id="@+id/events_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="14dp"
-            android:background="#95ffffff"
-            android:onClick="displayEventsMarkers" />
+            android:background="@drawable/toggle_drawable_layer_events"
+            android:onClick="displayEventsMarkers" 
+            android:textOff=""
+            android:textOn=""/> -->
 
-        <CheckBox
+        <ToggleButton
             android:id="@+id/food_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="14dp"
-            android:background="#95ffffff"
-            android:onClick="displayFoodMarkers" />
+            android:background="@drawable/toggle_drawable_layer_food"
+            android:onClick="displayFoodMarkers" 
+            android:textOff=""
+            android:textOn=""/>
 
-        <CheckBox
+        <ToggleButton
             android:id="@+id/kids_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="14dp"
-            android:background="#95ffffff"
-            android:onClick="displayKidsMarkers" />
+            android:background="@drawable/toggle_drawable_layer_kids"
+            android:onClick="displayKidsMarkers"
+            android:textOff=""
+            android:textOn="" />
     </LinearLayout>
 
 </RelativeLayout>
