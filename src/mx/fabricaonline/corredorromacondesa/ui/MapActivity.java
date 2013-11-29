@@ -1,5 +1,10 @@
 package mx.fabricaonline.corredorromacondesa.ui;
 
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.json.JSONArray;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
 import com.google.android.gms.location.LocationClient;
@@ -13,11 +18,14 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import android.view.View;
 import mx.fabricaonline.corredorromacondesa.R;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MapActivity extends ActionBarActivity implements LocationListener,
 		GooglePlayServicesClient.ConnectionCallbacks,
@@ -27,6 +35,8 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	private LocationClient locationClient;
 	private double lat;
 	private double lon;
+	private JSONArray parkingPlaces = new JSONArray();
+	private InputStream stream;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -114,8 +124,13 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	}
 
 	public void displayArtMarkers(View view) {
-		map.getMap().clear();
+		// TODO: IMPLEMENT SAME FUNCTIONALITY FROM PARKINGFINDER:
+		String json = getTextFromAssets("locations.json");
+		// TODO: Parse JSON data
 	}
+
+	// map.getMap().clear();
+	// }
 
 	public void displayEventsMarkers(View view) {
 		map.getMap().clear();
@@ -128,6 +143,22 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 
 	public void displayKidsMarkers(View view) {
 		map.getMap().clear();
+	}
+
+	private String getTextFromAssets(String assetName) {
+		String text;
+		try {
+			InputStream is = getAssets().open(assetName);
+			int size = is.available();
+			byte[] buffer = new byte[size];
+			is.read(buffer);
+			is.close();
+			text = new String(buffer);
+
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+		return text;
 	}
 
 }
