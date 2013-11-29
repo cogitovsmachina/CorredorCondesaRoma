@@ -124,8 +124,8 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 
 	public void displayArtMarkers(View view) {
 		// TODO: IMPLEMENT SAME FUNCTIONALITY FROM PARKINGFINDER:
-		String json = getTextFromResource("locations.json");
-		//TODO: Parse JSON data
+		String json = getTextFromAssets("locations.json");
+		// TODO: Parse JSON data
 	}
 
 	// map.getMap().clear();
@@ -144,10 +144,10 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 		map.getMap().clear();
 	}
 
-	private String getTextFromResource(String string) {
+	private String getTextFromAssets(String assetName) {
 		String text;
 		try {
-			InputStream is = getAssets().open(string);
+			InputStream is = getAssets().open(assetName);
 			int size = is.available();
 			byte[] buffer = new byte[size];
 			is.read(buffer);
