@@ -24,7 +24,7 @@ public class EventParser {
 		}
 
 	}
-<<<<<<< HEAD
+
 	/*public ArrayList<EventCard> jsonParserEvent(){
 =======
 	/*
@@ -68,9 +68,6 @@ public class EventParser {
 
 	}*/
 	
-=======
-
->>>>>>> 2ea1d54be27a8caecd62493047985081992063e5
 	/*
 	 * public ArrayList<EventCard> jsonParserEvent(){
 	 * 
