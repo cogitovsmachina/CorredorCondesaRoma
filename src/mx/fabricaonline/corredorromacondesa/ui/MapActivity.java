@@ -40,7 +40,8 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	private JSONArray kidsArray;
 	private JSONArray environmentArray;
 	private JSONArray artArray;
-	private JSONArray eventArray;		
+	private JSONArray eventArray;
+	private JSONArray foodArray;		
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -182,8 +183,23 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	}
 
 	public void displayFoodMarkers(View view) {
-		map.getMap().clear();
-		// drawingRooms();
+		String jsonFood = getTextFromAssets("gastronomico.txt");
+		try {
+			JSONObject food= new JSONObject(jsonFood);
+			foodArray = food.getJSONArray("Gastronomico");
+
+			for (int i = 0; i < foodArray.length(); i++) {
+				String name = foodArray.getJSONObject(i).getString("name");
+				String latitude = foodArray.getJSONObject(i).getString("latitude");
+				String longitude = foodArray.getJSONObject(i).getString("longitude");
+
+				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_YELLOW);
+			}
+
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+	
 	}
 
 	public void displayKidsMarkers(View view) {
