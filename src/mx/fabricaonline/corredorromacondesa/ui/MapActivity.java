@@ -16,6 +16,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
@@ -41,7 +42,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	private JSONArray environmentArray;
 	private JSONArray artArray;
 	private JSONArray eventArray;
-	private JSONArray foodArray;		
+	private JSONArray foodArray;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -117,124 +118,157 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	}
 
 	public void displayEnvironmentMarkers(View view) {
+		boolean on = ((ToggleButton) view).isChecked();
+		if (on) {
+			String jsonEnvironment = getTextFromAssets("ambiental.txt");
+			try {
+				JSONObject environment = new JSONObject(jsonEnvironment);
+				environmentArray = environment.getJSONArray("Ambiental");
 
-		String jsonEnvironment = getTextFromAssets("ambiental.txt");
-		try {
-			JSONObject environment = new JSONObject(jsonEnvironment);
-			environmentArray = environment.getJSONArray("Ambiental");
+				for (int i = 0; i < environmentArray.length(); i++) {
+					String name = environmentArray.getJSONObject(i).getString(
+							"name");
+					String latitude = environmentArray.getJSONObject(i)
+							.getString("latitude");
+					String longitude = environmentArray.getJSONObject(i)
+							.getString("longitude");
 
-			for (int i = 0; i < environmentArray.length(); i++) {
-				String name = environmentArray.getJSONObject(i).getString("name");
-				String latitude = environmentArray.getJSONObject(i).getString("latitude");
-				String longitude = environmentArray.getJSONObject(i).getString("longitude");
+					drawMarkers(name, latitude, longitude,
+							BitmapDescriptorFactory.HUE_GREEN);
+				}
 
-				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_GREEN);
+			} catch (JSONException e) {
+				e.printStackTrace();
 			}
-
-		} catch (JSONException e) {
-			e.printStackTrace();
+		} else {
+			map.getMap().clear();
 		}
-		
+
 	}
 
 	public void displayArtMarkers(View view) {
+		boolean on = ((ToggleButton) view).isChecked();
+		if (on) {
 
-		String jsonArt = getTextFromAssets("arte.txt");
-		try {
-			JSONObject art= new JSONObject(jsonArt);
-			artArray = art.getJSONArray("Arte");
+			String jsonArt = getTextFromAssets("arte.txt");
+			try {
+				JSONObject art = new JSONObject(jsonArt);
+				artArray = art.getJSONArray("Arte");
 
-			for (int i = 0; i < artArray.length(); i++) {
-				String name = artArray.getJSONObject(i).getString("name");
-				String latitude = artArray.getJSONObject(i).getString("latitude");
-				String longitude = artArray.getJSONObject(i).getString("longitude");
+				for (int i = 0; i < artArray.length(); i++) {
+					String name = artArray.getJSONObject(i).getString("name");
+					String latitude = artArray.getJSONObject(i).getString(
+							"latitude");
+					String longitude = artArray.getJSONObject(i).getString(
+							"longitude");
 
-				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_ORANGE);
+					drawMarkers(name, latitude, longitude,
+							BitmapDescriptorFactory.HUE_ORANGE);
+				}
+
+			} catch (JSONException e) {
+				e.printStackTrace();
 			}
-
-		} catch (JSONException e) {
-			e.printStackTrace();
+		} else {
+			map.getMap().clear();
 		}
-		
+
 	}
 
-
 	public void displayEventsMarkers(View view) {
+		boolean on = ((ToggleButton) view).isChecked();
+		if (on) {
+			String jsonEvents = getTextFromAssets("eventos.txt");
+			try {
+				JSONObject event = new JSONObject(jsonEvents);
+				eventArray = event.getJSONArray("Eventos");
 
-		String jsonEvents = getTextFromAssets("eventos.txt");
-		try {
-			JSONObject event= new JSONObject(jsonEvents);
-			eventArray = event.getJSONArray("Eventos");
+				for (int i = 0; i < eventArray.length(); i++) {
+					String name = eventArray.getJSONObject(i).getString("name");
+					String latitude = eventArray.getJSONObject(i).getString(
+							"latitude");
+					String longitude = eventArray.getJSONObject(i).getString(
+							"longitude");
 
-			for (int i = 0; i < eventArray.length(); i++) {
-				String name = eventArray.getJSONObject(i).getString("name");
-				String latitude = eventArray.getJSONObject(i).getString("latitude");
-				String longitude = eventArray.getJSONObject(i).getString("longitude");
+					drawMarkers(name, latitude, longitude,
+							BitmapDescriptorFactory.HUE_RED);
+				}
 
-				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_RED);
+			} catch (JSONException e) {
+				e.printStackTrace();
 			}
-
-		} catch (JSONException e) {
-			e.printStackTrace();
+		} else {
+			map.getMap().clear();
 		}
-		
-	
 
 	}
 
 	public void displayFoodMarkers(View view) {
-		String jsonFood = getTextFromAssets("gastronomico.txt");
-		try {
-			JSONObject food= new JSONObject(jsonFood);
-			foodArray = food.getJSONArray("Gastronomico");
+		boolean on = ((ToggleButton) view).isChecked();
+		if (on) {
+			String jsonFood = getTextFromAssets("gastronomico.txt");
+			try {
+				JSONObject food = new JSONObject(jsonFood);
+				foodArray = food.getJSONArray("Gastronomico");
 
-			for (int i = 0; i < foodArray.length(); i++) {
-				String name = foodArray.getJSONObject(i).getString("name");
-				String latitude = foodArray.getJSONObject(i).getString("latitude");
-				String longitude = foodArray.getJSONObject(i).getString("longitude");
+				for (int i = 0; i < foodArray.length(); i++) {
+					String name = foodArray.getJSONObject(i).getString("name");
+					String latitude = foodArray.getJSONObject(i).getString(
+							"latitude");
+					String longitude = foodArray.getJSONObject(i).getString(
+							"longitude");
 
-				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_YELLOW);
+					drawMarkers(name, latitude, longitude,
+							BitmapDescriptorFactory.HUE_YELLOW);
+				}
+
+			} catch (JSONException e) {
+				e.printStackTrace();
 			}
-
-		} catch (JSONException e) {
-			e.printStackTrace();
+		} else {
+			map.getMap().clear();
 		}
-	
+
 	}
 
 	public void displayKidsMarkers(View view) {
-		String jsonKids = getTextFromAssets("infantil.txt");
-		try {
-			JSONObject kids = new JSONObject(jsonKids);
-			kidsArray = kids.getJSONArray("Infantil");
+		boolean on = ((ToggleButton) view).isChecked();
+		if (on) {
 
-			for (int i = 0; i < kidsArray.length(); i++) {
-				String name = kidsArray.getJSONObject(i).getString("name");
-				String latitude = kidsArray.getJSONObject(i).getString("latitude");
-				String longitude = kidsArray.getJSONObject(i).getString("longitude");
+			String jsonKids = getTextFromAssets("infantil.txt");
+			try {
+				JSONObject kids = new JSONObject(jsonKids);
+				kidsArray = kids.getJSONArray("Infantil");
 
-				drawMarkers(name, latitude, longitude, BitmapDescriptorFactory.HUE_CYAN);
+				for (int i = 0; i < kidsArray.length(); i++) {
+					String name = kidsArray.getJSONObject(i).getString("name");
+					String latitude = kidsArray.getJSONObject(i).getString(
+							"latitude");
+					String longitude = kidsArray.getJSONObject(i).getString(
+							"longitude");
+
+					drawMarkers(name, latitude, longitude,
+							BitmapDescriptorFactory.HUE_CYAN);
+				}
+
+			} catch (JSONException e) {
+				e.printStackTrace();
 			}
-
-		} catch (JSONException e) {
-			e.printStackTrace();
+		} else {
+			map.getMap().clear();
 		}
 
 	}
 
-	private void drawMarkers(String name, String latitude, String longitude, float color) {
+	private void drawMarkers(String name, String latitude, String longitude,
+			float color) {
 
 		LatLng position = new LatLng(Double.parseDouble(latitude),
 				Double.parseDouble(longitude));
 		map.getMap().addMarker(
-				new MarkerOptions().position(position).title(name).icon(BitmapDescriptorFactory
-						.defaultMarker(color)));
-						
-						
-						
-						
+				new MarkerOptions().position(position).title(name)
+						.icon(BitmapDescriptorFactory.defaultMarker(color)));
 
-		
 	}
 
 	private String getTextFromAssets(String assetName) {
