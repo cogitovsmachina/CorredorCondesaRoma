@@ -27,6 +27,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapActivity extends ActionBarActivity implements LocationListener,
@@ -43,6 +44,12 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	private JSONArray artArray;
 	private JSONArray eventArray;
 	private JSONArray foodArray;
+	private Marker kidsMarker;
+	private Marker foodMarker;
+	private Marker eventMarker;
+	private Marker artMarker;
+	private Marker environmentMarker;
+	private Marker marker;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -133,7 +140,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 					String longitude = environmentArray.getJSONObject(i)
 							.getString("longitude");
 
-					drawMarkers(name, latitude, longitude,
+					environmentMarker = drawMarker(name, latitude, longitude,
 							BitmapDescriptorFactory.HUE_GREEN);
 				}
 
@@ -141,7 +148,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 				e.printStackTrace();
 			}
 		} else {
-			map.getMap().clear();
+			environmentMarker.setVisible(false);
 		}
 
 	}
@@ -162,7 +169,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 					String longitude = artArray.getJSONObject(i).getString(
 							"longitude");
 
-					drawMarkers(name, latitude, longitude,
+					artMarker = drawMarker(name, latitude, longitude,
 							BitmapDescriptorFactory.HUE_ORANGE);
 				}
 
@@ -170,7 +177,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 				e.printStackTrace();
 			}
 		} else {
-			map.getMap().clear();
+			artMarker.setVisible(false);
 		}
 
 	}
@@ -190,7 +197,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 					String longitude = eventArray.getJSONObject(i).getString(
 							"longitude");
 
-					drawMarkers(name, latitude, longitude,
+					eventMarker = drawMarker(name, latitude, longitude,
 							BitmapDescriptorFactory.HUE_RED);
 				}
 
@@ -198,7 +205,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 				e.printStackTrace();
 			}
 		} else {
-			map.getMap().clear();
+			eventMarker.setVisible(false);
 		}
 
 	}
@@ -218,7 +225,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 					String longitude = foodArray.getJSONObject(i).getString(
 							"longitude");
 
-					drawMarkers(name, latitude, longitude,
+					foodMarker = drawMarker(name, latitude, longitude,
 							BitmapDescriptorFactory.HUE_YELLOW);
 				}
 
@@ -226,7 +233,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 				e.printStackTrace();
 			}
 		} else {
-			map.getMap().clear();
+			foodMarker.setVisible(false);
 		}
 
 	}
@@ -247,7 +254,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 					String longitude = kidsArray.getJSONObject(i).getString(
 							"longitude");
 
-					drawMarkers(name, latitude, longitude,
+					kidsMarker = drawMarker(name, latitude, longitude,
 							BitmapDescriptorFactory.HUE_CYAN);
 				}
 
@@ -255,20 +262,22 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 				e.printStackTrace();
 			}
 		} else {
-			map.getMap().clear();
+			// map.getMap().clear();
+			kidsMarker.setVisible(false);
+
 		}
 
 	}
 
-	private void drawMarkers(String name, String latitude, String longitude,
+	private Marker drawMarker(String name, String latitude, String longitude,
 			float color) {
 
 		LatLng position = new LatLng(Double.parseDouble(latitude),
 				Double.parseDouble(longitude));
-		map.getMap().addMarker(
+
+		return marker = map.getMap().addMarker(
 				new MarkerOptions().position(position).title(name)
 						.icon(BitmapDescriptorFactory.defaultMarker(color)));
-
 	}
 
 	private String getTextFromAssets(String assetName) {
