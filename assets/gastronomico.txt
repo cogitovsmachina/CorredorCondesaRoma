@@ -1,0 +1,165 @@
+{
+  "Gastronomico": [
+    {
+      "latitude": "0",
+      "name": "Ruta del Café | Chiquitito Café · Aeropress",
+      "longitude": "0"
+    },
+    {
+      "latitude": "0",
+      "name": "Ruta del Café | Espressarte · Café de deshielo",
+      "longitude": "0"
+    },
+    {
+      "latitude": "0",
+      "name": "Ruta del Café | Rococó Café Espresso · Best macchiato doble",
+      "longitude": "0"
+    },
+    {
+      "latitude": "0",
+      "name": "Ruta del Café | Memorias de un Barista · Chemex en las rocas",
+      "longitude": "0"
+    },
+    {
+      "latitude": "19.421147",
+      "name": "Ruta Picnic | Delirio",
+      "longitude": "-99.160326"
+    },
+    {
+      "latitude": "19.421147",
+      "name": "Ruta Picnic | Abarrotes Delirio",
+      "longitude": "-99.160326"
+    },
+    {
+      "latitude": "19.421147",
+      "name": "Ruta Picnic | Panadería Rosetta",
+      "longitude": "-99.160326"
+    },
+    {
+      "latitude": "19.421147",
+      "name": "Ruta Picnic | Galia Gourmet ",
+      "longitude": "-99.160326"
+    },
+    {
+      "latitude": "19.421147",
+      "name": "Mercado el 100",
+      "longitude": "-99.160326"
+    },
+    {
+      "latitude": "19.421147",
+      "name": "Zona Picnic",
+      "longitude": "-99.160326"
+    },
+    {
+      "latitude": "19.411271",
+      "name": "Huerto Roma Verde | Raw Food en México",
+      "longitude": "-99.159533"
+    },
+    {
+      "latitude": "19.410806",
+      "name": "Casa Lila | Botaneo",
+      "longitude": "-99.16155"
+    },
+    {
+      "latitude": "19.413942",
+      "name": "El Parnita | Cosecha tu ensalada",
+      "longitude": " -99.162558"
+    },
+    {
+      "latitude": "19.413942",
+      "name": "La Graciela · Taller de Cerveza | Gastronomía alrededor de la cerveza artesanal",
+      "longitude": "-99.159016"
+    },
+    {
+      "latitude": "19.41568",
+      "name": "Broka Bistrot | Fiestas de la Vendimia",
+      "longitude": "-99.159973"
+    },
+    {
+      "latitude": "19.416452",
+      "name": "Zapote | La Cantina del Chico-Zapote",
+      "longitude": "-99.160861"
+    },
+    {
+      "latitude": "19.41717",
+      "name": "Latitud | Brunch norteamericano",
+      "longitude": "-99.157085"
+    },
+    {
+      "latitude": "19.417874",
+      "name": "La Casa Tropical | Serenata del café y chocolate. Cosechas de temporada",
+      "longitude": "-99.15765"
+    },
+    {
+      "latitude": "19.418162",
+      "name": "Licorería Limantour | Clínicas",
+      "longitude": "-99.15938"
+    },
+    {
+      "latitude": "19.417909 ",
+      "name": "Düke Roma | Versión comida callejera",
+      "longitude": "-99.160539"
+    },
+    {
+      "latitude": "19.419842 ",
+      "name": "Sesâmê | Duelo de chefs",
+      "longitude": "-99.160669"
+    },
+    {
+      "latitude": "19.422412",
+      "name": "Escondite Supper Club | Autarquía",
+      "longitude": "-99.159445"
+    },
+    {
+      "latitude": "19.422766",
+      "name": "Casa Drölma | Brunch y masterclass de yoga",
+      "longitude": "-99.161226"
+    },
+    {
+      "latitude": "19.41886",
+      "name": "Yuban | Primario y Yuban",
+      "longitude": "-99.163994"
+    },
+    {
+      "latitude": "19.418243",
+      "name": "Casa Fortuna | Barbacoa y mezcal",
+      "longitude": "-99.163629"
+    },
+    {
+      "latitude": "19.417848",
+      "name": "Capote | Cata de jamones",
+      "longitude": "-99.163125"
+    },
+    {
+      "latitude": "19.41818",
+      "name": "Enlaces Gastronómicos presenta: Kohlmann banquetes, Ambienta, Ingredienta y el Sargazo | We Pop: Night Dinners and Brunch",
+      "longitude": "-99.173739"
+    },
+    {
+      "latitude": "19.418455",
+      "name": "Bretón / Rosticeros | Maestro rosticero por un día: Jorge Vallejo / Quintonil",
+      "longitude": "-99.17704"
+    },
+    {
+      "latitude": "19.416078",
+      "name": "Hotel Condesa DF | Menú especial para el Corredor",
+      "longitude": "-99.171923"
+    },
+    {
+      "latitude": "19.41542",
+      "name": "DUO, SALADO Y DULCE | Brunch con Pichón",
+      "longitude": "-99.169217"
+    },
+    {
+      "latitude": "19.410598",
+      "name": "Grandes Viñedos de Francia y del Mundo | Casa de Vinos",
+      "longitude": "-99.167528"
+    },
+    {
+      "latitude": "19.411649",
+      "name": "Fonda Garufa | Al pan, pan… Los entrepanes",
+      "longitude": "-99.174784"
+    }
+  ]
+
+}

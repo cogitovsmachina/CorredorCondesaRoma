@@ -1,0 +1,44 @@
+{
+  "Eventos": [
+    {
+      "latitude": "0",
+      "name": "Concurso de Minificción",
+      "longitude": "0"
+    },
+    {
+      "latitude": "19.424476",
+      "name": "Time Out México · FILTER México · G.A.S TV",
+      "longitude": "-99.155969"
+    },
+    {
+      "latitude": "19.414398",
+      "name": "Nuestras Raíces, Nuestra Conciencia",
+      "longitude": "-99.161848"
+    },
+    {
+      "latitude": "19.420004",
+      "name": "Hagamos un Lienzo de la Roma Condesa ",
+      "longitude": "-99.159981"
+    },
+    {
+      "latitude": "0",
+      "name": "RUTAS. Cápsula de Historia, Tiempo y Cuentos",
+      "longitude": "0"
+    },
+    {
+      "latitude": "0",
+      "name": "Cine Tonalá",
+      "longitude": "0"
+    },
+    {
+      "latitude": "19.420186",
+      "name": "Espacio 1800",
+      "longitude": "-99.159413"
+    },
+    {
+      "latitude": "19.416078",
+      "name": "Hotel Diseño",
+      "longitude": "-99.171923"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "Infantil": [
+    {
+      "latitude": "19.419002",
+      "name": "Cortomanía",
+      "longitude": "-99.158546"
+    },
+    {
+      "latitude": "19.418435",
+      "name": "Bubos",
+      "longitude": "-99.163758"
+    }
+  ]
+}

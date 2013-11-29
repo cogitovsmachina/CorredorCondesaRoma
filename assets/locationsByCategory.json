@@ -1,0 +1,457 @@
+{
+    "Gastronomico": {
+        "0": [
+            "0",
+            "Ruta del Café | Chiquitito Café · Aeropress",
+            "0"
+        ],
+        "1": [
+            "0",
+            "Ruta del Café | Espressarte · Café de deshielo",
+            "0"
+        ],
+        "2": [
+            "0",
+            "Ruta del Café | Rococó Café Espresso · Best macchiato doble",
+            "0"
+        ],
+        "3": [
+            "0",
+            "Ruta del Café | Memorias de un Barista · Chemex en las rocas",
+            "0"
+        ],
+        "4": [
+            "19.421147",
+            "Ruta Picnic | Delirio",
+            "-99.160326"
+        ],
+        "5": [
+            "19.421147",
+            "Ruta Picnic | Abarrotes Delirio",
+            "-99.160326"
+        ],
+        "6": [
+            "19.421147",
+            "Ruta Picnic | Panadería Rosetta",
+            "-99.160326"
+        ],
+        "7": [
+            "19.421147",
+            "Ruta Picnic | Galia Gourmet ",
+            "-99.160326"
+        ],
+        "8": [
+            "19.421147",
+            "Mercado el 100",
+            "-99.160326"
+        ],
+        "9": [
+            "19.421147",
+            "Zona Picnic",
+            "-99.160326"
+        ],
+        "10": [
+            "19.411271",
+            "Huerto Roma Verde | Raw Food en México",
+            "-99.159533"
+        ],
+        "11": [
+            "19.410806",
+            "Casa Lila | Botaneo",
+            "-99.16155"
+        ],
+        "12": [
+            "19.413942",
+            "El Parnita | Cosecha tu ensalada",
+            " -99.162558"
+        ],
+        "13": [
+            "19.413942",
+            "La Graciela · Taller de Cerveza | Gastronomía alrededor de la cerveza artesanal",
+            "-99.159016"
+        ],
+        "14": [
+            "19.41568",
+            "Broka Bistrot | Fiestas de la Vendimia",
+            "-99.159973"
+        ],
+        "15": [
+            "19.416452",
+            "Zapote | La Cantina del Chico-Zapote",
+            "-99.160861"
+        ],
+        "16": [
+            "19.41717",
+            "Latitud | Brunch norteamericano",
+            "-99.157085"
+        ],
+        "17": [
+            "19.417874",
+            "La Casa Tropical | Serenata del café y chocolate. Cosechas de temporada",
+            "-99.15765"
+        ],
+        "18": [
+            "19.418162",
+            "Licorería Limantour | Clínicas",
+            "-99.15938"
+        ],
+        "19": [
+            "19.417909 ",
+            "Düke Roma | Versión comida callejera",
+            "-99.160539"
+        ],
+        "20": [
+            "19.419842 ",
+            "Sesâmê | Duelo de chefs",
+            "-99.160669"
+        ],
+        "21": [
+            "19.422412",
+            "Escondite Supper Club | Autarquía",
+            "-99.159445"
+        ],
+        "22": [
+            "19.422766",
+            "Casa Drölma | Brunch y masterclass de yoga",
+            "-99.161226"
+        ],
+        "23": [
+            "19.41886",
+            "Yuban | Primario y Yuban",
+            "-99.163994"
+        ],
+        "24": [
+            "19.418243",
+            "Casa Fortuna | Barbacoa y mezcal",
+            "-99.163629"
+        ],
+        "25": [
+            "19.417848",
+            "Capote | Cata de jamones",
+            "-99.163125"
+        ],
+        "26": [
+            "19.41818",
+            "Enlaces Gastronómicos presenta: Kohlmann banquetes, Ambienta, Ingredienta y el Sargazo | We Pop: Night Dinners and Brunch",
+            "-99.173739"
+        ],
+        "27": [
+            "19.418455",
+            "Bretón / Rosticeros | Maestro rosticero por un día: Jorge Vallejo / Quintonil",
+            "-99.17704"
+        ],
+        "28": [
+            "19.416078",
+            "Hotel Condesa DF | Menú especial para el Corredor",
+            "-99.171923"
+        ],
+        "29": [
+            "19.41542",
+            "DUO, SALADO Y DULCE | Brunch con Pichón",
+            "-99.169217"
+        ],
+        "30": [
+            "19.410598",
+            "Grandes Viñedos de Francia y del Mundo | Casa de Vinos",
+            "-99.167528"
+        ],
+        "31": [
+            "19.411649",
+            "Fonda Garufa | Al pan, pan… Los entrepanes",
+            "-99.174784"
+        ]
+    },
+    "Arte y Diseño": {
+        "0": [
+            "19.414595",
+            "SAK, Taller de Integración Plástica",
+            "-99.158935"
+        ],
+        "1": [
+            "19.415612",
+            "Universidad de la Comunicación",
+            "-99.159894"
+        ],
+        "2": [
+            "19.416486",
+            "People for Bikes",
+            "-99.156909"
+        ],
+        "3": [
+            "19.417282",
+            "La Compañía de Acción Cultural",
+            "-99.158394"
+        ],
+        "4": [
+            "19.418334",
+            "MAGRATHEA Store",
+            "-99.157877"
+        ],
+        "5": [
+            "19.421056",
+            "Proyectos Monclova",
+            "-99.156033"
+        ],
+        "6": [
+            "19.420287",
+            "Gurú Galería",
+            "-99.158909"
+        ],
+        "7": [
+            "19.420225",
+            "Museo Del Objeto del Objeto | MODO",
+            "-99.159073"
+        ],
+        "8": [
+            "19.420401",
+            "Fábrica Social",
+            "-99.159106"
+        ],
+        "9": [
+            "19.421389",
+            "OMR",
+            "-99.159888"
+        ],
+        "10": [
+            "19.423191",
+            "Córdoba 25",
+            "-99.159551"
+        ],
+        "11": [
+            "",
+            "Terreno Baldío Arte",
+            ""
+        ],
+        "12": [
+            "19.421142",
+            "Arróniz Arte Contemporáneo",
+            "-99.161106"
+        ],
+        "13": [
+            "19.419384",
+            "Dimitri Decoración e Interiorismo",
+            "-99.159891"
+        ],
+        "14": [
+            "",
+            "Terreno Baldío Arte",
+            ""
+        ],
+        "15": [
+            "19.41975",
+            "Toca / Galería",
+            "-99.160287"
+        ],
+        "16": [
+            "19.419841",
+            "TRAEGER & PINTO Arte Contemporáneo",
+            "-99.160595"
+        ],
+        "17": [
+            "19.419645",
+            "180º SHOP",
+            "-99.160748"
+        ],
+        "18": [
+            "19.419619",
+            "estudio184 piercing & custom tattoo",
+            "-99.160818"
+        ],
+        "19": [
+            "19.419653",
+            "FIFTY24MX",
+            "-99.160945"
+        ],
+        "20": [
+            "19.41851",
+            "Centro Cultural Casa Lamm | Librería Pegaso",
+            "-99.159619"
+        ],
+        "21": [
+            "19.418395",
+            "Contrastes Roma",
+            "-99.160164"
+        ],
+        "22": [
+            "19.418399",
+            "Breve (Casa Rosano)",
+            "-99.160156"
+        ],
+        "23": [
+            "19.418334",
+            "Sangre de mi Sangre",
+            "-99.160581"
+        ],
+        "24": [
+            "19.417949",
+            "Non Solo",
+            "-99.160443"
+        ],
+        "25": [
+            "19.419438",
+            "LEMUR",
+            "-99.161544"
+        ],
+        "26": [
+            "19.419376",
+            "C208",
+            "-99.161795"
+        ],
+        "27": [
+            "19.419285",
+            "Lucky Bastard",
+            "-99.162149"
+        ],
+        "28": [
+            "19.419275",
+            "Kamikaze",
+            "-99.16305"
+        ],
+        "29": [
+            "19.419052",
+            "HEADQUARTER",
+            "-99.163318"
+        ],
+        "30": [
+            "19.417798",
+            "FASHION LOVERS",
+            "-99.16335"
+        ],
+        "31": [
+            "19.417751",
+            "DIME",
+            "-99.163401"
+        ],
+        "32": [
+            "19.417723",
+            "Anteojería Dr.York 1947",
+            "-99.163511"
+        ],
+        "33": [
+            "19.416442",
+            "Hecho y Derecho",
+            "-99.162342"
+        ],
+        "34": [
+            "19.417198",
+            "La Roma Records",
+            "-99.164189"
+        ],
+        "35": [
+            "19.417573",
+            "Arca MX",
+            "-99.164883"
+        ],
+        "36": [
+            "19.41758",
+            "Lavamp Store",
+            "-99.164888"
+        ],
+        "37": [
+            "19.411787",
+            "CC 186",
+            "-99.165067"
+        ],
+        "38": [
+            "19.417504",
+            "Nómada",
+            "-99.167064"
+        ],
+        "39": [
+            "19.41818",
+            "Atelier Central",
+            "-99.173739"
+        ],
+        "40": [
+            "19.415481",
+            "Frente",
+            "-99.166108"
+        ],
+        "41": [
+            "19.412354",
+            "Julio de Mucha Showroom",
+            "-99.167556"
+        ],
+        "42": [
+            "19.414626",
+            "|EDS| GALERÍA",
+            "-99.173338"
+        ],
+        "43": [
+            "19.41312",
+            "Ismos Joyería",
+            "-99.174774"
+        ],
+        "44": [
+            "19.407082",
+            "Origen Callejero | Maridaje callejero ",
+            "-99.172792"
+        ]
+    },
+    "Infantil": {
+        "0": [
+            "19.419002",
+            "Cortomanía",
+            "-99.158546"
+        ],
+        "1": [
+            "19.418435",
+            "Bubos",
+            "-99.163758"
+        ]
+    },
+    "Ambiental": {
+        "0": [
+            "19.421117",
+            "Mercado el 100",
+            "-99.160464"
+        ],
+        "1": [
+            "19.4120687",
+            "Cuauhtémoc + Verde. Conciencia ambiental, Delegación Cuauhtémoc",
+            "-99.16948730000001"
+        ]
+    },
+    "Eventos": {
+        "0": [
+            "0",
+            "Concurso de Minificción",
+            "0"
+        ],
+        "1": [
+            "19.424476",
+            "Time Out México · FILTER México · G.A.S TV",
+            "-99.155969"
+        ],
+        "2": [
+            "19.414398",
+            "Nuestras Raíces, Nuestra Conciencia",
+            "-99.161848"
+        ],
+        "3": [
+            "19.420004",
+            "Hagamos un Lienzo de la Roma Condesa ",
+            "-99.159981"
+        ],
+        "4": [
+            "0",
+            "RUTAS. Cápsula de Historia, Tiempo y Cuentos",
+            "0"
+        ],
+        "5": [
+            "0",
+            "Cine Tonalá",
+            "0"
+        ],
+        "6": [
+            "19.420186",
+            "Espacio 1800",
+            "-99.159413"
+        ],
+        "7": [
+            "19.416078",
+            "Hotel Diseño",
+            "-99.171923"
+        ]
+    }
+}
