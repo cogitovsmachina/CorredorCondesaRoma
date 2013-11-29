@@ -1,0 +1,229 @@
+{
+  "Arte": [
+    {
+      "latitude": "19.414595",
+      "name": "SAK, Taller de Integración Plástica",
+      "longitude": "-99.158935"
+    },
+    {
+      "latitude": "19.415612",
+      "name": "Universidad de la Comunicación",
+      "longitude": "-99.159894"
+    },
+    {
+      "latitude": "19.416486",
+      "name": "People for Bikes",
+      "longitude": "-99.156909"
+    },
+    {
+      "latitude": "19.417282",
+      "name": "La Compañía de Acción Cultural",
+      "longitude": "-99.158394"
+    },
+    {
+      "latitude": "19.418334",
+      "name": "MAGRATHEA Store",
+      "longitude": "-99.157877"
+    },
+    {
+      "latitude": "19.421056",
+      "name": "Proyectos Monclova",
+      "longitude": "-99.156033"
+    },
+    {
+      "latitude": "19.420287",
+      "name": "Gurú Galería",
+      "longitude": "-99.158909"
+    },
+    {
+      "latitude": "19.420225",
+      "name": "Museo Del Objeto del Objeto | MODO",
+      "longitude": "-99.159073"
+    },
+    {
+      "latitude": "19.420401",
+      "name": "Fábrica Social",
+      "longitude": "-99.159106"
+    },
+    {
+      "latitude": "19.421389",
+      "name": "OMR",
+      "longitude": "-99.159888"
+    },
+    {
+      "latitude": "19.423191",
+      "name": "Córdoba 25",
+      "longitude": "-99.159551"
+    },
+    {
+      "latitude": "0",
+      "name": "Terreno Baldío Arte",
+      "longitude": "0"
+    },
+    {
+      "latitude": "19.421142",
+      "name": "Arróniz Arte Contemporáneo",
+      "longitude": "-99.161106"
+    },
+    {
+      "latitude": "19.419384",
+      "name": "Dimitri Decoración e Interiorismo",
+      "longitude": "-99.159891"
+    },
+    {
+      "latitude": "0",
+      "name": "Terreno Baldío Arte",
+      "longitude": "0"
+    },
+    {
+      "latitude": "19.41975",
+      "name": "Toca / Galería",
+      "longitude": "-99.160287"
+    },
+    {
+      "latitude": "19.419841",
+      "name": "TRAEGER & PINTO Arte Contemporáneo",
+      "longitude": "-99.160595"
+    },
+    {
+      "latitude": "19.419645",
+      "name": "180º SHOP",
+      "longitude": "-99.160748"
+    },
+    {
+      "latitude": "19.419619",
+      "name": "estudio184 piercing & custom tattoo",
+      "longitude": "-99.160818"
+    },
+    {
+      "latitude": "19.419653",
+      "name": "FIFTY24MX",
+      "longitude": "-99.160945"
+    },
+    {
+      "latitude": "19.41851",
+      "name": "Centro Cultural Casa Lamm | Librería Pegaso",
+      "longitude": "-99.159619"
+    },
+    {
+      "latitude": "19.418395",
+      "name": "Contrastes Roma",
+      "longitude": "-99.160164"
+    },
+    {
+      "latitude": "19.418399",
+      "name": "Breve (Casa Rosano)",
+      "longitude": "-99.160156"
+    },
+    {
+      "latitude": "19.418334",
+      "name": "Sangre de mi Sangre",
+      "longitude": "-99.160581"
+    },
+    {
+      "latitude": "19.417949",
+      "name": "Non Solo",
+      "longitude": "-99.160443"
+    },
+    {
+      "latitude": "19.419438",
+      "name": "LEMUR",
+      "longitude": "-99.161544"
+    },
+    {
+      "latitude": "19.419376",
+      "name": "C208",
+      "longitude": "-99.161795"
+    },
+    {
+      "latitude": "19.419285",
+      "name": "Lucky Bastard",
+      "longitude": "-99.162149"
+    },
+    {
+      "latitude": "19.419275",
+      "name": "Kamikaze",
+      "longitude": "-99.16305"
+    },
+    {
+      "latitude": "19.419052",
+      "name": "HEADQUARTER",
+      "longitude": "-99.163318"
+    },
+    {
+      "latitude": "19.417798",
+      "name": "FASHION LOVERS",
+      "longitude": "-99.16335"
+    },
+    {
+      "latitude": "19.417751",
+      "name": "DIME",
+      "longitude": "-99.163401"
+    },
+    {
+      "latitude": "19.417723",
+      "name": "Anteojería Dr.York 1947",
+      "longitude": "-99.163511"
+    },
+    {
+      "latitude": "19.416442",
+      "name": "Hecho y Derecho",
+      "longitude": "-99.162342"
+    },
+    {
+      "latitude": "19.417198",
+      "name": "La Roma Records",
+      "longitude": "-99.164189"
+    },
+    {
+      "latitude": "19.417573",
+      "name": "Arca MX",
+      "longitude": "-99.164883"
+    },
+    {
+      "latitude": "19.41758",
+      "name": "Lavamp Store",
+      "longitude": "-99.164888"
+    },
+    {
+      "latitude": "19.411787",
+      "name": "CC 186",
+      "longitude": "-99.165067"
+    },
+    {
+      "latitude": "19.417504",
+      "name": "Nómada",
+      "longitude": "-99.167064"
+    },
+    {
+      "latitude": "19.41818",
+      "name": "Atelier Central",
+      "longitude": "-99.173739"
+    },
+    {
+      "latitude": "19.415481",
+      "name": "Frente",
+      "longitude": "-99.166108"
+    },
+    {
+      "latitude": "19.412354",
+      "name": "Julio de Mucha Showroom",
+      "longitude": "-99.167556"
+    },
+    {
+      "latitude": "19.414626",
+      "name": "|EDS| GALERÍA",
+      "longitude": "-99.173338"
+    },
+    {
+      "latitude": "19.41312",
+      "name": "Ismos Joyería",
+      "longitude": "-99.174774"
+    },
+    {
+      "latitude": "19.407082",
+      "name": "Origen Callejero | Maridaje callejero ",
+      "longitude": "-99.172792"
+    }
+  ]
+}

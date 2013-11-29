@@ -141,7 +141,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 		String jsonArt = getTextFromAssets("arte.txt");
 		try {
 			JSONObject art= new JSONObject(jsonArt);
-			artArray = art.getJSONArray("Arte y Diseño");
+			artArray = art.getJSONArray("Arte");
 
 			for (int i = 0; i < artArray.length(); i++) {
 				String name = artArray.getJSONObject(i).getString("name");
