@@ -1,34 +1,35 @@
 <mx.fabricaonline.corredorromacondesa.view.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:layout_weight="1" >
+    android:layout_weight="1" 
+    android:background="@color/backgroud_main_color">
 
     <Button
         android:id="@+id/route_button"
         style="@style/dashboardbutton"
         android:background="@drawable/background_main_button"
-        android:drawableTop="@drawable/icn_corredores"
+        android:drawableTop="@drawable/ic_corredores"
         android:text="@string/title_activity_routes" />
 
     <Button
         android:id="@+id/publication_button"
         style="@style/dashboardbutton"
         android:background="@drawable/background_main_button"
-        android:drawableTop="@drawable/icn_publicaciones"
+        android:drawableTop="@drawable/ic_publicaciones"
         android:text="@string/title_activity_publications" />
 
     <Button
         android:id="@+id/event_button"
         style="@style/dashboardbutton"
         android:background="@drawable/background_main_button"
-        android:drawableTop="@drawable/icn_eventos"
+        android:drawableTop="@drawable/ic_eventos"
         android:text="@string/title_activity_events" />
 
     <Button
         android:id="@+id/youtube_button"
         style="@style/dashboardbutton"
         android:background="@drawable/background_main_button"
-        android:drawableTop="@drawable/icn_video"
+        android:drawableTop="@drawable/ic_videos"
         android:text="@string/title_youtube" />
 
 </mx.fabricaonline.corredorromacondesa.view.DashboardLayout>

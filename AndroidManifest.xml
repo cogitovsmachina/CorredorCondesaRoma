@@ -30,9 +30,9 @@
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/logo11_navbar_"
         android:label="@string/app_name"
-        android:theme="@style/Theme.AppCompat.Light" >
+        android:theme="@style/CustomActionBarTheme" >
         <activity
             android:name="mx.fabricaonline.corredorromacondesa.ui.MapActivity"
             android:label="@string/title_activity_routes" >
@@ -60,7 +60,8 @@
         </activity>
         <activity
             android:name="mx.fabricaonline.corredorromacondesa.ui.EventInformationActivity"
-            android:label="@string/title_activity_event_information" >
+            android:label="@string/title_activity_event_information" 
+            android:theme="@style/CustomActionBarTheme">
         </activity>
 
         <meta-data

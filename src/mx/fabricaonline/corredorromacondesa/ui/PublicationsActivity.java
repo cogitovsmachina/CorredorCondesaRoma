@@ -18,6 +18,8 @@ public class PublicationsActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
+		getSupportActionBar().setIcon(R.drawable.logo11_navbar_);
+		
 
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		WebView webView = (WebView) findViewById(R.id.webview);

@@ -46,6 +46,7 @@ public class MapActivity extends ActionBarActivity implements LocationListener,
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_map);
+		getSupportActionBar().setIcon(R.drawable.logo11_navbar_);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		map = (SupportMapFragment) getSupportFragmentManager()
 				.findFragmentById(R.id.map);

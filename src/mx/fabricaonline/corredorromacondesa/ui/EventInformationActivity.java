@@ -2,11 +2,13 @@ package mx.fabricaonline.corredorromacondesa.ui;
 
 import mx.fabricaonline.corredorromacondesa.R;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.text.util.Linkify;
 import android.util.Log;
-import android.view.ActionProvider;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -17,14 +19,17 @@ public class EventInformationActivity extends ActionBarActivity {
 	private String[] cardInformation;
 	private TextView eventName, eventSchedule, eventBroker, eventDescription,
 			eventLink;
-	private ActionProvider shareActionProvider;
+	//private ActionProvider shareActionProvider;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_event_information);
+		
+		ActionBar actionBar = getSupportActionBar();
 
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		actionBar.setDisplayHomeAsUpEnabled(true);
+		actionBar.setIcon(R.drawable.logo11_navbar_);
 
 		cardInformation = getIntent().getExtras().getStringArray("cc");
 		Log.d("CARD_INFORMATION", cardInformation[0]);
